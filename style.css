@@ -1,86 +1,205 @@
-# Quiz d'auto-évaluation — Terminale spécialité physique-chimie
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
-Site statique (aucun serveur à gérer) permettant aux élèves de faire un quiz
-d'auto-évaluation par chapitre. Les résultats (nom, classe, chapitre, score,
-date) sont envoyés vers un Google Sheet **privé** que seul l'enseignant
-consulte — ils ne transitent jamais par le dépôt GitHub, qui reste public.
+:root {
+  --board-green: #1f3b30;
+  --board-green-dark: #142720;
+  --chalk-white: #f2f0e6;
+  --chalk-yellow: #e8c968;
+  --chalk-red: #d97f6c;
+  --post-it: #f4e04d;
+  --post-it-shadow: rgba(0,0,0,0.35);
+  --frame-wood: #6b4a34;
+}
 
-## 1. Mettre le site en ligne (GitHub Pages)
+* { box-sizing: border-box; }
 
-1. Sur GitHub, crée un nouveau dépôt (ex : `quiz-tspe`), public, sans README
-   auto-généré.
-2. Dépose tous les fichiers de ce dossier à la racine du dépôt (via
-   "Add file > Upload files" sur github.com, pas besoin de ligne de
-   commande).
-3. Dans le dépôt : **Settings > Pages > Source**, sélectionne la branche
-   `main` et le dossier `/ (root)`. Valide.
-4. Après une minute ou deux, ton site est accessible à une adresse du type
-   `https://TON-PSEUDO.github.io/quiz-tspe/`.
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--board-green-dark);
+  color: var(--chalk-white);
+  min-height: 100vh;
+}
 
-## 2. Créer le Google Sheet qui reçoit les résultats
+.frame {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
 
-1. Crée un nouveau Google Sheet (vide), par exemple nommé "Résultats quiz Tspé".
-2. Menu **Extensions > Apps Script**. Une nouvelle fenêtre s'ouvre.
-3. Supprime le contenu par défaut du fichier `Code.gs` et colle le contenu
-   du fichier `apps-script/Code.gs` fourni ici.
-4. Clique sur **Déployer > Nouveau déploiement**.
-   - Type : "Application Web"
-   - Exécuter en tant que : **Moi**
-   - Qui a accès : **Tout le monde** (nécessaire pour que le site public
-     puisse envoyer les données ; le Sheet, lui, reste privé et n'est
-     accessible qu'à toi)
-5. Autorise les permissions demandées (c'est ton propre script, sur ton
-   propre compte).
-6. Copie l'URL du déploiement (elle ressemble à
-   `https://script.google.com/macros/s/AKfycb.../exec`).
+header.banner {
+  background: var(--board-green);
+  border: 10px solid var(--frame-wood);
+  border-radius: 4px;
+  padding: 28px 24px;
+  position: relative;
+  margin-bottom: 32px;
+  box-shadow: inset 0 0 40px rgba(0,0,0,0.4);
+}
 
-## 3. Relier le site au Google Sheet
+header.banner h1 {
+  font-family: 'Rock Salt', cursive;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0;
+  line-height: 1.4;
+  text-shadow: 0 0 6px rgba(242,240,230,0.25);
+}
 
-Dans le fichier `script.js`, remplace la première ligne :
+header.banner p.subtitle {
+  margin: 8px 0 0;
+  opacity: 0.85;
+  font-size: 0.95rem;
+}
 
-```js
-const WEBHOOK_URL = "https://script.google.com/macros/s/REMPLACER_PAR_TON_ID/exec";
-```
+.post-it {
+  position: absolute;
+  top: -14px;
+  right: 24px;
+  background: var(--post-it);
+  color: #2b2400;
+  font-family: 'Rock Salt', cursive;
+  font-size: 0.95rem;
+  padding: 10px 14px;
+  transform: rotate(4deg);
+  box-shadow: 2px 3px 6px var(--post-it-shadow);
+  border-radius: 2px;
+}
 
-par l'URL copiée à l'étape précédente, puis réenregistre/republie le fichier
-sur GitHub (modification directe possible dans l'éditeur en ligne de
-GitHub, icône crayon).
+.chapter-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
 
-## 4. Ajouter un nouveau chapitre
+.chapter-card {
+  background: var(--board-green);
+  border: 2px solid rgba(242,240,230,0.15);
+  border-radius: 8px;
+  padding: 20px;
+  text-decoration: none;
+  color: var(--chalk-white);
+  display: block;
+  position: relative;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
 
-1. Duplique `chapters/acides-bases.json`, renomme-le (ex :
-   `chapters/cinetique.json`), et remplace les questions.
-2. Ajoute une ligne dans `chapters/manifest.json` :
+.chapter-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--chalk-yellow);
+}
 
-```json
-{ "id": "cinetique", "title": "Cinétique chimique", "number": 2 }
-```
+.chapter-card .post-it {
+  top: -12px;
+  right: -8px;
+  font-size: 0.85rem;
+  padding: 6px 10px;
+}
 
-Le site affiche automatiquement le nouveau chapitre sur la page d'accueil.
-Aucune autre modification de code n'est nécessaire.
+.chapter-card h2 {
+  font-size: 1.15rem;
+  margin: 10px 0 6px;
+}
 
-## 5. Exploiter les statistiques
+.chapter-card .competences {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  margin: 0;
+}
 
-Chaque tentative crée une ligne dans l'onglet "Resultats" du Sheet :
-horodatage, nom, classe, chapitre, score, total. Pour compter le **nombre
-de tentatives** par élève et par chapitre, utilise une formule du type :
+.card {
+  background: var(--board-green);
+  border: 2px solid rgba(242,240,230,0.15);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
 
-```
-=COUNTIFS(Resultats!B:B, "Nom Elève"; Resultats!D:D, "Acides et bases")
-```
+label { display: block; margin-bottom: 6px; font-weight: bold; }
 
-ou construis un tableau croisé dynamique (Insertion > Tableau croisé
-dynamique) avec Nom + Chapitre en lignes et "Nombre de Score" en valeurs.
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
 
-## Limites à connaître
+button {
+  background: var(--chalk-yellow);
+  color: #2b2400;
+  border: none;
+  padding: 12px 22px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
 
-- Un élève peut modifier son nom avant d'envoyer ses résultats : ce
-  dispositif sert à repérer qui fait le travail, pas à authentifier — ne
-  pas s'en servir comme note officielle sans vigilance.
-- Le champ "URL de déploiement" du script Apps Script change si tu
-  crées un *nouveau* déploiement plutôt que de gérer les *versions*
-  d'un déploiement existant. Utilise "Gérer les déploiements > Modifier"
-  pour mettre à jour le code sans changer l'URL.
-- Données d'élèves mineurs : garde le Sheet privé (ne le partage jamais
-  en "Tout le monde avec le lien peut voir"), n'y mets pas d'e-mails ou
-  d'identifiants sensibles.
+button:hover { filter: brightness(1.08); }
+
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.question-block {
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px dashed rgba(242,240,230,0.2);
+}
+
+.question-block:last-child { border-bottom: none; }
+
+.question-block h3 {
+  font-size: 1.02rem;
+  margin: 0 0 12px;
+}
+
+.choice {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.choice:hover { background: rgba(242,240,230,0.06); }
+
+.choice input { margin-top: 4px; }
+
+.choice.correct { background: rgba(232,201,104,0.18); border: 1px solid var(--chalk-yellow); }
+.choice.incorrect { background: rgba(217,127,108,0.18); border: 1px solid var(--chalk-red); }
+
+.explanation {
+  font-size: 0.85rem;
+  opacity: 0.85;
+  margin-top: 6px;
+  font-style: italic;
+}
+
+.score-banner {
+  text-align: center;
+  padding: 20px;
+}
+
+.score-banner .score {
+  font-family: 'Rock Salt', cursive;
+  font-size: 2.2rem;
+  color: var(--chalk-yellow);
+}
+
+a.back-link {
+  color: var(--chalk-white);
+  opacity: 0.75;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+a.back-link:hover { opacity: 1; text-decoration: underline; }
+
+.status-msg {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  margin-top: 10px;
+}
