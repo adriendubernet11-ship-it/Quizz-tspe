@@ -1,5 +1,5 @@
 // ⚠️ Remplacer par l'URL de ton Google Apps Script Web App (voir README.md)
-const WEBHOOK_URL = "https://script.google.com/macros/s/REMPLACER_PAR_TON_ID/exec";
+const WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwwaSYxQpzxWlORB73FJfx54mVgUqcKV6MVJTvAeTdnqE3bGo7fd1ffC1c2dwKRxpU5qQ/exec";
 
 const params = new URLSearchParams(window.location.search);
 const chapterId = params.get('chapter');
