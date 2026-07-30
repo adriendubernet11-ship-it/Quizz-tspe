@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="frame">
+  <header class="banner">
+    <span class="post-it">Tale spé</span>
+    <h1 id="chapter-title">Chargement…</h1>
+  </header>
+
+  <div class="card" id="id-form-card">
+    <form id="id-form">
+      <label for="student-name">Prénom NOM</label>
+      <input type="text" id="student-name" autocomplete="off" required>
+      <label for="student-classe">Classe</label>
+      <input type="text" id="student-classe" placeholder="ex : Tale 3" autocomplete="off" required>
+      <button type="submit">Commencer le quiz</button>
+    </form>
+  </div>
+
+  <form id="quiz-form" class="card" style="display:none;">
+    <div id="questions-container"></div>
+    <button type="submit" id="submit-btn">Valider mes réponses</button>
+  </form>
+
+  <div id="result-banner" class="card" style="display:none;"></div>
+  <p id="status-msg" class="status-msg"></p>
+
+  <p><a class="back-link" href="index.html">&larr; Retour à la liste des chapitres</a></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

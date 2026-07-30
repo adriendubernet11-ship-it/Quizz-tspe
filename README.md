@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz d'auto-évaluation - Terminale spécialité physique-chimie</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="frame">
+  <header class="banner">
+    <span class="post-it">Tale spé</span>
+    <h1>Quiz d'auto-évaluation</h1>
+    <p class="subtitle">Physique-chimie — Terminale spécialité. Choisis un chapitre pour t'entraîner.</p>
+  </header>
+
+  <div id="chapter-list" class="chapter-list">
+    <p>Chargement des chapitres…</p>
+  </div>
+</div>
+
+<script>
+fetch('chapters/manifest.json')
+  .then(r => r.json())
+  .then(chapters => {
+    const container = document.getElementById('chapter-list');
+    container.innerHTML = '';
+    chapters
+      .sort((a, b) => a.number - b.number)
+      .forEach(ch => {
+        const a = document.createElement('a');
+        a.className = 'chapter-card';
+        a.href = `quiz.html?chapter=${encodeURIComponent(ch.id)}`;
+        a.innerHTML = `
+          <span class="post-it">Ch. ${ch.number}</span>
+          <h2>${ch.title}</h2>
+          <p class="competences">${ch.competences || ''}</p>
+        `;
+        container.appendChild(a);
+      });
+  })
+  .catch(() => {
+    document.getElementById('chapter-list').innerHTML =
+      '<p>Impossible de charger la liste des chapitres.</p>';
+  });
+</script>
+</body>
+</html>
