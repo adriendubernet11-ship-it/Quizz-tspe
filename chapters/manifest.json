@@ -4,5 +4,11 @@
     "title": "Acides et bases",
     "number": 1,
     "competences": "Brønsted, couples acide-base, espèce amphotère, pH = -log([H3O+]/c°), Lewis"
+  },
+  {
+    "id": "composition-systeme",
+    "title": "Déterminer la composition d'un système (méthodes physiques)",
+    "number": 2,
+    "competences": "Spectroscopie IR/UV-visible, Beer-Lambert, Kohlrausch, gaz parfait et ses limites, dosage par étalonnage"
   }
 ]

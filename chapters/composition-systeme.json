@@ -1,0 +1,150 @@
+{
+  "title": "Déterminer la composition d'un système (méthodes physiques)",
+  "number": 2,
+  "competences": "Spectroscopie IR/UV-visible, loi de Beer-Lambert, loi de Kohlrausch, équation d'état du gaz parfait et ses limites, dosage par étalonnage",
+  "questions": [
+    {
+      "question": "La transmittance T d'une solution, mesurée par un spectrophotomètre, est définie par :",
+      "choices": [
+        "T = I / I0 (intensité transmise sur intensité incidente)",
+        "T = I0 / I",
+        "T = -log(I0)",
+        "T = I × I0"
+      ],
+      "answer": 0,
+      "explanation": "La transmittance est le rapport de l'intensité transmise I sur l'intensité incidente I0, utilisée en particulier en spectroscopie IR."
+    },
+    {
+      "question": "L'absorbance A d'une solution est reliée à la transmittance T par la relation :",
+      "choices": [
+        "A = -log(T)",
+        "A = T",
+        "A = 1/T",
+        "A = log(I0)"
+      ],
+      "answer": 0,
+      "explanation": "A = -log(T) = -log(I/I0), grandeur habituellement utilisée en spectroscopie UV-visible."
+    },
+    {
+      "question": "En spectroscopie UV-visible, le domaine du visible correspond à des longueurs d'onde comprises entre :",
+      "choices": [
+        "100 et 200 nm",
+        "200 et 400 nm",
+        "400 et 800 nm",
+        "800 et 1200 nm"
+      ],
+      "answer": 2,
+      "explanation": "200-400 nm correspond à l'UV, 400-800 nm au visible."
+    },
+    {
+      "question": "La loi de Beer-Lambert (A = k × [X]) est valable :",
+      "choices": [
+        "Pour toute concentration, à toute longueur d'onde",
+        "Uniquement pour des solutions saturées",
+        "Pour des solutions suffisamment diluées, à longueur d'onde fixée",
+        "Uniquement pour des espèces incolores"
+      ],
+      "answer": 2,
+      "explanation": "Le domaine de validité de la loi de Beer-Lambert est celui des solutions suffisamment diluées, à longueur d'onde fixée."
+    },
+    {
+      "question": "La loi de Kohlrausch relie la conductivité σ d'une solution à :",
+      "choices": [
+        "La température uniquement",
+        "La concentration des espèces ioniques, pour des solutions suffisamment diluées",
+        "La couleur de la solution",
+        "Le volume de la solution uniquement"
+      ],
+      "answer": 1,
+      "explanation": "Pour des solutions suffisamment diluées, la conductivité due à une espèce ionique est proportionnelle à sa concentration."
+    },
+    {
+      "question": "Lors d'un dosage conductimétrique d'une solution de chlorure de sodium, on obtient le modèle σ = 214 × c (σ en mS·cm⁻¹, c en mol·L⁻¹). Une solution inconnue présente σ = 1,07 mS·cm⁻¹. Sa concentration vaut environ :",
+      "choices": [
+        "5,0 × 10⁻³ mol·L⁻¹",
+        "2,0 × 10⁻² mol·L⁻¹",
+        "1,07 mol·L⁻¹",
+        "2,14 × 10² mol·L⁻¹"
+      ],
+      "answer": 0,
+      "explanation": "c = σ/214 = 1,07/214 ≈ 5,0 × 10⁻³ mol·L⁻¹."
+    },
+    {
+      "question": "Un spectre infrarouge (IR) représente :",
+      "choices": [
+        "La transmittance en fonction du nombre d'onde",
+        "L'absorbance en fonction de la concentration",
+        "La conductivité en fonction du temps",
+        "La pression en fonction du volume"
+      ],
+      "answer": 0,
+      "explanation": "Un spectre IR est la représentation graphique de la transmittance en fonction du nombre d'onde (en cm⁻¹)."
+    },
+    {
+      "question": "Un composé présente sur son spectre IR une bande forte et fine entre 1680 et 1710 cm⁻¹ ET une bande forte et très large entre 2500 et 3200 cm⁻¹. Ce composé possède probablement un groupe :",
+      "choices": [
+        "Ester",
+        "Amine",
+        "Acide carboxylique",
+        "Alcène"
+      ],
+      "answer": 2,
+      "explanation": "La combinaison C=O (1680-1710, fine) et O-H (2500-3200, très large) est caractéristique du groupe acide carboxylique."
+    },
+    {
+      "question": "Un composé présente uniquement une bande forte et fine entre 1705 et 1725 cm⁻¹ (aucune bande O-H, N-H, ni C-H tri caractéristique, ni bande C-O tétra). Il s'agit probablement d'un(e) :",
+      "choices": [
+        "Cétone",
+        "Aldéhyde",
+        "Ester",
+        "Amide"
+      ],
+      "answer": 0,
+      "explanation": "Une seule bande C=O fine et forte, sans les bandes associées (C-H tri de l'aldéhyde, C-O tétra de l'ester, N-H de l'amide), signe une cétone."
+    },
+    {
+      "question": "Un spectre IR présente une bande large entre 3200 et 3400 cm⁻¹ (O-H) et une bande fine et moyenne entre 1625 et 1685 cm⁻¹ (C=C). Parmi ces propositions, laquelle est compatible avec ce spectre ?",
+      "choices": [
+        "L'éthanoate d'éthyle (un ester)",
+        "La 3-aminobutanone (une amine-cétone)",
+        "Un alcool possédant une double liaison C=C, comme le pent-4-èn-2-ol",
+        "La 3-hydroxybutanone (un alcool-cétone sans C=C)"
+      ],
+      "answer": 2,
+      "explanation": "La bande O-H confirme un alcool, la bande C=C confirme une double liaison carbone-carbone : seul un alcène-alcool est compatible avec les deux bandes observées simultanément."
+    },
+    {
+      "question": "L'équation d'état du gaz parfait s'écrit :",
+      "choices": [
+        "p × V = n × R × T",
+        "p + V = n × R × T",
+        "p × T = n × R × V",
+        "p × V = n / (R × T)"
+      ],
+      "answer": 0,
+      "explanation": "pV = nRT, avec p en Pa, V en m³, n en mol, R = 8,314 J·K⁻¹·mol⁻¹ et T en K."
+    },
+    {
+      "question": "Le modèle du gaz parfait cesse d'être une bonne approximation :",
+      "choices": [
+        "À haute température et basse pression",
+        "À basse température et haute pression, quand les interactions entre particules ne sont plus négligeables",
+        "Il est toujours valable, quelles que soient les conditions",
+        "Uniquement pour les gaz monoatomiques"
+      ],
+      "answer": 1,
+      "explanation": "Le modèle du gaz parfait suppose des particules de taille négligeable et sans interaction : cette hypothèse devient fausse à basse température et haute pression, proche du changement d'état."
+    },
+    {
+      "question": "Réaliser un dosage par étalonnage consiste à :",
+      "choices": [
+        "Détruire l'échantillon pour en analyser les fragments",
+        "Comparer une propriété physique mesurée (absorbance, conductivité...) à celle de solutions de concentration connue, via une courbe d'étalonnage",
+        "Peser directement l'espèce recherchée après précipitation",
+        "Chauffer l'échantillon jusqu'à évaporation complète"
+      ],
+      "answer": 1,
+      "explanation": "C'est une méthode non destructive : on compare la grandeur physique de l'échantillon à une courbe tracée à partir de solutions étalons de concentration connue."
+    }
+  ]
+}
