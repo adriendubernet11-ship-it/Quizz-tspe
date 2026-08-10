@@ -16,5 +16,11 @@
     "title": "Déterminer la composition d'un système (méthodes chimiques)",
     "number": 3,
     "competences": "Titrage direct, équivalence, suivi colorimétrique/pH-métrique/conductimétrique, titre massique et densité"
+  },
+  {
+    "id": "propagation-ondes",
+    "title": "Propagation d'une onde",
+    "number": 4,
+    "competences": "Intensité et niveau sonore, atténuation, logarithme décimal, effet Doppler et décalage Doppler"
   }
 ]
