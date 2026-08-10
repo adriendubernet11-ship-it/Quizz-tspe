@@ -31,10 +31,10 @@
         "Le pH de la solution vaut exactement 7",
         "Les réactifs titrant et titré ont été introduits en proportions stœchiométriques et sont tous deux limitants",
         "On a versé un volume arbitraire de solution titrante",
-        "La réaction s'arrête définitivement de se produire"
+        "On a versé la moitié du volume total contenu dans la burette"
       ],
       "answer": 1,
-      "explanation": "À l'équivalence, les deux réactifs sont introduits en proportions stœchiométriques : ils sont tous deux entièrement consommés (limitants simultanément). Le pH = 7 n'est vrai que dans le cas particulier acide fort/base forte."
+      "explanation": "À l'équivalence, les deux réactifs sont introduits en proportions stœchiométriques : ils sont tous deux entièrement consommés (limitants simultanément). C'est ce critère qui permet de calculer VE — contrairement au pH = 7 (vrai seulement pour un titrage acide fort/base forte) ou à un volume choisi arbitrairement."
     },
     {
       "question": "Pour la réaction de titrage CH3COOH(aq) + HO-(aq) → CH3COO-(aq) + H2O(l), à l'équivalence, la relation entre la quantité initiale d'acide n(A)i et la quantité de base versée n(B)E est :",
