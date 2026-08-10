@@ -136,15 +136,26 @@
       "explanation": "Par un raisonnement symétrique au cas où la source s'éloigne (d = D - v.Te au lieu de D + v.Te), on obtient fr = fe×c/(c-v) : la fréquence reçue est supérieure à la fréquence émise (son plus aigu)."
     },
     {
-      "question": "Un radar routier envoie une onde électromagnétique de fréquence f vers un véhicule, qui la réfléchit. Le radar mesure alors un décalage Doppler total Δf = f'' - f (aller-retour). Sachant que la vitesse du véhicule v est très inférieure à celle de la lumière c, la vitesse du véhicule se calcule par :",
+      "question": "Une source acoustique se rapproche d'un observateur fixe à la vitesse v (célérité de l'onde c) : fr = fe × c / (c - v). En isolant v dans cette relation, on obtient :",
       "choices": [
-        "v = Δf / (2f) × c",
-        "v = Δf × f × c",
-        "v = 2 × Δf × c",
-        "v = c / (Δf × f)"
+        "v = c × (fr - fe) / fr",
+        "v = c × (fe - fr) / fr",
+        "v = c × (fr - fe) / fe",
+        "v = fr - fe"
       ],
       "answer": 0,
-      "explanation": "Le véhicule agit successivement comme récepteur puis comme émetteur mobile (double effet Doppler). En exploitant v << c (donc f'' ≈ f), on obtient l'expression simplifiée v = Δf/(2f) × c."
+      "explanation": "fr(c-v) = fe.c ⟹ fr.c - fr.v = fe.c ⟹ fr.v = c(fr-fe) ⟹ v = c(fr-fe)/fr. C'est cette étape de manipulation algébrique, pour isoler v et l'exploiter numériquement, qui est le plus souvent demandée en devoir."
+    },
+    {
+      "question": "Un émetteur ultrasonore de fréquence fe = 40,0 kHz se rapproche d'un récepteur fixe. Celui-ci mesure une fréquence reçue fr = 40,2 kHz. La célérité des ultrasons dans l'air est c = 340 m·s⁻¹. En utilisant v = c×(fr-fe)/fr, la vitesse de la source vaut environ :",
+      "choices": [
+        "1,7 m·s⁻¹",
+        "17 m·s⁻¹",
+        "0,17 m·s⁻¹",
+        "340 m·s⁻¹"
+      ],
+      "answer": 0,
+      "explanation": "v = 340 × (40200 - 40000) / 40200 = 340 × 200 / 40200 ≈ 1,7 m·s⁻¹."
     },
     {
       "question": "Sur le spectre d'une étoile, on observe un « redshift » (décalage des raies vers le rouge, donc vers les grandes longueurs d'onde). Cela signifie que l'étoile :",
