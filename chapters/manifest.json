@@ -10,5 +10,11 @@
     "title": "Déterminer la composition d'un système (méthodes physiques)",
     "number": 2,
     "competences": "Spectroscopie IR/UV-visible, Beer-Lambert, Kohlrausch, gaz parfait et ses limites, dosage par étalonnage"
+  },
+  {
+    "id": "titrages",
+    "title": "Déterminer la composition d'un système (méthodes chimiques)",
+    "number": 3,
+    "competences": "Titrage direct, équivalence, suivi colorimétrique/pH-métrique/conductimétrique, titre massique et densité"
   }
 ]
