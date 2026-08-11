@@ -6,20 +6,20 @@
     {
       "question": "Selon la théorie de Brønsted, un acide est une espèce chimique capable de :",
       "choices": [
-        "Céder au moins un proton H+",
-        "Capter au moins un proton H+",
         "Céder au moins un électron",
-        "Capter au moins un électron"
+        "Capter au moins un proton H+",
+        "Capter au moins un électron",
+        "Céder au moins un proton H+"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Un acide de Brønsted est un donneur de proton H+."
     },
     {
       "question": "Selon la théorie de Brønsted, une base est une espèce chimique capable de :",
       "choices": [
-        "Rester toujours neutre en solution",
-        "Capter au moins un proton H+",
         "Capter au moins un électron",
+        "Capter au moins un proton H+",
+        "Rester toujours neutre en solution",
         "Céder au moins un proton H+"
       ],
       "answer": 1,
@@ -28,52 +28,52 @@
     {
       "question": "Dans le couple NH4+ / NH3, l'espèce NH3 est :",
       "choices": [
-        "Un catalyseur de la réaction",
-        "Une espèce amphotère à elle seule dans ce couple",
         "La base conjuguée",
-        "L'acide du couple"
+        "L'acide du couple",
+        "Un catalyseur de la réaction",
+        "Une espèce amphotère à elle seule dans ce couple"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "NH4+ (acide) perd un proton pour donner NH3, sa base conjuguée : NH4+ = NH3 + H+."
     },
     {
       "question": "L'ion hydrogénocarbonate HCO3- appartient à deux couples acide-base différents (CO2,H2O(aq) / HCO3-(aq) et HCO3-(aq) / CO3^2-(aq)). On dit que HCO3- est une espèce :",
       "choices": [
-        "Catalytique",
         "Indifférente au pH",
-        "Précipitée",
-        "Amphotère"
+        "Catalytique",
+        "Amphotère",
+        "Précipitée"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Une espèce amphotère peut jouer le rôle d'acide dans un couple et de base dans un autre couple : c'est le cas de HCO3-, comme celui de l'eau."
     },
     {
       "question": "La base conjuguée d'un acide carboxylique R-COOH est :",
       "choices": [
-        "L'ion carboxylate R-COO-",
+        "L'alcool R-OH",
         "L'ion R-ammonium R-NH3+",
         "L'amine R-NH2",
-        "L'alcool R-OH"
+        "L'ion carboxylate R-COO-"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "L'acide carboxylique cède le proton porté par son groupe -COOH pour donner l'ion carboxylate R-COO-."
     },
     {
       "question": "L'acide conjugué d'une amine R-NH2 est :",
       "choices": [
-        "L'ion carboxylate R-COO-",
         "L'ion R-ammonium R-NH3+",
         "L'acide carboxylique R-COOH",
-        "Le diazote N2"
+        "Le diazote N2",
+        "L'ion carboxylate R-COO-"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "L'amine capte un proton sur son atome d'azote (doublet non liant) pour donner l'ion ammonium correspondant R-NH3+."
     },
     {
       "question": "Dans la relation pH = -log([H3O+]/c°), à quoi sert le terme c° ?",
       "choices": [
-        "À exprimer le pH en pourcentage",
         "C'est une erreur : cette relation ne comporte pas de c°",
+        "À exprimer le pH en pourcentage",
         "À rendre l'argument du logarithme sans dimension (c° = 1 mol·L-1)",
         "À corriger l'effet de la température sur la mesure"
       ],
@@ -84,20 +84,20 @@
       "question": "Une solution a une concentration en ions oxonium [H3O+] = 2,0 × 10⁻³ mol·L⁻¹. Son pH vaut environ :",
       "choices": [
         "1,7",
+        "2,7",
         "5,3",
-        "3,3",
-        "2,7"
+        "3,3"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "pH = -log(2,0 × 10⁻³) ≈ 2,70, arrondi à 2,7 (cohérent avec l'usage de 2 chiffres significatifs)."
     },
     {
       "question": "Une solution a un pH de 4,0. Sa concentration en ions oxonium [H3O+] vaut :",
       "choices": [
         "1,0 × 10⁻⁴ mol·L-1",
+        "4,0 mol·L-1",
         "1,0 × 10⁴ mol·L-1",
-        "4,0 × 10⁻¹ mol·L-1",
-        "4,0 mol·L-1"
+        "4,0 × 10⁻¹ mol·L-1"
       ],
       "answer": 0,
       "explanation": "[H3O+] = 10^(-pH) = 10⁻⁴,⁰ = 1,0 × 10⁻⁴ mol·L-1."
@@ -105,10 +105,10 @@
     {
       "question": "On dilue 10 fois une solution d'acide chlorhydrique. En admettant l'acide totalement dissocié et loin des limites de validité de la relation pH = -log([H3O+]/c°), le pH de la solution :",
       "choices": [
-        "Diminue d'environ 1 unité",
-        "Augmente d'environ 1 unité",
         "Reste inchangé",
-        "Double"
+        "Augmente d'environ 1 unité",
+        "Double",
+        "Diminue d'environ 1 unité"
       ],
       "answer": 1,
       "explanation": "Diviser [H3O+] par 10 revient à ajouter 1 au pH, puisque pH = -log([H3O+]/c°) : c'est ce que confirme l'activité de dilutions successives d'un facteur 10."
@@ -117,9 +117,9 @@
       "question": "Avant toute mesure avec un pH-mètre, il est indispensable de :",
       "choices": [
         "Le laisser à l'air libre 24h",
-        "Le rincer uniquement à l'eau chaude",
+        "Vérifier que la solution est colorée",
         "L'étalonner",
-        "Vérifier que la solution est colorée"
+        "Le rincer uniquement à l'eau chaude"
       ],
       "answer": 2,
       "explanation": "Le pH-mètre nécessite un étalonnage avant chaque série de mesures ; par ailleurs, en raison de l'incertitude de mesure, le résultat n'est jamais donné avec plus de 2 chiffres significatifs."

@@ -6,87 +6,87 @@
     {
       "question": "L'intensité sonore I d'une onde acoustique est définie par :",
       "choices": [
+        "I = P × S",
         "I = S / P",
-        "I = P / S (puissance transportée par unité de surface de réception)",
         "I = P (puissance transportée uniquement)",
-        "I = P × S"
+        "I = P / S (puissance transportée par unité de surface de réception)"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "L'intensité sonore est la puissance transportée par l'onde, reçue par unité de surface : I = P/S, en W·m⁻²."
     },
     {
       "question": "Quand on s'éloigne d'une source sonore ponctuelle, l'intensité sonore reçue diminue car :",
       "choices": [
-        "La fréquence du son diminue avec la distance",
-        "Le son perd de la matière en se propageant",
         "La puissance émise se répartit sur une surface sphérique de plus en plus grande",
-        "L'air absorbe systématiquement 50% du son tous les mètres"
+        "L'air absorbe systématiquement 50% du son tous les mètres",
+        "Le son perd de la matière en se propageant",
+        "La fréquence du son diminue avec la distance"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "C'est l'atténuation géométrique : la même puissance se répartit sur une surface de sphère (S = 4πd²) qui croît avec le carré de la distance."
     },
     {
       "question": "Le niveau d'intensité sonore L (en dB) est donné par la relation :",
       "choices": [
-        "L = 10 × I / I0",
         "L = log(I) × I0",
-        "L = I / I0",
-        "L = 10 × log(I / I0), avec I0 = 1,0 × 10⁻¹² W·m⁻²"
+        "L = 10 × log(I / I0), avec I0 = 1,0 × 10⁻¹² W·m⁻²",
+        "L = 10 × I / I0",
+        "L = I / I0"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "L = 10.log(I/I0), avec I0 le seuil d'audibilité (1,0 × 10⁻¹² W·m⁻²)."
     },
     {
       "question": "Un son a une intensité sonore I = 1,0 × 10⁻⁵ W·m⁻². Son niveau sonore L vaut :",
       "choices": [
-        "70 dB",
+        "50 dB",
         "7 dB",
         "12 dB",
-        "50 dB"
+        "70 dB"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "L = 10.log(1,0×10⁻⁵ / 1,0×10⁻¹²) = 10.log(10⁷) = 10×7 = 70 dB."
     },
     {
       "question": "Un son a un niveau sonore L = 50 dB. Son intensité sonore I vaut :",
       "choices": [
-        "50 W·m⁻²",
-        "1,0 × 10⁻⁷ W·m⁻²",
         "5,0 × 10⁻¹² W·m⁻²",
-        "1,0 × 10⁻⁵ W·m⁻²"
+        "1,0 × 10⁻⁵ W·m⁻²",
+        "1,0 × 10⁻⁷ W·m⁻²",
+        "50 W·m⁻²"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "I = I0 × 10^(L/10) = 1,0×10⁻¹² × 10⁵ = 1,0×10⁻⁷ W·m⁻²."
     },
     {
       "question": "Deux haut-parleurs identiques émettent chacun un son de même niveau sonore L. Le son global obtenu a pour niveau sonore :",
       "choices": [
-        "L' = 2 × L",
-        "L' = L (aucun changement)",
         "L' = L + 3",
-        "L' = L / 2"
+        "L' = 2 × L",
+        "L' = L / 2",
+        "L' = L (aucun changement)"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Ce sont les intensités sonores qui s'additionnent (I' = 2I), pas les niveaux sonores. On montre que cela correspond à L' = L + 3, et non à un doublement du niveau."
     },
     {
       "question": "L'atténuation géométrique et l'atténuation par absorption se distinguent ainsi :",
       "choices": [
-        "L'absorption n'existe que dans le vide",
-        "La géométrique n'existe que pour les ondes électromagnétiques",
         "Les deux décrivent exactement le même phénomène physique",
-        "La géométrique est due à l'éloignement de la source (répartition sur une surface croissante), l'absorption est due à la traversée d'un milieu matériel qui absorbe une partie de la puissance"
+        "L'absorption n'existe que dans le vide",
+        "La géométrique est due à l'éloignement de la source (répartition sur une surface croissante), l'absorption est due à la traversée d'un milieu matériel qui absorbe une partie de la puissance",
+        "La géométrique n'existe que pour les ondes électromagnétiques"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Atténuation géométrique = éloignement de la source ; atténuation par absorption = traversée d'un milieu matériel (mousse, mur...) qui absorbe une partie de l'énergie."
     },
     {
       "question": "Pour tout a > 0 et b > 0, la fonction logarithme décimal vérifie :",
       "choices": [
         "log(a/b) = log(a) - log(b)",
-        "log(a/b) = log(a - b)",
         "log(a/b) = log(a) + log(b)",
-        "log(a/b) = log(a) × log(b)"
+        "log(a/b) = log(a) × log(b)",
+        "log(a/b) = log(a - b)"
       ],
       "answer": 0,
       "explanation": "Le logarithme décimal transforme un quotient en différence : log(a/b) = log(a) - log(b) (et log(a×b) = log(a) + log(b))."
@@ -94,78 +94,78 @@
     {
       "question": "Quand la source d'un son se rapproche d'un observateur immobile, celui-ci perçoit :",
       "choices": [
+        "Un silence total",
         "Un son plus grave (fréquence perçue plus faible)",
         "Un son plus aigu (fréquence perçue plus élevée que la fréquence émise)",
-        "Un silence total",
         "Exactement la même fréquence, sans aucun changement"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "C'est l'effet Doppler : le rapprochement comprime les fronts d'onde successifs, ce qui augmente la fréquence perçue (son plus aigu)."
     },
     {
       "question": "Quand la source d'une onde s'éloigne d'un observateur fixe, la longueur d'onde reçue par l'observateur est :",
       "choices": [
-        "Rigoureusement identique",
-        "Toujours nulle",
         "Plus grande que la longueur d'onde émise",
-        "Plus petite que la longueur d'onde émise"
+        "Plus petite que la longueur d'onde émise",
+        "Rigoureusement identique",
+        "Toujours nulle"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Quand la source s'éloigne, les fronts d'onde successifs sont étirés : la longueur d'onde perçue augmente (et donc la fréquence perçue diminue)."
     },
     {
       "question": "Pour une source qui s'éloigne à vitesse constante v d'un observateur fixe (célérité de l'onde c), la fréquence reçue fr en fonction de la fréquence émise fe s'exprime :",
       "choices": [
-        "fr = fe × c / (c - v)",
         "fr = fe × (c + v) / c",
         "fr = fe + v",
-        "fr = fe × c / (c + v)"
+        "fr = fe × c / (c + v)",
+        "fr = fe × c / (c - v)"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Dans le cas d'une source qui s'éloigne, on établit Tr = Te×(c+v)/c, donc fr = fe×c/(c+v) : la fréquence reçue est inférieure à la fréquence émise (son plus grave)."
     },
     {
       "question": "Pour une source qui se rapproche à vitesse constante v d'un observateur fixe (célérité de l'onde c), la fréquence reçue fr en fonction de la fréquence émise fe s'exprime :",
       "choices": [
+        "fr = fe × c / (c + v)",
         "fr = fe × c / (c - v)",
-        "fr = fe - v",
         "fr = fe × v / c",
-        "fr = fe × c / (c + v)"
+        "fr = fe - v"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Par un raisonnement symétrique au cas où la source s'éloigne (d = D - v.Te au lieu de D + v.Te), on obtient fr = fe×c/(c-v) : la fréquence reçue est supérieure à la fréquence émise (son plus aigu)."
     },
     {
       "question": "Une source acoustique se rapproche d'un observateur fixe à la vitesse v (célérité de l'onde c) : fr = fe × c / (c - v). En isolant v dans cette relation, on obtient :",
       "choices": [
-        "v = c × (fe - fr) / fr",
-        "v = c × (fr - fe) / fr",
+        "v = c × (fr - fe) / fe",
         "v = fr - fe",
-        "v = c × (fr - fe) / fe"
+        "v = c × (fe - fr) / fr",
+        "v = c × (fr - fe) / fr"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "fr(c-v) = fe.c ⟹ fr.c - fr.v = fe.c ⟹ fr.v = c(fr-fe) ⟹ v = c(fr-fe)/fr. C'est cette étape de manipulation algébrique, pour isoler v et l'exploiter numériquement, qui est le plus souvent demandée en devoir."
     },
     {
       "question": "Un émetteur ultrasonore de fréquence fe = 40,0 kHz se rapproche d'un récepteur fixe. Celui-ci mesure une fréquence reçue fr = 40,2 kHz. La célérité des ultrasons dans l'air est c = 340 m·s⁻¹. En utilisant v = c×(fr-fe)/fr, la vitesse de la source vaut environ :",
       "choices": [
-        "340 m·s⁻¹",
         "0,17 m·s⁻¹",
         "1,7 m·s⁻¹",
+        "340 m·s⁻¹",
         "17 m·s⁻¹"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "v = 340 × (40200 - 40000) / 40200 = 340 × 200 / 40200 ≈ 1,7 m·s⁻¹."
     },
     {
       "question": "Sur le spectre d'une étoile, on observe un « redshift » (décalage des raies vers le rouge, donc vers les grandes longueurs d'onde). Cela signifie que l'étoile :",
       "choices": [
-        "Est immobile par rapport à la Terre",
         "A une température nulle",
-        "Se rapproche de la Terre",
-        "S'éloigne de la Terre"
+        "S'éloigne de la Terre",
+        "Est immobile par rapport à la Terre",
+        "Se rapproche de la Terre"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Un décalage vers le rouge (redshift, grandes longueurs d'onde) correspond à un effet Doppler-Fizeau d'éloignement, comme observé par Huggins sur Sirius s'éloignant à 46 km/s."
     }
   ]
