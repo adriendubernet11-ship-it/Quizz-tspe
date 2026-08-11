@@ -22,5 +22,11 @@
     "title": "Propagation d'une onde",
     "number": 4,
     "competences": "Intensité et niveau sonore, atténuation, logarithme décimal, effet Doppler et décalage Doppler"
+  },
+  {
+    "id": "lunette-astronomique",
+    "title": "La lunette astronomique",
+    "number": 5,
+    "competences": "Lentilles convergentes (rappels), lunette afocale (objectif/oculaire), image intermédiaire, grossissement G = f'ob/f'oc"
   }
 ]

@@ -1,0 +1,161 @@
+{
+  "title": "La lunette astronomique",
+  "number": 5,
+  "competences": "Lentilles convergentes (rappels), lunette afocale (objectif/oculaire), image intermédiaire, grossissement G = f'ob/f'oc",
+  "questions": [
+    {
+      "question": "Une lentille mince convergente fait converger les rayons lumineux par :",
+      "choices": [
+        "Réflexion",
+        "Réfraction",
+        "Diffraction uniquement",
+        "Absorption totale"
+      ],
+      "answer": 1,
+      "explanation": "La forme bombée de la lentille mince convergente dévie les rayons par réfraction, ce qui les fait converger."
+    },
+    {
+      "question": "Pour construire l'image d'un point à travers une lentille mince convergente, un rayon lumineux qui passe par le centre optique O de la lentille :",
+      "choices": [
+        "N'est pas dévié de sa trajectoire",
+        "Ressort toujours parallèle à l'axe optique",
+        "Ressort toujours en passant par le foyer image F'",
+        "Est totalement absorbé par la lentille"
+      ],
+      "answer": 0,
+      "explanation": "Le rayon passant par le centre optique traverse la lentille en ligne droite, sans déviation."
+    },
+    {
+      "question": "Un rayon lumineux qui arrive parallèle à l'axe optique sur une lentille convergente ressort de la lentille :",
+      "choices": [
+        "En passant par le foyer objet F",
+        "En passant par le foyer image F'",
+        "Toujours parallèle à lui-même, sans dévier",
+        "Perpendiculairement à l'axe optique"
+      ],
+      "answer": 1,
+      "explanation": "Tout rayon incident parallèle à l'axe optique ressort de la lentille convergente en passant par le foyer image F'."
+    },
+    {
+      "question": "Une lunette astronomique afocale est composée de deux lentilles convergentes. La première, traversée par la lumière issue de l'objet observé, s'appelle :",
+      "choices": [
+        "L'oculaire",
+        "L'objectif",
+        "Le diaphragme",
+        "Le collimateur"
+      ],
+      "answer": 1,
+      "explanation": "L'objectif est la première lentille traversée par la lumière ; l'oculaire est la seconde, placée près de l'œil de l'observateur."
+    },
+    {
+      "question": "Une lunette astronomique est dite afocale car :",
+      "choices": [
+        "Elle ne possède aucun foyer",
+        "Le foyer principal image F'1 de l'objectif coïncide avec le foyer principal objet F2 de l'oculaire",
+        "Ses deux lentilles sont divergentes",
+        "Elle ne forme jamais d'image"
+      ],
+      "answer": 1,
+      "explanation": "L'afocalité (F'1 = F2) permet de transformer un objet à l'infini en une image finale également à l'infini, observable sans effort d'accommodation."
+    },
+    {
+      "question": "L'intérêt du caractère afocal d'une lunette est de :",
+      "choices": [
+        "Créer une image plus petite que l'objet",
+        "Créer, à partir d'un objet à l'infini, une image finale également à l'infini mais paraissant plus grosse, observable sans effort par l'œil",
+        "Empêcher toute observation d'objets lointains",
+        "Inverser la couleur de l'image"
+      ],
+      "answer": 1,
+      "explanation": "L'image finale à l'infini permet à l'œil de l'observer sans accommodation, comme il le fait naturellement pour un objet lointain."
+    },
+    {
+      "question": "Dans une lunette astronomique, l'image intermédiaire A1B1 formée par l'objectif :",
+      "choices": [
+        "N'a aucune utilité et n'est jamais utilisée",
+        "Devient l'objet lumineux pour l'oculaire, qui en forme l'image définitive A'B'",
+        "Est directement observée à l'œil nu sans passer par l'oculaire",
+        "Se forme uniquement si l'objet est proche"
+      ],
+      "answer": 1,
+      "explanation": "La lunette fonctionne en deux étapes : l'objectif forme une image intermédiaire A1B1, qui sert ensuite d'objet pour l'oculaire, lequel forme l'image définitive A'B'."
+    },
+    {
+      "question": "Un objet ponctuel situé à l'infini, observé à travers une lentille convergente, forme son image :",
+      "choices": [
+        "Au centre optique de la lentille",
+        "Dans le plan focal image de la lentille",
+        "À l'infini également, de l'autre côté de la lentille",
+        "Il ne peut pas former d'image"
+      ],
+      "answer": 1,
+      "explanation": "Les rayons issus d'un point à l'infini arrivent parallèles entre eux : ils convergent tous dans le plan focal image de la lentille."
+    },
+    {
+      "question": "Le grossissement G d'une lunette astronomique est défini par :",
+      "choices": [
+        "G = θ' / θ, où θ est l'angle d'observation à l'œil nu et θ' l'angle d'observation avec l'instrument",
+        "G = θ / θ'",
+        "G = θ + θ'",
+        "G = θ × θ' (en radians²)"
+      ],
+      "answer": 0,
+      "explanation": "G est le rapport de l'angle sous lequel on voit l'image à travers l'instrument (θ') sur l'angle sous lequel on voit l'objet à l'œil nu (θ). G est sans unité."
+    },
+    {
+      "question": "L'expression du grossissement d'une lunette afocale en fonction des distances focales de l'objectif (f'ob) et de l'oculaire (f'oc) est :",
+      "choices": [
+        "G = f'ob / f'oc",
+        "G = f'oc / f'ob",
+        "G = f'ob × f'oc",
+        "G = f'ob + f'oc"
+      ],
+      "answer": 0,
+      "explanation": "En utilisant l'approximation des petits angles (tan θ ≈ θ) dans les deux triangles contigus du schéma, on établit G = f'ob / f'oc."
+    },
+    {
+      "question": "Dans le commerce, une lunette astronomique notée « 70/900 » est caractérisée par :",
+      "choices": [
+        "Un diamètre d'objectif de 70 mm et une distance focale d'objectif de 900 mm",
+        "Un grossissement de 70 et un poids de 900 g",
+        "Une distance focale d'objectif de 70 mm et un diamètre de 900 mm",
+        "Un prix de 70 à 900 euros"
+      ],
+      "answer": 0,
+      "explanation": "Une lunette commerciale est caractérisée par le diamètre de son objectif (en mm) et la distance focale de son objectif (en mm), ici 70 mm et 900 mm."
+    },
+    {
+      "question": "Une lunette 70/900 est vendue avec un oculaire de distance focale 25 mm. Son grossissement avec cet oculaire vaut :",
+      "choices": [
+        "G = 36",
+        "G = 900",
+        "G = 22,5",
+        "G = 0,028"
+      ],
+      "answer": 0,
+      "explanation": "G = f'ob / f'oc = 900 / 25 = 36 (sans unité)."
+    },
+    {
+      "question": "Pour la même lunette 70/900, équipée cette fois d'un oculaire de distance focale 9 mm, le grossissement devient :",
+      "choices": [
+        "G = 100 (plus grand qu'avec l'oculaire de 25 mm)",
+        "G = 8,1 (plus petit qu'avec l'oculaire de 25 mm)",
+        "G = 36 (inchangé)",
+        "G = 900 (identique à la focale de l'objectif)"
+      ],
+      "answer": 0,
+      "explanation": "G = 900/9 = 100. Un oculaire de plus courte focale donne un grossissement plus élevé."
+    },
+    {
+      "question": "Pour augmenter le grossissement d'une lunette astronomique donnée (objectif fixé), il faut :",
+      "choices": [
+        "Choisir un oculaire de plus grande distance focale",
+        "Choisir un oculaire de plus petite distance focale",
+        "Changer uniquement le diamètre de l'objectif",
+        "Le grossissement d'une lunette ne peut jamais être modifié"
+      ],
+      "answer": 1,
+      "explanation": "Puisque G = f'ob/f'oc, à f'ob fixé, diminuer f'oc (la focale de l'oculaire) augmente le grossissement."
+    }
+  ]
+}
