@@ -1,0 +1,128 @@
+{
+  "title": "Diffraction",
+  "number": 6,
+  "competences": "Caractériser qualitativement la diffraction, angle caractéristique θ = λ/a, relation avec la largeur de la tache sur un écran, conséquences concrètes",
+  "questions": [
+    {
+      "question": "La diffraction d'une onde périodique au voisinage d'une ouverture ou d'un obstacle est :",
+      "choices": [
+        "Une modification de la longueur d'onde uniquement, la direction restant inchangée",
+        "Une modification de la direction de propagation de l'onde, sans changement de sa fréquence ni de sa longueur d'onde",
+        "La disparition totale de l'onde après l'obstacle",
+        "Une modification de la fréquence de l'onde uniquement"
+      ],
+      "answer": 1,
+      "explanation": "La diffraction change la direction de propagation (l'onde s'étale) mais conserve la fréquence et la longueur d'onde de l'onde incidente."
+    },
+    {
+      "question": "Le phénomène de diffraction devient observable en pratique lorsque la taille de l'obstacle ou de l'ouverture est :",
+      "choices": [
+        "Toujours supérieure à 1 mètre",
+        "Totalement indépendante de la longueur d'onde",
+        "Beaucoup plus grande que la longueur d'onde",
+        "Du même ordre de grandeur que la longueur d'onde (ou de quelques dizaines de fois la longueur d'onde pour la lumière)"
+      ],
+      "answer": 3,
+      "explanation": "Le critère est que la taille de l'obstacle/ouverture soit proche de la longueur d'onde ; pour la lumière, le critère est moins restrictif (jusqu'à quelques dizaines de longueurs d'onde)."
+    },
+    {
+      "question": "En diminuant progressivement la largeur d'une ouverture (fente ou fil fin), la figure de diffraction obtenue :",
+      "choices": [
+        "Devient de plus en plus étalée (l'angle caractéristique augmente)",
+        "Disparaît complètement",
+        "Devient de plus en plus resserrée (l'angle caractéristique diminue)",
+        "Reste rigoureusement identique quelle que soit la largeur"
+      ],
+      "answer": 0,
+      "explanation": "Plus l'ouverture est étroite, plus la diffraction est marquée : la figure observée s'étale davantage (θ augmente quand a diminue)."
+    },
+    {
+      "question": "L'angle caractéristique de diffraction θ (en radians), pour une onde de longueur d'onde λ diffractée par une ouverture de largeur a, est donné par la relation :",
+      "choices": [
+        "θ = λ + a",
+        "θ = λ / a",
+        "θ = a / λ",
+        "θ = λ × a"
+      ],
+      "answer": 1,
+      "explanation": "C'est la relation admise du programme : θ = λ/a, avec λ et a exprimés dans la même unité (généralement le mètre), θ en radians."
+    },
+    {
+      "question": "Sur un écran situé à une distance D d'une fente, la largeur L de la tache centrale de diffraction est reliée à l'angle caractéristique θ par (en utilisant l'approximation des petits angles) :",
+      "choices": [
+        "L = 2 × D × θ",
+        "L = D + θ",
+        "L = D / θ",
+        "L = θ / (2D)"
+      ],
+      "answer": 0,
+      "explanation": "Géométriquement, tan θ ≈ θ = (L/2)/D, donc L = 2Dθ (θ étant le demi-angle d'ouverture de la tache centrale)."
+    },
+    {
+      "question": "En combinant θ = λ/a et L = 2Dθ, on peut exprimer la largeur a de l'ouverture (ou le diamètre d'un fil, par le théorème de Babinet) à partir de mesures expérimentales L et D par :",
+      "choices": [
+        "a = 2LD / λ",
+        "a = L / (2λD)",
+        "a = λD / (2L)",
+        "a = 2λD / L"
+      ],
+      "answer": 3,
+      "explanation": "θ = λ/a et θ = L/(2D) donnent λ/a = L/(2D), soit a = 2λD/L. C'est la relation exploitée expérimentalement (mesure d'une fente ou d'un fil fin par diffraction laser)."
+    },
+    {
+      "question": "Lors d'une expérience de diffraction, on utilise un laser de longueur d'onde λ = 650 nm, un écran situé à D = 2,00 m de la fente, et on mesure une largeur de tache centrale L = 2,60 cm. La largeur a de la fente vaut environ :",
+      "choices": [
+        "1,00 m",
+        "0,100 mm",
+        "1,00 mm",
+        "10,0 µm"
+      ],
+      "answer": 1,
+      "explanation": "a = 2λD/L = 2 × 650×10⁻⁹ × 2,00 / 0,0260 = 1,00×10⁻⁴ m = 0,100 mm."
+    },
+    {
+      "question": "Le théorème de Babinet, utilisé notamment en TP pour mesurer le diamètre d'un fil fin avec un laser, énonce que :",
+      "choices": [
+        "La diffraction ne se produit que pour les ouvertures, jamais pour les obstacles",
+        "Un obstacle opaque ne diffracte jamais la lumière",
+        "La figure de diffraction d'un obstacle opaque est identique à celle de l'ouverture complémentaire de même taille percée dans un écran opaque",
+        "La figure de diffraction dépend uniquement de la couleur de l'obstacle"
+      ],
+      "answer": 2,
+      "explanation": "Un fil fin (obstacle) donne la même figure de diffraction qu'une fente de même largeur (ouverture complémentaire) : cela permet de mesurer le diamètre d'un fil via la relation de diffraction."
+    },
+    {
+      "question": "Le fait que le Blu-ray utilise un laser violet (λ = 405 nm) plutôt qu'un laser rouge comme le DVD (λ = 650 nm) permet, grâce à un plus petit angle caractéristique de diffraction pour une même ouverture :",
+      "choices": [
+        "D'obtenir un faisceau focalisé plus fin, donc des pistes de lecture plus resserrées et une plus grande capacité de stockage",
+        "De supprimer totalement la diffraction",
+        "N'a aucun rapport avec la diffraction",
+        "D'obtenir un faisceau plus large, ce qui réduit la capacité de stockage"
+      ],
+      "answer": 0,
+      "explanation": "θ = λ/a étant plus petit pour une longueur d'onde plus courte, le faisceau laser violet diffracte moins et peut être focalisé plus finement, permettant des pistes plus resserrées (Blu-ray) qu'avec le laser rouge du DVD."
+    },
+    {
+      "question": "En astronomie, la diffraction de la lumière par l'ouverture (l'objectif) d'un télescope ou d'une lunette :",
+      "choices": [
+        "N'a aucune conséquence sur les observations",
+        "Augmente indéfiniment la précision de l'instrument",
+        "Limite le pouvoir de résolution de l'instrument : deux points très proches peuvent devenir impossibles à distinguer",
+        "Ne concerne que les instruments utilisant des ondes sonores"
+      ],
+      "answer": 2,
+      "explanation": "Tout objectif diffracte la lumière qu'il reçoit (ouverture finie), ce qui limite la capacité de l'instrument à distinguer deux détails très proches : c'est une limite fondamentale de résolution."
+    },
+    {
+      "question": "La diffraction utilisée par la granulométrie laser (mesure de la taille de particules fines dans une poudre) repose sur le fait que :",
+      "choices": [
+        "Seules les grosses particules diffractent la lumière",
+        "Les particules n'ont aucun effet sur un faisceau laser",
+        "Plus une particule est petite, plus elle diffracte fortement la lumière (angle caractéristique plus grand), ce qui permet de remonter à sa taille",
+        "La diffraction ne dépend pas de la taille des particules"
+      ],
+      "answer": 2,
+      "explanation": "Comme pour une fente ou un fil, plus l'obstacle (la particule) est petit, plus l'angle caractéristique de diffraction θ = λ/a est grand : mesurer cet angle permet de remonter à la taille des particules."
+    }
+  ]
+}

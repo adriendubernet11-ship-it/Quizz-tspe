@@ -28,5 +28,11 @@
     "title": "La lunette astronomique",
     "number": 5,
     "competences": "Lentilles convergentes (rappels), lunette afocale (objectif/oculaire), image intermédiaire, grossissement G = f'ob/f'oc"
+  },
+  {
+    "id": "diffraction",
+    "title": "Diffraction",
+    "number": 6,
+    "competences": "Caractériser qualitativement la diffraction, angle caractéristique θ = λ/a, relation avec la largeur de la tache sur un écran, conséquences concrètes"
   }
 ]
