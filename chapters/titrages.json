@@ -6,12 +6,12 @@
     {
       "question": "Un dosage par titrage direct est une méthode :",
       "choices": [
-        "Non destructive, comme le dosage par étalonnage",
         "Destructive : l'espèce à doser réagit avec un réactif titrant lors d'une réaction chimique",
+        "Non destructive, comme le dosage par étalonnage",
         "Qui ne nécessite aucune réaction chimique",
         "Uniquement applicable aux espèces colorées"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Contrairement au dosage par étalonnage, le titrage direct est une méthode destructive : on fait réagir l'espèce à doser (titrée) avec un réactif titrant de concentration connue."
     },
     {
@@ -28,122 +28,122 @@
     {
       "question": "L'équivalence d'un titrage correspond à l'état pour lequel :",
       "choices": [
+        "On a versé un volume arbitraire de solution titrante",
         "Le pH de la solution vaut exactement 7",
         "Les réactifs titrant et titré ont été introduits en proportions stœchiométriques et sont tous deux limitants",
-        "On a versé un volume arbitraire de solution titrante",
         "On a versé la moitié du volume total contenu dans la burette"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "À l'équivalence, les deux réactifs sont introduits en proportions stœchiométriques : ils sont tous deux entièrement consommés (limitants simultanément). C'est ce critère qui permet de calculer VE — contrairement au pH = 7 (vrai seulement pour un titrage acide fort/base forte) ou à un volume choisi arbitrairement."
     },
     {
       "question": "Pour la réaction de titrage CH3COOH(aq) + HO-(aq) → CH3COO-(aq) + H2O(l), à l'équivalence, la relation entre la quantité initiale d'acide n(A)i et la quantité de base versée n(B)E est :",
       "choices": [
-        "n(A)i = 2 × n(B)E",
-        "n(A)i = n(B)E",
         "n(A)i = n(B)E / 2",
-        "Il n'existe aucune relation simple entre les deux"
+        "n(A)i = 2 × n(B)E",
+        "Il n'existe aucune relation simple entre les deux",
+        "n(A)i = n(B)E"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Les nombres stœchiométriques des deux réactifs étant égaux à 1 dans cette équation, la relation à l'équivalence est simplement n(A)i = n(B)E."
     },
     {
       "question": "Avant l'équivalence d'un titrage, le réactif titrant versé est :",
       "choices": [
-        "En excès",
         "Totalement consommé (réactif limitant)",
         "Absent du milieu réactionnel",
-        "Transformé en solvant"
+        "Transformé en solvant",
+        "En excès"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Avant l'équivalence, c'est le réactif titré (présent initialement en excès) qui est en excès ; le réactif titrant versé est donc entièrement consommé à chaque ajout."
     },
     {
       "question": "Pour choisir un indicateur coloré de fin de titrage pertinent, il faut que :",
       "choices": [
+        "Sa couleur ne change jamais",
         "Sa zone de virage contienne le pH à l'équivalence du titrage",
         "Il soit toujours bleu quelle que soit la solution",
-        "Il réagisse avec le réactif titrant avant l'espèce titrée",
-        "Sa couleur ne change jamais"
+        "Il réagisse avec le réactif titrant avant l'espèce titrée"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Un indicateur coloré acido-basique est pertinent si sa zone de virage encadre la valeur du pH à l'équivalence : son changement de teinte signale alors le volume équivalent."
     },
     {
       "question": "Lors d'un titrage suivi par pH-métrie, le volume équivalent VE correspond, sur la courbe pH = f(V) :",
       "choices": [
-        "Au premier point de la courbe",
-        "Au point d'inflexion (repérable par la méthode des tangentes ou de la dérivée)",
         "Au point où le pH est minimal",
-        "À un point choisi arbitrairement"
+        "À un point choisi arbitrairement",
+        "Au point d'inflexion (repérable par la méthode des tangentes ou de la dérivée)",
+        "Au premier point de la courbe"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Le point d'inflexion de la courbe pH = f(V), au niveau du saut de pH, correspond au volume équivalent."
     },
     {
       "question": "Lors d'un titrage suivi par conductimétrie, la courbe σ = f(V) est typiquement constituée de :",
       "choices": [
         "Une seule droite de pente constante sur tout le titrage",
-        "Deux portions de droites sécantes, de pentes différentes avant et après l'équivalence",
+        "Un plateau constant puis une chute brutale à zéro",
         "Une courbe exponentielle sans rupture",
-        "Un plateau constant puis une chute brutale à zéro"
+        "Deux portions de droites sécantes, de pentes différentes avant et après l'équivalence"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "La rupture de pente entre les deux portions de droites correspond à l'équivalence ; le volume équivalent est l'abscisse de leur point d'intersection."
     },
     {
       "question": "On titre les ions hydroxyde HO- d'une solution de soude par des ions oxonium H3O+ (acide chlorhydrique). Sachant que λ(H3O+) > λ(HO-) > λ(Cl-) > λ(Na+), avant l'équivalence, la conductivité de la solution :",
       "choices": [
-        "Augmente, car on ajoute des ions",
         "Diminue, car les ions HO- (assez conducteurs) sont remplacés par les ions Cl- (moins conducteurs), les ions Na+ restant spectateurs",
-        "Reste rigoureusement constante",
-        "Devient nulle immédiatement"
+        "Augmente, car on ajoute des ions",
+        "Devient nulle immédiatement",
+        "Reste rigoureusement constante"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Avant l'équivalence, chaque ion HO- consommé est remplacé par un ion Cl- introduit en même quantité. Comme λ(HO-) > λ(Cl-), la conductivité globale diminue."
     },
     {
       "question": "Dans le même titrage (HO- par H3O+), après l'équivalence, la conductivité :",
       "choices": [
-        "Continue de diminuer indéfiniment",
-        "Reste constante",
+        "Redevient nulle",
         "Augmente, car les ions H3O+ (très conducteurs) et Cl- s'accumulent en excès sans plus réagir",
-        "Redevient nulle"
+        "Reste constante",
+        "Continue de diminuer indéfiniment"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Après l'équivalence, il n'y a plus d'ions HO- à consommer : les ions H3O+ versés (très conducteurs) et Cl- s'ajoutent simplement à la solution, ce qui fait remonter la conductivité."
     },
     {
       "question": "Pour préparer une solution de concentration donnée en soluté apporté à partir d'une solution commerciale dont on connaît le titre massique w (%) et la densité d, on utilise la relation (avec M la masse molaire du soluté et ρeau = 1000 g/L) :",
       "choices": [
+        "c = w + d + M",
         "c = w × M / d",
         "c = (w × d × ρeau) / M",
-        "c = M / (w × d)",
-        "c = w + d + M"
+        "c = M / (w × d)"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "La concentration molaire apportée se déduit de la masse de soluté dans un litre de solution : c = (w × d × ρeau) / M, en cohérence avec le calcul mené sur l'étiquette du Destop® (10 %, densité 1,2, M = 60 g/mol)."
     },
     {
       "question": "Dans le titrage du vinaigre dilué 10 fois par de la soude (CB = 0,10 mol/L, VA = 10,0 mL de prise d'essai), on relève VE = 15,2 mL à l'équivalence. La concentration c' de la solution diluée S' en acide éthanoïque vaut :",
       "choices": [
-        "c' = CB × VE / VA = 0,152 mol·L-1",
         "c' = CB × VA / VE = 0,066 mol·L-1",
         "c' = CB + VE - VA = 15,3 mol·L-1",
-        "c' = VE / CB = 152 mol·L-1"
+        "c' = VE / CB = 152 mol·L-1",
+        "c' = CB × VE / VA = 0,152 mol·L-1"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "À l'équivalence, n(acide)titré = n(base)versé, soit c'×VA = CB×VE, donc c' = CB×VE/VA = 0,10×15,2/10,0 ≈ 0,152 mol·L-1."
     },
     {
       "question": "La solution S' de la question précédente provenant d'une dilution au 1/10 du vinaigre commercial S, la concentration c du vinaigre commercial en acide éthanoïque vaut :",
       "choices": [
-        "c = c' / 10 ≈ 0,0152 mol·L-1",
         "c = c' × 10 ≈ 1,52 mol·L-1",
         "c = c' ≈ 0,152 mol·L-1 (la dilution ne change rien)",
+        "c = c' / 10 ≈ 0,0152 mol·L-1",
         "c = c'² "
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "La solution S' étant 10 fois plus diluée que S, on remonte à la concentration commerciale en multipliant par le facteur de dilution : c = 10 × c' ≈ 1,52 mol·L-1."
     }
   ]
