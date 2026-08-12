@@ -1,0 +1,172 @@
+{
+  "title": "Interférences",
+  "number": 7,
+  "competences": "Conditions d'interférences constructives/destructives, différence de marche, chemin optique, interfrange (fentes d'Young)",
+  "questions": [
+    {
+      "question": "Il y a interférence en un point lorsque :",
+      "choices": [
+        "Deux ondes de fréquences différentes se croisent",
+        "Une onde rencontre un obstacle opaque",
+        "Deux ondes périodiques de même nature et de même fréquence se superposent en ce point",
+        "Une seule onde traverse ce point"
+      ],
+      "answer": 2,
+      "explanation": "L'interférence nécessite deux ondes de même nature (par exemple deux ondes lumineuses) et de même fréquence qui se superposent en un point donné."
+    },
+    {
+      "question": "En un point d'interférence, la perturbation résultante est :",
+      "choices": [
+        "La somme (superposition) des perturbations créées par chaque onde",
+        "La moyenne des deux perturbations",
+        "Toujours égale à zéro",
+        "Le produit des deux perturbations"
+      ],
+      "answer": 0,
+      "explanation": "Le principe de superposition s'applique : la perturbation résultante est la somme des perturbations que chaque onde créerait seule en ce point."
+    },
+    {
+      "question": "Pour observer des interférences stables avec deux ondes, il faut qu'elles soient de même nature, de même fréquence, et :",
+      "choices": [
+        "D'amplitudes obligatoirement égales",
+        "De directions de propagation perpendiculaires",
+        "Avec un déphasage constant dans le temps (on parle de cohérence)",
+        "Issues de deux sources laser complètement indépendantes"
+      ],
+      "answer": 2,
+      "explanation": "La cohérence (déphasage constant entre les deux ondes) est indispensable pour obtenir une figure d'interférence stable dans le temps."
+    },
+    {
+      "question": "Dans l'expérience des fentes d'Young, on utilise deux fentes éclairées par la même source laser plutôt que deux sources laser indépendantes car :",
+      "choices": [
+        "Deux sources indépendantes ne sont en général pas cohérentes entre elles, ce qui empêcherait d'observer une figure stable",
+        "Une seule fente suffirait de toute façon",
+        "Les deux fentes émettent des fréquences différentes",
+        "Cela n'a aucune importance, les deux montages sont équivalents"
+      ],
+      "answer": 0,
+      "explanation": "Diviser l'onde d'une source unique en deux (via les deux fentes) garantit un déphasage constant entre les deux ondes secondaires : c'est la condition de cohérence."
+    },
+    {
+      "question": "La différence de marche δ en un point M est définie comme :",
+      "choices": [
+        "Le temps mis par la lumière pour atteindre M",
+        "La distance entre les deux sources S1 et S2",
+        "La valeur absolue de la différence entre les distances parcourues par chacune des deux ondes jusqu'à M",
+        "La somme des distances parcourues par les deux ondes jusqu'à M"
+      ],
+      "answer": 2,
+      "explanation": "δ = |d1 - d2| (ou |S2M - S1M|), où d1 et d2 sont les distances parcourues par chaque onde depuis sa source jusqu'au point M considéré."
+    },
+    {
+      "question": "En un point M, les interférences sont constructives (amplitude maximale) lorsque la différence de marche δ vérifie :",
+      "choices": [
+        "δ = λ/4 uniquement",
+        "δ = k.λ, avec k entier relatif (les ondes arrivent en phase)",
+        "δ doit être quelconque, cela n'a pas d'importance",
+        "δ = (2k+1).λ/2, avec k entier relatif"
+      ],
+      "answer": 1,
+      "explanation": "Les interférences sont constructives quand les ondes arrivent en phase en M, ce qui correspond à une différence de marche multiple entier de la longueur d'onde : δ = k.λ."
+    },
+    {
+      "question": "En un point M, les interférences sont destructives (amplitude minimale) lorsque la différence de marche δ vérifie :",
+      "choices": [
+        "δ = k.λ, avec k entier relatif",
+        "δ = 2.D, avec D la distance à l'écran",
+        "δ = (2k+1).λ/2, avec k entier relatif (les ondes arrivent en opposition de phase)",
+        "δ = 0 uniquement"
+      ],
+      "answer": 2,
+      "explanation": "Les interférences sont destructives quand les ondes arrivent en opposition de phase, ce qui correspond à une différence de marche demi-entière : δ = (2k+1).λ/2."
+    },
+    {
+      "question": "Dans un milieu d'indice de réfraction n, la différence de chemin optique ΔL est reliée à la différence de marche géométrique δ par :",
+      "choices": [
+        "ΔL = δ (n n'intervient jamais)",
+        "ΔL = n . δ",
+        "ΔL = n + δ",
+        "ΔL = δ / n"
+      ],
+      "answer": 1,
+      "explanation": "On définit la différence de chemin optique ΔL = n.δ, qui permet de raisonner avec la longueur d'onde dans le vide λ0 plutôt qu'avec la longueur d'onde dans le milieu, pas toujours facile à connaître."
+    },
+    {
+      "question": "La longueur d'onde λ d'une onde lumineuse dans un milieu d'indice n, comparée à sa longueur d'onde dans le vide λ0, vérifie :",
+      "choices": [
+        "λ = λ0 × n",
+        "λ = λ0 (le milieu n'a aucun effet)",
+        "λ = λ0 + n",
+        "λ = λ0 / n"
+      ],
+      "answer": 3,
+      "explanation": "λ = λ0/n : la longueur d'onde diminue dans un milieu d'indice n > 1 par rapport au vide, alors que la fréquence (et donc la période) reste inchangée."
+    },
+    {
+      "question": "L'interfrange i d'une figure d'interférences est défini comme :",
+      "choices": [
+        "La distance entre les deux fentes d'Young",
+        "La plus petite distance qui existe entre le milieu de deux franges brillantes consécutives (ou entre deux franges sombres consécutives, valeur identique)",
+        "Le nombre total de franges observées",
+        "La largeur totale de la figure observée sur l'écran"
+      ],
+      "answer": 1,
+      "explanation": "L'interfrange est la distance qui sépare deux franges brillantes consécutives (ou deux franges sombres consécutives) : les deux valeurs sont égales."
+    },
+    {
+      "question": "Dans le dispositif des fentes d'Young (fentes séparées d'une distance b, écran à une distance D, longueur d'onde λ), l'expression de l'interfrange i est :",
+      "choices": [
+        "i = λ.D / b",
+        "i = D / (λ.b)",
+        "i = λ.b / D",
+        "i = λ.b.D"
+      ],
+      "answer": 0,
+      "explanation": "i = λD/b : l'interfrange augmente si on éloigne l'écran (D grand) ou si on rapproche les fentes (b petit), ce qui est cohérent avec les observations expérimentales."
+    },
+    {
+      "question": "Lors du TP sur la résolution d'un écran de smartphone (pixels assimilés à des fentes d'Young), on utilise un laser de longueur d'onde λ = 650 nm, un écran situé à D = 0,50 m, et on mesure un interfrange i = 3,3 mm. La distance b entre deux pixels vaut environ :",
+      "choices": [
+        "0,010 mm",
+        "0,10 mm",
+        "10 mm",
+        "1,0 mm"
+      ],
+      "answer": 1,
+      "explanation": "En inversant i = λD/b, on obtient b = λD/i = (650×10⁻⁹ × 0,50) / (3,3×10⁻³) ≈ 0,10 mm."
+    },
+    {
+      "question": "Dans l'activité sur les conditions temporelles d'interférence (deux sources synchrones de période T, retard τ de l'une par rapport à l'autre), on obtient des interférences constructives lorsque :",
+      "choices": [
+        "τ est un multiple entier de la période T (τ = k.T)",
+        "τ n'a aucune influence sur le type d'interférence",
+        "τ est un multiple entier impair de T/2 (τ = (k+½).T)",
+        "τ est toujours nul, quelle que soit la situation"
+      ],
+      "answer": 0,
+      "explanation": "Un retard τ multiple entier de la période (τ = k.T) signifie que les deux ondes sont à nouveau en phase : les interférences sont constructives. Un retard τ = (k+½).T donne des interférences destructives (opposition de phase)."
+    },
+    {
+      "question": "Le principe des casques audio à réduction de bruit repose sur :",
+      "choices": [
+        "La diffraction du son par le casque",
+        "Une isolation purement mécanique, sans aucun lien avec les interférences",
+        "Des interférences constructives qui amplifient le bruit pour le rendre supportable",
+        "Des interférences destructives entre le bruit ambiant et un signal sonore généré en opposition de phase"
+      ],
+      "answer": 3,
+      "explanation": "Le casque capte le bruit ambiant et génère un signal en opposition de phase : la superposition des deux crée une interférence destructive qui atténue le bruit perçu."
+    },
+    {
+      "question": "L'irisation colorée observée à la surface d'une bulle de savon s'explique par :",
+      "choices": [
+        "L'effet Doppler dû au mouvement de la bulle",
+        "La diffraction de la lumière par les molécules de savon",
+        "Une absorption sélective des couleurs par le savon",
+        "Des interférences entre les ondes lumineuses réfléchies sur les deux faces du film de savon, dont l'épaisseur varie"
+      ],
+      "answer": 3,
+      "explanation": "Les interférences se produisent entre la lumière réfléchie sur la face externe et celle réfléchie sur la face interne du film de savon ; comme l'épaisseur varie, la couleur observée (dépendante de la différence de marche) varie aussi."
+    }
+  ]
+}

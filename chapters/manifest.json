@@ -34,5 +34,11 @@
     "title": "Diffraction",
     "number": 6,
     "competences": "Caractériser qualitativement la diffraction, angle caractéristique θ = λ/a, relation avec la largeur de la tache sur un écran, conséquences concrètes"
+  },
+  {
+    "id": "interferences",
+    "title": "Interférences",
+    "number": 7,
+    "competences": "Conditions d'interférences constructives/destructives, différence de marche, chemin optique, interfrange (fentes d'Young)"
   }
 ]
