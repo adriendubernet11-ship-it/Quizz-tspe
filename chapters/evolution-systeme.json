@@ -1,0 +1,183 @@
+{
+  "title": "Prévoir le sens d'évolution d'un système chimique",
+  "number": 8,
+  "competences": "Transformation non totale, équilibre dynamique, taux d'avancement final, quotient de réaction Qr, constante d'équilibre K, sens d'évolution spontanée (Qr vs K)",
+  "questions": [
+    {
+      "question": "Une transformation chimique non totale est une transformation pour laquelle, à l'état final :",
+      "choices": [
+        "Tous les réactifs ont été entièrement consommés",
+        "Réactifs et produits coexistent, dans des quantités qui n'évoluent plus macroscopiquement",
+        "Il ne reste plus aucun produit formé",
+        "La réaction n'a jamais commencé"
+      ],
+      "answer": 1,
+      "explanation": "Contrairement à une transformation totale, une transformation non totale laisse coexister réactifs et produits à l'état final, dans des proportions qui se stabilisent."
+    },
+    {
+      "question": "Dans l'équation d'une réaction non totale, la double flèche (⇌) signifie que :",
+      "choices": [
+        "La réaction s'arrête définitivement après un seul sens",
+        "La réaction ne peut avoir lieu que dans le sens inverse",
+        "La réaction se produit simultanément dans les deux sens (direct et inverse)",
+        "Il s'agit d'une erreur de notation à éviter"
+      ],
+      "answer": 2,
+      "explanation": "La double flèche indique que les deux réactions opposées (sens direct et sens inverse) se produisent simultanément."
+    },
+    {
+      "question": "On parle d'état d'équilibre dynamique lorsque, à l'état final :",
+      "choices": [
+        "La température du système devient nulle",
+        "Seule la réaction directe continue de se produire",
+        "Toute réaction chimique a cessé, dans les deux sens",
+        "Les vitesses d'apparition et de disparition de chaque espèce sont égales : le système est macroscopiquement stable mais microscopiquement toujours actif"
+      ],
+      "answer": 3,
+      "explanation": "À l'équilibre dynamique, les deux réactions opposées se poursuivent à la même vitesse, ce qui rend la composition globale stable sans que la réaction s'arrête réellement."
+    },
+    {
+      "question": "Le taux d'avancement final τ d'une réaction est défini par τ = xfinal / xmax. Cette grandeur :",
+      "choices": [
+        "Peut être supérieure à 1",
+        "Est sans unité et comprise entre 0 et 1 (ou 0 et 100%)",
+        "Est toujours égale à 1",
+        "S'exprime en mol·L⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "τ compare l'avancement final réel xfinal à l'avancement maximal théorique xmax (réaction totale) : c'est un rapport sans dimension, compris entre 0 et 1."
+    },
+    {
+      "question": "Contrairement à la constante d'équilibre K, le taux d'avancement final τ d'une réaction donnée :",
+      "choices": [
+        "Ne dépend que de la température",
+        "Ne dépend jamais des conditions initiales",
+        "Est toujours égal à K",
+        "Dépend de l'état initial du système"
+      ],
+      "answer": 3,
+      "explanation": "τ dépend des quantités initiales introduites (cf TP), alors que K est une grandeur caractéristique de la réaction à une température donnée, indépendante de l'état initial."
+    },
+    {
+      "question": "Pour une réaction d'équation A + B ⇌ C + D, le quotient de réaction Qr est défini par :",
+      "choices": [
+        "Qr = (activité des produits) / (activité des réactifs), chacune élevée à la puissance de son coefficient stœchiométrique",
+        "Qr = K, systématiquement, quel que soit l'instant considéré",
+        "Qr = (activité des réactifs) / (activité des produits)",
+        "Qr = somme des concentrations de toutes les espèces"
+      ],
+      "answer": 0,
+      "explanation": "Qr est le rapport des activités des produits sur celles des réactifs, chacune affectée de son coefficient stœchiométrique en exposant. Qr est sans unité et évolue tant que la réaction avance."
+    },
+    {
+      "question": "L'activité a d'une espèce dissoute en solution, de concentration [X], est donnée par :",
+      "choices": [
+        "a = [X] × C°",
+        "a = [X]²",
+        "a toujours égale à 1",
+        "a = [X] / C°, avec C° = 1 mol·L⁻¹"
+      ],
+      "answer": 3,
+      "explanation": "a = [X]/C° avec C° = 1 mol/L : c'est ce qui rend l'activité (et donc Qr) sans dimension."
+    },
+    {
+      "question": "L'activité d'un solide pur non dissous, ou celle de l'eau lorsqu'elle est à la fois solvant et réactif/produit, vaut :",
+      "choices": [
+        "1",
+        "Elle dépend toujours de sa quantité de matière",
+        "Elle n'est jamais définie dans ces cas",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Par convention, l'activité d'un solide pur non dissous vaut 1, de même que celle de l'eau solvant (même si elle intervient comme réactif ou produit)."
+    },
+    {
+      "question": "La constante d'équilibre K d'une réaction est :",
+      "choices": [
+        "La valeur de Qr à l'état initial, avant toute évolution",
+        "Toujours égale à 1",
+        "La valeur du quotient de réaction Qr calculée à l'état d'équilibre (état final)",
+        "Une grandeur qui change à chaque expérience, même à température constante"
+      ],
+      "answer": 2,
+      "explanation": "K = Qr,éq. Sa valeur ne dépend pas de l'état initial du système, mais dépend de la température et du système chimique considéré."
+    },
+    {
+      "question": "Pour mettre en évidence expérimentalement qu'un réactif est encore présent à l'état final d'une transformation non totale, on peut :",
+      "choices": [
+        "Attendre plus longtemps, cela suffit toujours à consommer le réactif restant",
+        "Ajouter à nouveau un peu de l'autre réactif : si une nouvelle évolution du système est observée, cela prouve que le premier réactif était toujours présent",
+        "Chauffer fortement le mélange jusqu'à évaporation totale",
+        "Mesurer uniquement la couleur de la solution, sans rien ajouter"
+      ],
+      "answer": 1,
+      "explanation": "Si on ajoute un peu plus de réactif B et qu'on observe une nouvelle transformation (précipité, changement de couleur...), cela prouve que le réactif A, censé réagir avec B, était encore présent dans le système avant cet ajout."
+    },
+    {
+      "question": "Deux groupes réalisent la même réaction à la même température, mais avec des concentrations initiales différentes. En calculant Qr à l'état final (donc K) pour chaque groupe, on doit constater que :",
+      "choices": [
+        "K ne peut être calculé que si les concentrations initiales sont identiques",
+        "Il est impossible de comparer les résultats de deux groupes différents",
+        "K est différent pour chaque groupe, car il dépend de la composition initiale",
+        "K est le même pour les deux groupes : sa valeur ne dépend pas de la composition initiale du système, à température donnée"
+      ],
+      "answer": 3,
+      "explanation": "La constante d'équilibre K caractérise la réaction à une température donnée : quelle que soit la composition initiale du système, l'état d'équilibre atteint conduit à la même valeur de Qr,éq = K."
+    },
+    {
+      "question": "Un système chimique évolue spontanément (sans apport d'énergie extérieure) de façon à ce que son quotient de réaction Qr tende vers :",
+      "choices": [
+        "Zéro, systématiquement",
+        "La valeur de la constante d'équilibre K",
+        "L'infini, systématiquement",
+        "Une valeur aléatoire"
+      ],
+      "answer": 1,
+      "explanation": "Tout système chimique évolue spontanément vers son état d'équilibre, c'est-à-dire vers Qr = K."
+    },
+    {
+      "question": "Si, à l'état initial, le quotient de réaction vérifie Qr,i < K, le système évolue spontanément :",
+      "choices": [
+        "Dans le sens direct de l'équation (formation des produits)",
+        "Dans le sens inverse de l'équation (formation des réactifs)",
+        "De façon imprévisible",
+        "Il n'évolue pas du tout"
+      ],
+      "answer": 0,
+      "explanation": "Si Qr,i < K, Qr doit augmenter pour atteindre K : cela nécessite que la concentration des produits augmente, donc que la réaction évolue dans le sens direct."
+    },
+    {
+      "question": "Si, à l'état initial, le quotient de réaction vérifie Qr,i > K, le système évolue spontanément :",
+      "choices": [
+        "De façon imprévisible",
+        "Dans le sens direct de l'équation",
+        "Dans le sens inverse de l'équation (formation des réactifs)",
+        "Il n'évolue pas du tout"
+      ],
+      "answer": 2,
+      "explanation": "Si Qr,i > K, Qr doit diminuer pour atteindre K : la réaction évolue dans le sens inverse (régénération des réactifs)."
+    },
+    {
+      "question": "Pour la réaction CH3CO2H(aq) + H2O(l) ⇌ CH3CO2⁻(aq) + H3O⁺(aq), K = 1,8×10⁻⁵ à 25°C. Dans un état initial où Qr,i = 2,0×10⁻⁴, le système va évoluer :",
+      "choices": [
+        "Dans le sens inverse (régénération de l'acide éthanoïque), car Qr,i > K",
+        "Dans le sens direct (formation des ions)",
+        "Il est déjà à l'équilibre",
+        "On ne peut pas savoir sans connaître les concentrations"
+      ],
+      "answer": 0,
+      "explanation": "Qr,i = 2,0×10⁻⁴ > K = 1,8×10⁻⁵ : le système évolue dans le sens inverse pour que Qr diminue jusqu'à K."
+    },
+    {
+      "question": "Pour l'équilibre Hb(aq) + O2(aq) ⇌ HbO2(aq) (K = 3,1×10⁵ à 37°C), au niveau des poumons, [HbO2]i ≈ 0 mmol/L donc Qr,i ≈ 0. Le système évolue alors :",
+      "choices": [
+        "Il reste à l'équilibre sans évoluer",
+        "De façon aléatoire selon la pression",
+        "Dans le sens direct : formation d'oxyhémoglobine (fixation du dioxygène), car Qr,i < K",
+        "Dans le sens inverse : libération de dioxygène"
+      ],
+      "answer": 2,
+      "explanation": "Qr,i ≈ 0 est très inférieur à K = 3,1×10⁵ : le système évolue dans le sens direct, ce qui correspond bien à la fixation du dioxygène par l'hémoglobine au niveau des poumons."
+    }
+  ]
+}

@@ -40,5 +40,11 @@
     "title": "Interférences",
     "number": 7,
     "competences": "Conditions d'interférences constructives/destructives, différence de marche, chemin optique, interfrange (fentes d'Young)"
+  },
+  {
+    "id": "evolution-systeme",
+    "title": "Prévoir le sens d'évolution d'un système chimique",
+    "number": 8,
+    "competences": "Transformation non totale, équilibre dynamique, taux d'avancement final, quotient de réaction Qr, constante d'équilibre K, sens d'évolution spontanée (Qr vs K)"
   }
 ]
