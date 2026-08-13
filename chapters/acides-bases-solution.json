@@ -1,0 +1,227 @@
+{
+  "title": "Acides et bases en solution aqueuse",
+  "number": 9,
+  "competences": "Autoprotolyse de l'eau (Ke), acides/bases forts et faibles, constante d'acidité KA, diagramme de prédominance, indicateur coloré, solution tampon",
+  "questions": [
+    {
+      "question": "L'autoprotolyse de l'eau est modélisée par la réaction :",
+      "choices": [
+        "H3O+(aq) + HO-(aq) → 2 H2O(l), sans réaction inverse possible",
+        "H2O(l) + H2O(l) ⇌ H3O+(aq) + HO-(aq)",
+        "H2O(l) ⇌ H+(aq) + O2-(aq)",
+        "H2O(l) → H2(g) + 1/2 O2(g)"
+      ],
+      "answer": 1,
+      "explanation": "Deux molécules d'eau réagissent entre elles (l'une cède un proton, l'autre le capte) : c'est l'autoprotolyse de l'eau."
+    },
+    {
+      "question": "La constante d'équilibre Ke de la réaction d'autoprotolyse de l'eau vaut, à 25°C :",
+      "choices": [
+        "1,0 × 10⁻¹⁴",
+        "1,0 × 10⁻⁷",
+        "14",
+        "7,0"
+      ],
+      "answer": 0,
+      "explanation": "Ke = [H3O+]éq.[HO-]éq/(C°)² = 1,0 × 10⁻¹⁴ à 25°C (cette valeur dépend de la température)."
+    },
+    {
+      "question": "Le pKe, défini par pKe = -log(Ke), vaut à 25°C :",
+      "choices": [
+        "1,0 × 10⁻¹⁴",
+        "7",
+        "14",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "pKe = -log(1,0 × 10⁻¹⁴) = 14 à 25°C."
+    },
+    {
+      "question": "Une solution aqueuse est dite neutre lorsque :",
+      "choices": [
+        "[HO-] = [H3O+]",
+        "Le pH est obligatoirement égal à 6",
+        "[HO-] est toujours nul",
+        "La solution ne contient aucun ion"
+      ],
+      "answer": 0,
+      "explanation": "Une solution neutre vérifie [HO-] = [H3O+] ; à 25°C, cela correspond à pH = 7 (mais pas à une autre température)."
+    },
+    {
+      "question": "Une solution aqueuse est dite acide lorsque :",
+      "choices": [
+        "Elle ne contient pas d'eau",
+        "[HO-] = [H3O+]",
+        "[HO-] > [H3O+]",
+        "[HO-] < [H3O+]"
+      ],
+      "answer": 3,
+      "explanation": "Une solution est acide si les ions oxonium sont majoritaires par rapport aux ions hydroxyde : [HO-] < [H3O+]."
+    },
+    {
+      "question": "À 0°C, Ke = 1,0 × 10⁻¹⁵. Le pH d'une solution neutre à cette température vaut :",
+      "choices": [
+        "7,5",
+        "0,5",
+        "15",
+        "7,0"
+      ],
+      "answer": 0,
+      "explanation": "Solution neutre : [H3O+] = [HO-] = √Ke = √(10⁻¹⁵) = 10⁻⁷,⁵, donc pH = 7,5 (≠ 7 car Ke dépend de la température)."
+    },
+    {
+      "question": "À 25°C, la concentration en ions hydroxyde [HO-] d'une solution de pH = 8,5 vaut environ :",
+      "choices": [
+        "8,5 mol·L⁻¹",
+        "1,0 × 10⁻⁸,⁵ mol·L⁻¹ exactement 10⁻⁵,⁵",
+        "3,2 × 10⁻⁶ mol·L⁻¹",
+        "3,2 × 10⁻⁹ mol·L⁻¹"
+      ],
+      "answer": 2,
+      "explanation": "[H3O+] = 10⁻⁸,⁵ ≈ 3,2×10⁻⁹ mol/L. [HO-] = Ke/[H3O+] = 10⁻¹⁴/3,2×10⁻⁹ ≈ 3,2×10⁻⁶ mol/L."
+    },
+    {
+      "question": "Un acide est dit fort si sa réaction avec l'eau est totale. Dans ce cas :",
+      "choices": [
+        "Le taux d'avancement de la réaction avec l'eau est proche de 0",
+        "La réaction inverse est au contraire très favorisée",
+        "L'acide ne réagit jamais avec l'eau",
+        "La réaction inverse n'existe pas, car la base conjuguée de l'acide fort est indifférente (spectatrice) dans l'eau"
+      ],
+      "answer": 3,
+      "explanation": "Pour un acide fort, la transformation avec l'eau est quasi-totale (τ ≈ 1) et la base conjuguée n'a pas tendance à recapter un proton dans l'eau."
+    },
+    {
+      "question": "Pour une solution aqueuse d'acide fort de concentration apportée CA, le pH est donné par la relation :",
+      "choices": [
+        "pH = CA",
+        "pH = log(CA)",
+        "pH = -log(CA)",
+        "pH = 14 - CA"
+      ],
+      "answer": 2,
+      "explanation": "La réaction étant totale, [H3O+]f ≈ CA, d'où pH = -log([H3O+]/C°) = -log(CA)."
+    },
+    {
+      "question": "Pour une solution aqueuse de base forte de concentration apportée CB, le pH est donné (à 25°C) par la relation :",
+      "choices": [
+        "pH = CB",
+        "pH = 14 - log(CB)",
+        "pH = -log(CB)",
+        "pH = 14 + log(CB)"
+      ],
+      "answer": 3,
+      "explanation": "La base forte étant totalement transformée, [HO-]f ≈ CB, donc [H3O+]éq = Ke/CB, ce qui donne pH = 14 + log(CB) à 25°C."
+    },
+    {
+      "question": "Un acide (ou une base) est dit faible si sa réaction avec l'eau :",
+      "choices": [
+        "Est totale, comme pour un acide fort",
+        "N'est pas totale : elle conduit à un état d'équilibre où réactifs et produits coexistent (τ < 1)",
+        "Ne se produit jamais",
+        "Produit uniquement des ions hydroxyde, quel que soit l'acide"
+      ],
+      "answer": 1,
+      "explanation": "Pour un acide/base faible, la réaction avec l'eau est limitée : on atteint un état d'équilibre avec un taux d'avancement final τ < xmax."
+    },
+    {
+      "question": "L'acide chlorhydrique et l'acide nitrique, tous deux acides forts, se dissolvent dans l'eau sous forme d'ions. Les espèces dissoutes de l'acide chlorhydrique sont :",
+      "choices": [
+        "La molécule HCl(aq) non dissociée",
+        "H3O+(aq) et NO3-(aq)",
+        "Cl2(aq) et H2(aq)",
+        "H3O+(aq) et Cl-(aq)"
+      ],
+      "answer": 3,
+      "explanation": "L'acide chlorhydrique, acide fort, réagit totalement avec l'eau : les espèces dissoutes sont les ions H3O+(aq) et Cl-(aq)."
+    },
+    {
+      "question": "Contrairement aux acides forts, l'acide éthanoïque (dans le vinaigre) et l'ammoniac, qui sont des espèces faibles, existent principalement en solution sous la forme :",
+      "choices": [
+        "De gaz qui s'échappe immédiatement de la solution",
+        "De la molécule non dissociée (CH3COOH(aq), NH3(aq)), la réaction avec l'eau n'étant pas totale",
+        "Exclusivement sous forme d'ions, comme les acides forts",
+        "De précipité solide"
+      ],
+      "answer": 1,
+      "explanation": "Un acide ou une base faible ne réagit que partiellement avec l'eau : la molécule non dissociée (CH3COOH(aq) ou NH3(aq)) reste largement majoritaire en solution."
+    },
+    {
+      "question": "La constante d'acidité KA d'un couple acide/base AH/A- est la constante d'équilibre de la réaction :",
+      "choices": [
+        "A-(aq) + H3O+(aq) → AH(aq), sans équilibre possible",
+        "AH(aq) → A-(aq), sans intervention de l'eau",
+        "AH(aq) + H2O(l) ⇌ A-(aq) + H3O+(aq)",
+        "H2O(l) + H2O(l) ⇌ H3O+(aq) + HO-(aq)"
+      ],
+      "answer": 2,
+      "explanation": "KA est associée à la réaction de l'acide AH avec l'eau, produisant sa base conjuguée A- et des ions oxonium."
+    },
+    {
+      "question": "Pour comparer la force de deux acides faibles dans l'eau, on peut comparer leurs constantes d'acidité Ka respectives. On a alors :",
+      "choices": [
+        "Il n'existe aucun lien entre la valeur de Ka et la force de l'acide",
+        "Plus la constante d'acidité Ka du couple est grande, plus l'acide est fort dans l'eau",
+        "La valeur de Ka ne permet de comparer que des acides forts entre eux",
+        "Plus Ka est grand, plus l'acide est faible"
+      ],
+      "answer": 1,
+      "explanation": "Une valeur de Ka plus grande signifie que la réaction de l'acide avec l'eau est plus avancée à l'équilibre : l'acide est donc plus fort."
+    },
+    {
+      "question": "Lors du TP « Tous les mêmes ? », on calcule K = 6,3×10⁻¹⁰ pour le couple de l'ion ammonium et K = 1,8×10⁻⁵ pour le couple de l'acide éthanoïque (vinaigre). On en déduit que :",
+      "choices": [
+        "L'acide éthanoïque est un acide plus fort dans l'eau que l'ion ammonium, car sa constante d'acidité est plus grande",
+        "Les deux acides ont rigoureusement la même force",
+        "L'ion ammonium est l'acide le plus fort, car sa constante est plus petite",
+        "On ne peut rien conclure sans connaître le pH des solutions"
+      ],
+      "answer": 0,
+      "explanation": "1,8×10⁻⁵ > 6,3×10⁻¹⁰ : l'acide éthanoïque possède la constante d'acidité la plus grande des deux, il est donc l'acide le plus fort dans l'eau, ce qui est cohérent avec les taux d'avancement mesurés."
+    },
+    {
+      "question": "Pour être pertinent lors d'un titrage, un indicateur coloré doit être choisi de telle sorte que :",
+      "choices": [
+        "Il change systématiquement de couleur au début du titrage",
+        "Sa couleur ne change jamais, quel que soit le pH",
+        "Il réagisse avec le réactif titrant avant l'espèce titrée",
+        "Sa zone de virage contienne le pH à l'équivalence du titrage"
+      ],
+      "answer": 3,
+      "explanation": "Un indicateur coloré acido-basique est pertinent pour repérer l'équivalence si sa zone de virage encadre la valeur du pH à l'équivalence."
+    },
+    {
+      "question": "Une solution tampon est une solution dont le pH varie peu par addition modérée d'acide ou de base, ou par dilution modérée. Elle est constituée :",
+      "choices": [
+        "D'un acide fort pur, sans aucune autre espèce",
+        "D'un mélange en proportions voisines d'un acide faible et de sa base conjuguée",
+        "D'un mélange de deux acides forts différents",
+        "Uniquement d'eau pure"
+      ],
+      "answer": 1,
+      "explanation": "Une solution tampon associe un acide faible et sa base conjuguée en quantités voisines ; ce couple particulier lui confère un pH qui résiste aux petites perturbations (ajout modéré d'acide/base, dilution modérée)."
+    },
+    {
+      "question": "Lors du TP comparant HCl, l'acide éthanoïque (vinaigre) et l'ion ammonium NH4+ (même concentration apportée), les taux d'avancement final mesurés sont τ(HCl) ≈ 0,95, τ(vinaigre) ≈ 0,02 et τ(NH4+) ≈ 0,00012. On en déduit que, dans l'eau, la force des acides est classée ainsi :",
+      "choices": [
+        "Les trois acides ont exactement la même force",
+        "L'ion ammonium est l'acide le plus fort",
+        "HCl est l'acide le plus fort, suivi du vinaigre, puis de l'ion ammonium (le plus faible)",
+        "Le vinaigre est l'acide le plus fort des trois"
+      ],
+      "answer": 2,
+      "explanation": "Plus le taux d'avancement final avec l'eau est élevé, plus l'acide est fort : HCl (τ≈0,95) > vinaigre (τ≈0,02) > NH4+ (τ≈0,00012)."
+    },
+    {
+      "question": "À partir d'une mesure de pH d'une solution d'acide faible AH de concentration apportée C, on peut estimer la constante d'acidité K (avec C° = 1 mol/L) grâce à la relation, établie via le tableau d'avancement :",
+      "choices": [
+        "K = [H3O+]²éq / (C - [H3O+]éq)",
+        "K = C / [H3O+]éq",
+        "K = [H3O+]éq × C",
+        "K = C² / [H3O+]éq"
+      ],
+      "answer": 0,
+      "explanation": "En exprimant [A-]éq = [H3O+]éq et [AH]éq = C - [H3O+]éq à partir du tableau d'avancement, on obtient K = [H3O+]²éq / (C - [H3O+]éq)."
+    }
+  ]
+}

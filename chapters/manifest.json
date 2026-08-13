@@ -46,5 +46,11 @@
     "title": "Prévoir le sens d'évolution d'un système chimique",
     "number": 8,
     "competences": "Transformation non totale, équilibre dynamique, taux d'avancement final, quotient de réaction Qr, constante d'équilibre K, sens d'évolution spontanée (Qr vs K)"
+  },
+  {
+    "id": "acides-bases-solution",
+    "title": "Acides et bases en solution aqueuse",
+    "number": 9,
+    "competences": "Autoprotolyse de l'eau (Ke), acides/bases forts et faibles, constante d'acidité KA, diagramme de prédominance, indicateur coloré, solution tampon"
   }
 ]
