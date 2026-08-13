@@ -1,7 +1,7 @@
 {
   "title": "Acides et bases en solution aqueuse",
   "number": 9,
-  "competences": "Autoprotolyse de l'eau (Ke), acides/bases forts et faibles, constante d'acidité KA, diagramme de prédominance, indicateur coloré, solution tampon",
+  "competences": "Autoprotolyse de l'eau (Ke), acides/bases forts et faibles, solutions courantes, solution tampon",
   "questions": [
     {
       "question": "L'autoprotolyse de l'eau est modélisée par la réaction :",
@@ -147,48 +147,15 @@
       "explanation": "Un acide ou une base faible ne réagit que partiellement avec l'eau : la molécule non dissociée (CH3COOH(aq) ou NH3(aq)) reste largement majoritaire en solution."
     },
     {
-      "question": "La constante d'acidité KA d'un couple acide/base AH/A- est la constante d'équilibre de la réaction :",
+      "question": "Lors du TP « Tous les mêmes ? », on calcule la constante d'équilibre de la réaction de chaque acide avec l'eau : K = 6,3×10⁻¹⁰ pour le couple de l'ion ammonium et K = 1,8×10⁻⁵ pour le couple de l'acide éthanoïque (vinaigre). On en déduit que :",
       "choices": [
-        "A-(aq) + H3O+(aq) → AH(aq), sans équilibre possible",
-        "AH(aq) → A-(aq), sans intervention de l'eau",
-        "AH(aq) + H2O(l) ⇌ A-(aq) + H3O+(aq)",
-        "H2O(l) + H2O(l) ⇌ H3O+(aq) + HO-(aq)"
-      ],
-      "answer": 2,
-      "explanation": "KA est associée à la réaction de l'acide AH avec l'eau, produisant sa base conjuguée A- et des ions oxonium."
-    },
-    {
-      "question": "Pour comparer la force de deux acides faibles dans l'eau, on peut comparer leurs constantes d'acidité Ka respectives. On a alors :",
-      "choices": [
-        "Il n'existe aucun lien entre la valeur de Ka et la force de l'acide",
-        "Plus la constante d'acidité Ka du couple est grande, plus l'acide est fort dans l'eau",
-        "La valeur de Ka ne permet de comparer que des acides forts entre eux",
-        "Plus Ka est grand, plus l'acide est faible"
-      ],
-      "answer": 1,
-      "explanation": "Une valeur de Ka plus grande signifie que la réaction de l'acide avec l'eau est plus avancée à l'équilibre : l'acide est donc plus fort."
-    },
-    {
-      "question": "Lors du TP « Tous les mêmes ? », on calcule K = 6,3×10⁻¹⁰ pour le couple de l'ion ammonium et K = 1,8×10⁻⁵ pour le couple de l'acide éthanoïque (vinaigre). On en déduit que :",
-      "choices": [
-        "L'acide éthanoïque est un acide plus fort dans l'eau que l'ion ammonium, car sa constante d'acidité est plus grande",
+        "L'acide éthanoïque est un acide plus fort dans l'eau que l'ion ammonium, car sa constante d'équilibre de sa réaction avec l'eau est plus grande",
         "Les deux acides ont rigoureusement la même force",
         "L'ion ammonium est l'acide le plus fort, car sa constante est plus petite",
         "On ne peut rien conclure sans connaître le pH des solutions"
       ],
       "answer": 0,
-      "explanation": "1,8×10⁻⁵ > 6,3×10⁻¹⁰ : l'acide éthanoïque possède la constante d'acidité la plus grande des deux, il est donc l'acide le plus fort dans l'eau, ce qui est cohérent avec les taux d'avancement mesurés."
-    },
-    {
-      "question": "Pour être pertinent lors d'un titrage, un indicateur coloré doit être choisi de telle sorte que :",
-      "choices": [
-        "Il change systématiquement de couleur au début du titrage",
-        "Sa couleur ne change jamais, quel que soit le pH",
-        "Il réagisse avec le réactif titrant avant l'espèce titrée",
-        "Sa zone de virage contienne le pH à l'équivalence du titrage"
-      ],
-      "answer": 3,
-      "explanation": "Un indicateur coloré acido-basique est pertinent pour repérer l'équivalence si sa zone de virage encadre la valeur du pH à l'équivalence."
+      "explanation": "1,8×10⁻⁵ > 6,3×10⁻¹⁰ : l'acide éthanoïque possède la constante d'équilibre la plus grande pour sa réaction avec l'eau, il est donc l'acide le plus fort dans l'eau, ce qui est cohérent avec les taux d'avancement mesurés."
     },
     {
       "question": "Une solution tampon est une solution dont le pH varie peu par addition modérée d'acide ou de base, ou par dilution modérée. Elle est constituée :",
@@ -211,17 +178,6 @@
       ],
       "answer": 2,
       "explanation": "Plus le taux d'avancement final avec l'eau est élevé, plus l'acide est fort : HCl (τ≈0,95) > vinaigre (τ≈0,02) > NH4+ (τ≈0,00012)."
-    },
-    {
-      "question": "À partir d'une mesure de pH d'une solution d'acide faible AH de concentration apportée C, on peut estimer la constante d'acidité K (avec C° = 1 mol/L) grâce à la relation, établie via le tableau d'avancement :",
-      "choices": [
-        "K = [H3O+]²éq / (C - [H3O+]éq)",
-        "K = C / [H3O+]éq",
-        "K = [H3O+]éq × C",
-        "K = C² / [H3O+]éq"
-      ],
-      "answer": 0,
-      "explanation": "En exprimant [A-]éq = [H3O+]éq et [AH]éq = C - [H3O+]éq à partir du tableau d'avancement, on obtient K = [H3O+]²éq / (C - [H3O+]éq)."
     }
   ]
 }
