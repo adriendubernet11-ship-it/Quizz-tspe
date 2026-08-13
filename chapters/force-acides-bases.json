@@ -1,0 +1,227 @@
+{
+  "title": "Comparer la force des acides et des bases",
+  "number": 10,
+  "competences": "Constante d'acidité Ka et pKa, diagrammes de prédominance/distribution, indicateurs colorés, acides alpha-aminés, équation du second degré, tampons biologiques",
+  "questions": [
+    {
+      "question": "Pour un acide faible AH, la constante d'acidité Ka du couple AH/A- est la constante d'équilibre de la réaction :",
+      "choices": [
+        "H2O(l) + H2O(l) ⇌ H3O+(aq) + HO-(aq)",
+        "AH(aq) + H2O(l) ⇌ A-(aq) + H3O+(aq), soit Ka = [A-]éq×[H3O+]éq / ([AH]éq×C°)",
+        "AH(aq) → A-(aq), sans intervention de l'eau",
+        "A-(aq) + H3O+(aq) → AH(aq), sans équilibre possible"
+      ],
+      "answer": 1,
+      "explanation": "Ka est associée à la réaction de l'acide AH avec l'eau, produisant sa base conjuguée A- et des ions oxonium."
+    },
+    {
+      "question": "Pour une concentration en soluté apporté donnée, plus la constante d'acidité Ka d'un couple est élevée :",
+      "choices": [
+        "Plus la réaction de l'acide avec l'eau est avancée, plus l'acide est fort dans l'eau",
+        "Moins la réaction avec l'eau est avancée",
+        "Cela n'a aucun rapport avec la force de l'acide",
+        "Plus l'acide est faible"
+      ],
+      "answer": 0,
+      "explanation": "Une constante d'acidité élevée traduit une réaction avec l'eau plus avancée à l'équilibre : l'acide est donc plus fort."
+    },
+    {
+      "question": "Le pKa d'un couple acide-base, défini par pKa = -log(Ka), est une grandeur :",
+      "choices": [
+        "Toujours égale à 7",
+        "Qui n'a de sens que pour les acides forts",
+        "Qui dépend des concentrations initiales choisies",
+        "Caractéristique du couple, indépendante de l'état initial du système"
+      ],
+      "answer": 3,
+      "explanation": "Comme Ka, le pKa est une grandeur caractéristique du couple acide/base à une température donnée, indépendante de l'état initial du système."
+    },
+    {
+      "question": "Pour une concentration en soluté apporté donnée, plus le pKa d'un acide est faible :",
+      "choices": [
+        "Moins l'acide réagit avec l'eau",
+        "Plus l'acide réagit avec l'eau, plus il est fort dans l'eau",
+        "Plus l'acide est faible dans l'eau",
+        "Plus la base conjuguée est forte"
+      ],
+      "answer": 1,
+      "explanation": "Un pKa faible correspond à un Ka élevé : l'acide réagit davantage avec l'eau, il est donc plus fort. C'est l'inverse pour comparer des bases entre elles."
+    },
+    {
+      "question": "Concernant les couples de l'eau elle-même :",
+      "choices": [
+        "Ces couples n'ont pas de constante d'acidité définie",
+        "Les deux couples ont la même constante d'acidité, égale à 1",
+        "Le couple H2O/HO- a pour constante Ka = 1",
+        "Le couple H2O/HO- a pour constante d'acidité Ka = Ke, et le couple H3O+/H2O a pour constante Ka = 1"
+      ],
+      "answer": 3,
+      "explanation": "Le couple H2O/HO- correspond exactement à la réaction d'autoprotolyse (Ka = Ke) ; le couple H3O+/H2O correspond à une réaction où H3O+ réagit avec lui-même, de constante Ka = 1."
+    },
+    {
+      "question": "La relation de Henderson, reliant le pH d'une solution aux concentrations à l'équilibre d'un couple acide/base AH/A-, s'écrit :",
+      "choices": [
+        "pH = pKa + log([A-]éq / [AH]éq)",
+        "pH = Ka + [A-]éq / [AH]éq",
+        "pH = pKa - log([A-]éq / [AH]éq)",
+        "pH = pKa × [A-]éq / [AH]éq"
+      ],
+      "answer": 0,
+      "explanation": "La relation de Henderson pH = pKa + log([base]éq/[acide]éq) se déduit directement de l'expression de Ka."
+    },
+    {
+      "question": "Sur le diagramme de prédominance d'un couple acide/base AH/A- de constante pKa, lorsque le pH de la solution est supérieur au pKa :",
+      "choices": [
+        "C'est la forme acide AH qui prédomine",
+        "Aucune des deux formes n'est présente",
+        "Les deux formes sont toujours en quantités rigoureusement égales",
+        "C'est la forme basique A- qui prédomine"
+      ],
+      "answer": 3,
+      "explanation": "Si pH > pKa, d'après la relation de Henderson, log([A-]/[AH]) > 0 donc [A-] > [AH] : la forme basique prédomine."
+    },
+    {
+      "question": "Sur le diagramme de distribution d'un couple acide/base (pourcentage de chaque forme en fonction du pH), lorsque pH = pKa :",
+      "choices": [
+        "L'acide et la base représentent chacun 50% : c'est l'équiprédominance",
+        "La base représente 100% et l'acide 0%",
+        "Le diagramme n'est pas défini pour cette valeur de pH",
+        "L'acide représente 100% et la base 0%"
+      ],
+      "answer": 0,
+      "explanation": "Quand pH = pKa, [acide]éq = [base]éq : les deux courbes du diagramme de distribution se croisent à 50%."
+    },
+    {
+      "question": "Un indicateur coloré acido-basique est constitué d'un couple HInd/Ind- dont les deux formes ont des teintes différentes. Sa zone de virage :",
+      "choices": [
+        "Ne dépend jamais du pKa du couple indicateur",
+        "S'étend sur toute la gamme de pH de 0 à 14",
+        "Correspond à une valeur de pH unique et précise",
+        "S'étend sur environ 2 unités de pH, centrée autour du pKa du couple (de pKa-1 à pKa+1)"
+      ],
+      "answer": 3,
+      "explanation": "En admettant qu'une forme domine visuellement si son rapport de concentration dépasse 10, on montre que la teinte pure de l'acide est observée pour pH < pKa-1 et celle de la base pour pH > pKa+1 : la zone de virage s'étend sur ces 2 unités."
+    },
+    {
+      "question": "Un acide α-aminé, comme les briques élémentaires des protéines, possède sur le même carbone :",
+      "choices": [
+        "Aucun groupe acide ni basique",
+        "Deux groupes carboxyle et aucun groupe amine",
+        "Un groupe carboxyle (caractère acide) et un groupe amine (caractère basique) : c'est un ampholyte à deux pKa",
+        "Uniquement un groupe acide, sans aucun caractère basique"
+      ],
+      "answer": 2,
+      "explanation": "Un acide α-aminé porte à la fois un groupe carboxyle et un groupe amine sur le même carbone : c'est un ampholyte, caractérisé par deux constantes pKa1 et pKa2."
+    },
+    {
+      "question": "Entre pKa1 et pKa2 d'un acide α-aminé, l'espèce prédominante est l'amphion (ou zwitterion), qui est :",
+      "choices": [
+        "Une espèce portant uniquement une charge positive",
+        "Une espèce totalement dépourvue de charge, sans aucun groupe ionisé",
+        "Une espèce qui n'existe jamais en solution aqueuse",
+        "Une espèce globalement neutre électriquement, mais portant simultanément une charge positive et une charge négative"
+      ],
+      "answer": 3,
+      "explanation": "L'amphion H3N+-CHR-CO2- est électriquement neutre dans l'ensemble, mais possède un groupe ammonium chargé + et un groupe carboxylate chargé -."
+    },
+    {
+      "question": "On mesure, à 25°C, le pH de deux solutions à 0,01 mol/L : l'acide méthanoïque HCOOH (pKa = 3,7, pH mesuré = 2,9) et l'acide éthanoïque CH3COOH (pKa = 4,8, pH mesuré = 3,4). On en déduit que :",
+      "choices": [
+        "Les deux acides ont exactement la même force",
+        "On ne peut rien conclure sans connaître le volume des solutions",
+        "L'acide méthanoïque est le plus fort des deux : il a le pKa le plus faible et produit davantage d'ions H3O+ (pH mesuré plus bas)",
+        "L'acide éthanoïque est le plus fort, car son pKa est plus élevé"
+      ],
+      "answer": 2,
+      "explanation": "Le pKa plus faible de HCOOH (3,7 < 4,8) et le pH mesuré plus bas (2,9 < 3,4, donc plus d'ions H3O+ produits pour une même concentration apportée) confirment que l'acide méthanoïque est le plus fort des deux."
+    },
+    {
+      "question": "L'expression Ka = Ca.τ² / (1-τ) peut se réécrire sous la forme d'une équation du second degré aτ² + bτ + c = 0. Les coefficients a, b et c valent alors :",
+      "choices": [
+        "a = Ca, b = Ka, c = -Ka",
+        "a = Ka, b = Ca, c = -Ca",
+        "a = -Ka, b = Ca, c = Ka",
+        "a = Ca, b = -Ka, c = Ka"
+      ],
+      "answer": 0,
+      "explanation": "En développant Ka(1-τ) = Ca.τ², on obtient Ca.τ² + Ka.τ - Ka = 0, soit a = Ca, b = Ka et c = -Ka."
+    },
+    {
+      "question": "Lorsqu'on résout cette équation du second degré pour trouver le taux d'avancement final τ, on ne retient que la solution positive car :",
+      "choices": [
+        "Les deux solutions sont toujours acceptables",
+        "Cela n'a aucune importance physique",
+        "Un taux d'avancement final ne peut pas être négatif",
+        "La solution négative est toujours la bonne, par convention"
+      ],
+      "answer": 2,
+      "explanation": "τ représente un rapport d'avancements (xf/xmax), une grandeur physiquement positive : une valeur négative n'a pas de sens ici."
+    },
+    {
+      "question": "En testant le programme de calcul du taux d'avancement final avec différentes valeurs de Ka et Ca, on observe que le taux d'avancement final τ d'un acide faible augmente lorsque :",
+      "choices": [
+        "τ ne dépend d'aucun de ces paramètres",
+        "Ka augmente (pKa diminue) et/ou la concentration apportée Ca diminue (solution plus diluée)",
+        "Seule la température a une influence, jamais Ka ni Ca",
+        "Ka diminue et/ou Ca augmente"
+      ],
+      "answer": 1,
+      "explanation": "Un acide plus fort (Ka plus grand) et une solution plus diluée (Ca plus petit) favorisent tous deux un taux d'avancement final plus élevé."
+    },
+    {
+      "question": "Le « tampon bicarbonate » du sang est constitué du couple CO2,H2O/HCO3- (pKa = 6,1 à 37°C). Pour un pH sanguin normal de 7,4, le rapport [HCO3-]/[CO2,H2O] vaut :",
+      "choices": [
+        "Environ 20",
+        "Environ 200",
+        "Environ 1",
+        "Environ 0,05"
+      ],
+      "answer": 0,
+      "explanation": "D'après Henderson, [HCO3-]/[CO2,H2O] = 10^(pH-pKa) = 10^(7,4-6,1) = 10^1,3 ≈ 20."
+    },
+    {
+      "question": "Avec un rapport [HCO3-]/[CO2,H2O] ≈ 20 dans le sang, l'espèce du tampon bicarbonate qui prédomine est :",
+      "choices": [
+        "Le dioxyde de carbone dissous CO2,H2O",
+        "Les deux espèces sont rigoureusement à égalité",
+        "L'ion hydrogénocarbonate HCO3- (environ 20 fois plus concentré que le dioxyde de carbone dissous)",
+        "Aucune des deux espèces n'est présente à ce pH"
+      ],
+      "answer": 2,
+      "explanation": "Un rapport [HCO3-]/[CO2,H2O] ≈ 20 signifie que l'ion hydrogénocarbonate est très largement majoritaire dans le sang à pH physiologique."
+    },
+    {
+      "question": "Le « tampon phosphate » (couple H2PO4-/HPO4²-, pKa = 6,9 à 37°C) d'un liquide intracellulaire contient des concentrations initiales égales en H2PO4- et en HPO4²-. Le pH de ce liquide vaut alors :",
+      "choices": [
+        "pH = 2 × pKa",
+        "pH = pKa = 6,9",
+        "Le pH ne peut pas être déterminé dans ce cas",
+        "pH = 7,0 obligatoirement"
+      ],
+      "answer": 1,
+      "explanation": "D'après Henderson, si [H2PO4-] = [HPO4²-], alors log(1) = 0, donc pH = pKa = 6,9 : c'est le cas particulier d'équiprédominance."
+    },
+    {
+      "question": "Pour le couple NH4+/NH3 (pKa = 9,2), à pH = 8 (un pH qui correspond pourtant à un milieu basique, puisque pH > 7), le diagramme de distribution montre que :",
+      "choices": [
+        "Les deux espèces sont à parts rigoureusement égales",
+        "Le résultat ne peut pas être déterminé sans connaître Ca",
+        "C'est l'acide NH4+ qui prédomine largement (environ 94,5%), car pH = 8 reste inférieur au pKa = 9,2",
+        "C'est la base NH3 qui prédomine, puisque le milieu est basique (pH > 7)"
+      ],
+      "answer": 2,
+      "explanation": "La prédominance dépend de la comparaison entre pH et pKa, pas du simple fait que pH soit supérieur ou inférieur à 7 : ici pH (8) < pKa (9,2), donc c'est bien l'acide NH4+ qui prédomine, malgré un milieu basique."
+    },
+    {
+      "question": "Pour choisir un indicateur coloré adapté à un titrage, sa zone de virage (pKa ± 1 unité de pH) doit :",
+      "choices": [
+        "Être la plus large possible, quelle que soit l'équivalence",
+        "Contenir la valeur du pH à l'équivalence du titrage",
+        "Se situer obligatoirement entre pH 6 et pH 8",
+        "Ne jamais recouvrir le pH de la solution initiale"
+      ],
+      "answer": 1,
+      "explanation": "Un indicateur n'est pertinent que si le pH à l'équivalence tombe dans sa zone de virage (pKa-1 à pKa+1) : c'est à ce moment que sa couleur change nettement."
+    }
+  ]
+}

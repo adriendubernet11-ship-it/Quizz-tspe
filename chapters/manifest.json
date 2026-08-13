@@ -52,5 +52,11 @@
     "title": "Acides et bases en solution aqueuse",
     "number": 9,
     "competences": "Autoprotolyse de l'eau (Ke), acides/bases forts et faibles, solutions courantes, solution tampon"
+  },
+  {
+    "id": "force-acides-bases",
+    "title": "Comparer la force des acides et des bases",
+    "number": 10,
+    "competences": "Constante d'acidité Ka et pKa, diagrammes de prédominance/distribution, indicateurs colorés, acides alpha-aminés, équation du second degré, tampons biologiques"
   }
 ]
