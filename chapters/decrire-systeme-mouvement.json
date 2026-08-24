@@ -1,0 +1,271 @@
+{
+  "title": "Décrire un système en mouvement",
+  "number": 11,
+  "competences": "Référentiels (terrestre, géocentrique, héliocentrique), vecteurs position/vitesse/accélération et leurs coordonnées cartésiennes, construction approchée à partir d'un enregistrement, repère de Frenet (mouvement circulaire), caractérisation des mouvements rectiligne et circulaire (uniforme, accéléré, ralenti)",
+  "questions": [
+    {
+      "question": "Le mouvement d'un point ne peut être décrit qu'après avoir choisi :",
+      "choices": [
+        "Une trajectoire",
+        "Un objet de référence, appelé référentiel",
+        "Une horloge atomique",
+        "Un repère de Frenet"
+      ],
+      "answer": 1,
+      "explanation": "Le mouvement d'un point se décrit toujours par rapport à un objet de référence appelé référentiel, auquel on associe un repère d'espace orthonormé et une horloge."
+    },
+    {
+      "question": "Le référentiel géocentrique est :",
+      "choices": [
+        "Lié à la surface de la Terre",
+        "Lié au centre de la Terre, avec des axes pointant vers des étoiles fixes",
+        "Lié au centre du Soleil",
+        "Un référentiel sans axes définis"
+      ],
+      "answer": 1,
+      "explanation": "Le référentiel géocentrique est centré sur le centre de la Terre, ses axes étant dirigés vers des étoiles considérées comme fixes ; il sert notamment à étudier le mouvement de la Lune ou des satellites."
+    },
+    {
+      "question": "Dans le référentiel héliocentrique, la Terre est animée d'un mouvement :",
+      "choices": [
+        "Rectiligne uniforme",
+        "Nul (elle est immobile)",
+        "(Quasi) circulaire autour du Soleil",
+        "De translation rectiligne uniformément accélérée"
+      ],
+      "answer": 2,
+      "explanation": "Le référentiel héliocentrique est centré sur le Soleil ; dans ce référentiel, la Terre décrit un mouvement (quasi) circulaire autour du Soleil."
+    },
+    {
+      "question": "Par rapport au référentiel géocentrique, le référentiel terrestre :",
+      "choices": [
+        "Est immobile",
+        "Tourne (du fait de la rotation propre de la Terre sur elle-même)",
+        "Est en translation rectiligne uniforme",
+        "N'a pas de sens physique"
+      ],
+      "answer": 1,
+      "explanation": "Le référentiel terrestre tourne dans le référentiel géocentrique, qui lui-même tourne (autour du Soleil) dans le référentiel héliocentrique."
+    },
+    {
+      "question": "La courbe reliant les positions successives occupées par un point au cours du temps est appelée :",
+      "choices": [
+        "Le vecteur position",
+        "La trajectoire",
+        "Le référentiel",
+        "Le repère de Frenet"
+      ],
+      "answer": 1,
+      "explanation": "La trajectoire est l'ensemble des positions successives occupées par le point G au cours du temps, dans un référentiel donné."
+    },
+    {
+      "question": "Le vecteur position OG(t) a pour coordonnées (x(t) ; y(t) ; z(t)). Que représente z(t) ?",
+      "choices": [
+        "La vitesse verticale du point",
+        "L'altitude du point à l'instant t",
+        "L'accélération verticale du point",
+        "La distance totale parcourue"
+      ],
+      "answer": 1,
+      "explanation": "x(t) et y(t) sont l'abscisse et l'ordonnée du point ; z(t) est son altitude à l'instant t."
+    },
+    {
+      "question": "Le vecteur vitesse v⃗(t) est défini par la relation :",
+      "choices": [
+        "v⃗(t) = OG⃗(t) / t",
+        "v⃗(t) = d(OG⃗(t)) / dt",
+        "v⃗(t) = d²(OG⃗(t)) / dt²",
+        "v⃗(t) = dv⃗(t) / dt"
+      ],
+      "answer": 1,
+      "explanation": "Le vecteur vitesse est défini comme la dérivée par rapport au temps du vecteur position : v⃗(t) = d(OG⃗)/dt."
+    },
+    {
+      "question": "Le vecteur vitesse en un point de la trajectoire est toujours :",
+      "choices": [
+        "Perpendiculaire à la trajectoire",
+        "Tangent à la trajectoire, dans le sens du mouvement",
+        "Colinéaire au vecteur accélération",
+        "Nul si le mouvement est uniforme"
+      ],
+      "answer": 1,
+      "explanation": "Le vecteur vitesse est tangent à la trajectoire au point considéré et orienté dans le sens du mouvement ; sa norme est la valeur de la vitesse."
+    },
+    {
+      "question": "Sur un enregistrement de positions séparées par une durée constante τ = 0,10 s, on mesure la distance M2M4 = 5,0 cm. La valeur approchée de la vitesse au point M3 est v3 = M2M4 / (2τ). Elle vaut environ :",
+      "choices": [
+        "0,10 m/s",
+        "0,25 m/s",
+        "0,50 m/s",
+        "2,5 m/s"
+      ],
+      "answer": 1,
+      "explanation": "v3 = M2M4 / (2τ) = 5,0×10⁻² / (2×0,10) = 0,25 m·s⁻¹."
+    },
+    {
+      "question": "Dans le repère cartésien (O, i⃗, j⃗, k⃗), les coordonnées du vecteur vitesse sont :",
+      "choices": [
+        "vx = x(t), vy = y(t), vz = z(t)",
+        "vx = dx/dt, vy = dy/dt, vz = dz/dt",
+        "vx = d²x/dt², vy = d²y/dt², vz = d²z/dt²",
+        "vx = dvx/dt, vy = dvy/dt, vz = dvz/dt"
+      ],
+      "answer": 1,
+      "explanation": "Chaque coordonnée du vecteur vitesse est la dérivée temporelle de la coordonnée correspondante du vecteur position."
+    },
+    {
+      "question": "La norme du vecteur vitesse, notée v(t), s'exprime en fonction de ses coordonnées cartésiennes par :",
+      "choices": [
+        "v(t) = vx + vy + vz",
+        "v(t) = vx² + vy² + vz²",
+        "v(t) = √(vx² + vy² + vz²)",
+        "v(t) = (vx + vy + vz) / 3"
+      ],
+      "answer": 2,
+      "explanation": "La norme d'un vecteur de coordonnées cartésiennes (vx ; vy ; vz) est v(t) = √(vx² + vy² + vz²), par analogie au théorème de Pythagore en 3D."
+    },
+    {
+      "question": "Le vecteur accélération a⃗(t) est défini par :",
+      "choices": [
+        "a⃗(t) = dv⃗(t)/dt = d²(OG⃗(t))/dt²",
+        "a⃗(t) = OG⃗(t)/t²",
+        "a⃗(t) = v⃗(t)/t",
+        "a⃗(t) = d³(OG⃗(t))/dt³"
+      ],
+      "answer": 0,
+      "explanation": "Le vecteur accélération est la dérivée du vecteur vitesse par rapport au temps, soit aussi la dérivée seconde du vecteur position."
+    },
+    {
+      "question": "Les positions d'une bille lancée en l'air sont x(t) = 5t et y(t) = -4,9t² + 4,0t + 1,5 (m, s). La coordonnée vx(t) du vecteur vitesse vaut :",
+      "choices": [
+        "5 m/s, constante au cours du temps",
+        "5t m/s",
+        "-9,8t + 4,0 m/s",
+        "-4,9 m/s, constante"
+      ],
+      "answer": 0,
+      "explanation": "vx = dx/dt = d(5t)/dt = 5 m/s : cette coordonnée est constante, ce qui correspond à un mouvement horizontal uniforme (absence d'accélération horizontale)."
+    },
+    {
+      "question": "Pour la même bille (y(t) = -4,9t² + 4,0t + 1,5), la coordonnée ay(t) du vecteur accélération vaut :",
+      "choices": [
+        "0 m/s²",
+        "4,0 m/s², constante",
+        "-9,8 m/s², constante",
+        "-9,8t m/s²"
+      ],
+      "answer": 2,
+      "explanation": "vy = dy/dt = -9,8t + 4,0, puis ay = dvy/dt = -9,8 m/s² : on retrouve l'accélération de la pesanteur, constante et verticale vers le bas."
+    },
+    {
+      "question": "Le graphe vz(t) d'une cabine d'ascenseur montre une phase 1 où la vitesse verticale croît linéairement de 0 à 10 m/s en 15 s. La coordonnée az de l'accélération pendant cette phase vaut environ :",
+      "choices": [
+        "0 m/s²",
+        "0,66 m/s²",
+        "-0,5 m/s²",
+        "10 m/s²"
+      ],
+      "answer": 1,
+      "explanation": "az est le coefficient directeur de la portion de droite : az = Δvz/Δt = 10/15 ≈ 0,66 m/s²."
+    },
+    {
+      "question": "Sur ce même graphe, la phase où la vitesse verticale reste constante à 10 m/s correspond à une accélération az :",
+      "choices": [
+        "Nulle : az = 0 m/s²",
+        "Positive et constante",
+        "Négative et constante",
+        "Impossible à déterminer"
+      ],
+      "answer": 0,
+      "explanation": "Une vitesse constante correspond à un coefficient directeur nul sur le graphe vz(t), donc à une accélération nulle (mouvement rectiligne uniforme)."
+    },
+    {
+      "question": "Dans le repère de Frenet, le vecteur normal N⃗ est orienté :",
+      "choices": [
+        "Tangentiellement à la trajectoire, dans le sens du mouvement",
+        "Perpendiculairement à T⃗, vers l'extérieur de la trajectoire",
+        "Perpendiculairement à T⃗, vers l'intérieur de la trajectoire",
+        "Toujours colinéaire au vecteur vitesse"
+      ],
+      "answer": 2,
+      "explanation": "Le repère de Frenet est formé du vecteur tangentiel T⃗ (tangent, sens du mouvement) et du vecteur normal N⃗, perpendiculaire à T⃗ et dirigé vers l'intérieur de la trajectoire."
+    },
+    {
+      "question": "Pour un mouvement circulaire de centre O et de rayon R, le vecteur position OG⃗(t), colinéaire à N⃗, s'exprime :",
+      "choices": [
+        "OG⃗(t) = R · T⃗",
+        "OG⃗(t) = R · N⃗",
+        "OG⃗(t) = v(t) · N⃗",
+        "OG⃗(t) = (v(t)²/R) · N⃗"
+      ],
+      "answer": 1,
+      "explanation": "Dans le repère de Frenet, pour un mouvement circulaire, le vecteur position part du centre et est colinéaire au vecteur normal : OG⃗(t) = R · N⃗."
+    },
+    {
+      "question": "Dans le repère de Frenet, pour un mouvement circulaire quelconque, le vecteur accélération s'écrit :",
+      "choices": [
+        "a⃗(t) = (v(t)²/R) · T⃗",
+        "a⃗(t) = (dv(t)/dt) · N⃗",
+        "a⃗(t) = (dv(t)/dt) · T⃗ + (v(t)²/R) · N⃗",
+        "a⃗(t) = R · T⃗"
+      ],
+      "answer": 2,
+      "explanation": "Le vecteur accélération possède une composante tangentielle dv/dt · T⃗ (variation de la valeur de la vitesse) et une composante normale v²/R · N⃗ (variation de direction)."
+    },
+    {
+      "question": "Un mouvement est dit rectiligne uniforme si :",
+      "choices": [
+        "Le vecteur position est constant",
+        "Le vecteur vitesse est constant (valeur et direction) et le vecteur accélération est nul",
+        "Le vecteur accélération est constant et non nul",
+        "La trajectoire est un cercle parcouru à vitesse constante"
+      ],
+      "answer": 1,
+      "explanation": "Un mouvement rectiligne uniforme correspond à un vecteur vitesse constant (donc un vecteur accélération nul), sur une trajectoire rectiligne."
+    },
+    {
+      "question": "Pour un mouvement circulaire uniforme, le vecteur accélération se réduit à :",
+      "choices": [
+        "(dv(t)/dt) · T⃗, tangent à la trajectoire",
+        "(v(t)²/R) · N⃗, dirigé vers le centre (accélération centripète)",
+        "Un vecteur nul",
+        "(v(t)²/R) · T⃗"
+      ],
+      "answer": 1,
+      "explanation": "Si la vitesse est uniforme, dv/dt = 0, donc a⃗(t) = (v(t)²/R) · N⃗ : l'accélération est purement normale, toujours dirigée vers le centre du cercle, on parle d'accélération centripète."
+    },
+    {
+      "question": "Si les vecteurs vitesse et accélération d'un point sont de même sens à un instant donné, le mouvement à cet instant est :",
+      "choices": [
+        "Accéléré",
+        "Ralenti",
+        "Nécessairement uniforme",
+        "Nécessairement circulaire"
+      ],
+      "answer": 0,
+      "explanation": "Lorsque v⃗(t) et a⃗(t) sont de même sens, la valeur de la vitesse augmente : le mouvement est accéléré. S'ils sont de sens opposés, le mouvement est ralenti."
+    },
+    {
+      "question": "Lors de l'activité « diabolique », l'enregistrement E1 correspond à un mouvement circulaire uniforme (MCU). Le vecteur accélération y est alors caractérisé comme :",
+      "choices": [
+        "Centripète et de valeur constante",
+        "Nul à tout instant",
+        "Tangent à la trajectoire et de sens opposé au mouvement",
+        "De direction quelconque et de valeur variable"
+      ],
+      "answer": 0,
+      "explanation": "Pour le mouvement circulaire uniforme (E1), les mesures montrent un vecteur accélération centripète (dirigé vers le centre) et de valeur constante d'un point à l'autre."
+    },
+    {
+      "question": "Toujours dans cette activité, l'enregistrement E3 correspond à un mouvement circulaire ralenti (MCR). Le vecteur accélération y est alors :",
+      "choices": [
+        "Centripète et de valeur constante, comme en MCU",
+        "Nul, comme en MRU",
+        "Non centripète, avec une composante dirigée en sens opposé au mouvement",
+        "Toujours perpendiculaire au vecteur vitesse"
+      ],
+      "answer": 2,
+      "explanation": "En mouvement circulaire ralenti, l'accélération a une composante tangentielle non nulle, opposée au sens du mouvement (le point ralentit), en plus de sa composante normale : elle n'est donc plus purement centripète."
+    }
+  ]
+}
