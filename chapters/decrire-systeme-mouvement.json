@@ -70,15 +70,15 @@
       "explanation": "x(t) et y(t) sont l'abscisse et l'ordonnée du point ; z(t) est son altitude à l'instant t."
     },
     {
-      "question": "Le vecteur vitesse v⃗(t) est défini par la relation :",
+      "question": "Le vecteur vitesse v→(t) est défini par la relation :",
       "choices": [
-        "v⃗(t) = OG⃗(t) / t",
-        "v⃗(t) = d(OG⃗(t)) / dt",
-        "v⃗(t) = d²(OG⃗(t)) / dt²",
-        "v⃗(t) = dv⃗(t) / dt"
+        "v→(t) = OG→(t) / t",
+        "v→(t) = d(OG→(t)) / dt",
+        "v→(t) = d²(OG→(t)) / dt²",
+        "v→(t) = dv→(t) / dt"
       ],
       "answer": 1,
-      "explanation": "Le vecteur vitesse est défini comme la dérivée par rapport au temps du vecteur position : v⃗(t) = d(OG⃗)/dt."
+      "explanation": "Le vecteur vitesse est défini comme la dérivée par rapport au temps du vecteur position : v→(t) = d(OG→)/dt."
     },
     {
       "question": "Le vecteur vitesse en un point de la trajectoire est toujours :",
@@ -103,7 +103,7 @@
       "explanation": "v3 = M2M4 / (2τ) = 5,0×10⁻² / (2×0,10) = 0,25 m·s⁻¹."
     },
     {
-      "question": "Dans le repère cartésien (O, i⃗, j⃗, k⃗), les coordonnées du vecteur vitesse sont :",
+      "question": "Dans le repère cartésien (O, i→, j→, k→), les coordonnées du vecteur vitesse sont :",
       "choices": [
         "vx = x(t), vy = y(t), vz = z(t)",
         "vx = dx/dt, vy = dy/dt, vz = dz/dt",
@@ -125,12 +125,12 @@
       "explanation": "La norme d'un vecteur de coordonnées cartésiennes (vx ; vy ; vz) est v(t) = √(vx² + vy² + vz²), par analogie au théorème de Pythagore en 3D."
     },
     {
-      "question": "Le vecteur accélération a⃗(t) est défini par :",
+      "question": "Le vecteur accélération a→(t) est défini par :",
       "choices": [
-        "a⃗(t) = dv⃗(t)/dt = d²(OG⃗(t))/dt²",
-        "a⃗(t) = OG⃗(t)/t²",
-        "a⃗(t) = v⃗(t)/t",
-        "a⃗(t) = d³(OG⃗(t))/dt³"
+        "a→(t) = dv→(t)/dt = d²(OG→(t))/dt²",
+        "a→(t) = OG→(t)/t²",
+        "a→(t) = v→(t)/t",
+        "a→(t) = d³(OG→(t))/dt³"
       ],
       "answer": 0,
       "explanation": "Le vecteur accélération est la dérivée du vecteur vitesse par rapport au temps, soit aussi la dérivée seconde du vecteur position."
@@ -180,37 +180,37 @@
       "explanation": "Une vitesse constante correspond à un coefficient directeur nul sur le graphe vz(t), donc à une accélération nulle (mouvement rectiligne uniforme)."
     },
     {
-      "question": "Dans le repère de Frenet, le vecteur normal N⃗ est orienté :",
+      "question": "Dans le repère de Frenet, le vecteur normal N→ est orienté :",
       "choices": [
         "Tangentiellement à la trajectoire, dans le sens du mouvement",
-        "Perpendiculairement à T⃗, vers l'extérieur de la trajectoire",
-        "Perpendiculairement à T⃗, vers l'intérieur de la trajectoire",
+        "Perpendiculairement à T→, vers l'extérieur de la trajectoire",
+        "Perpendiculairement à T→, vers l'intérieur de la trajectoire",
         "Toujours colinéaire au vecteur vitesse"
       ],
       "answer": 2,
-      "explanation": "Le repère de Frenet est formé du vecteur tangentiel T⃗ (tangent, sens du mouvement) et du vecteur normal N⃗, perpendiculaire à T⃗ et dirigé vers l'intérieur de la trajectoire."
+      "explanation": "Le repère de Frenet est formé du vecteur tangentiel T→ (tangent, sens du mouvement) et du vecteur normal N→, perpendiculaire à T→ et dirigé vers l'intérieur de la trajectoire."
     },
     {
-      "question": "Pour un mouvement circulaire de centre O et de rayon R, le vecteur position OG⃗(t), colinéaire à N⃗, s'exprime :",
+      "question": "Pour un mouvement circulaire de centre O et de rayon R, le vecteur position OG→(t), colinéaire à N→, s'exprime :",
       "choices": [
-        "OG⃗(t) = R · T⃗",
-        "OG⃗(t) = R · N⃗",
-        "OG⃗(t) = v(t) · N⃗",
-        "OG⃗(t) = (v(t)²/R) · N⃗"
+        "OG→(t) = R · T→",
+        "OG→(t) = R · N→",
+        "OG→(t) = v(t) · N→",
+        "OG→(t) = (v(t)²/R) · N→"
       ],
       "answer": 1,
-      "explanation": "Dans le repère de Frenet, pour un mouvement circulaire, le vecteur position part du centre et est colinéaire au vecteur normal : OG⃗(t) = R · N⃗."
+      "explanation": "Dans le repère de Frenet, pour un mouvement circulaire, le vecteur position part du centre et est colinéaire au vecteur normal : OG→(t) = R · N→."
     },
     {
       "question": "Dans le repère de Frenet, pour un mouvement circulaire quelconque, le vecteur accélération s'écrit :",
       "choices": [
-        "a⃗(t) = (v(t)²/R) · T⃗",
-        "a⃗(t) = (dv(t)/dt) · N⃗",
-        "a⃗(t) = (dv(t)/dt) · T⃗ + (v(t)²/R) · N⃗",
-        "a⃗(t) = R · T⃗"
+        "a→(t) = (v(t)²/R) · T→",
+        "a→(t) = (dv(t)/dt) · N→",
+        "a→(t) = (dv(t)/dt) · T→ + (v(t)²/R) · N→",
+        "a→(t) = R · T→"
       ],
       "answer": 2,
-      "explanation": "Le vecteur accélération possède une composante tangentielle dv/dt · T⃗ (variation de la valeur de la vitesse) et une composante normale v²/R · N⃗ (variation de direction)."
+      "explanation": "Le vecteur accélération possède une composante tangentielle dv/dt · T→ (variation de la valeur de la vitesse) et une composante normale v²/R · N→ (variation de direction)."
     },
     {
       "question": "Un mouvement est dit rectiligne uniforme si :",
@@ -226,13 +226,13 @@
     {
       "question": "Pour un mouvement circulaire uniforme, le vecteur accélération se réduit à :",
       "choices": [
-        "(dv(t)/dt) · T⃗, tangent à la trajectoire",
-        "(v(t)²/R) · N⃗, dirigé vers le centre (accélération centripète)",
+        "(dv(t)/dt) · T→, tangent à la trajectoire",
+        "(v(t)²/R) · N→, dirigé vers le centre (accélération centripète)",
         "Un vecteur nul",
-        "(v(t)²/R) · T⃗"
+        "(v(t)²/R) · T→"
       ],
       "answer": 1,
-      "explanation": "Si la vitesse est uniforme, dv/dt = 0, donc a⃗(t) = (v(t)²/R) · N⃗ : l'accélération est purement normale, toujours dirigée vers le centre du cercle, on parle d'accélération centripète."
+      "explanation": "Si la vitesse est uniforme, dv/dt = 0, donc a→(t) = (v(t)²/R) · N→ : l'accélération est purement normale, toujours dirigée vers le centre du cercle, on parle d'accélération centripète."
     },
     {
       "question": "Si les vecteurs vitesse et accélération d'un point sont de même sens à un instant donné, le mouvement à cet instant est :",
@@ -243,7 +243,7 @@
         "Nécessairement circulaire"
       ],
       "answer": 0,
-      "explanation": "Lorsque v⃗(t) et a⃗(t) sont de même sens, la valeur de la vitesse augmente : le mouvement est accéléré. S'ils sont de sens opposés, le mouvement est ralenti."
+      "explanation": "Lorsque v→(t) et a→(t) sont de même sens, la valeur de la vitesse augmente : le mouvement est accéléré. S'ils sont de sens opposés, le mouvement est ralenti."
     },
     {
       "question": "Lors de l'activité « diabolique », l'enregistrement E1 correspond à un mouvement circulaire uniforme (MCU). Le vecteur accélération y est alors caractérisé comme :",
