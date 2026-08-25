@@ -64,5 +64,11 @@
     "title": "Décrire un système en mouvement",
     "number": 11,
     "competences": "Référentiels (terrestre, géocentrique, héliocentrique), vecteurs position/vitesse/accélération, coordonnées cartésiennes, repère de Frenet, mouvements rectiligne et circulaire (uniforme, accéléré, ralenti)"
+  },
+  {
+    "id": "mouvements-forces",
+    "title": "Mouvements et forces",
+    "number": 12,
+    "competences": "Centre de masse, système isolé/pseudo-isolé, diagramme objets-actions, forces usuelles (tension, réaction, Archimède, poids), principe d'inertie, référentiel galiléen, deuxième loi de Newton"
   }
 ]

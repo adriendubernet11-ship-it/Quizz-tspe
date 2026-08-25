@@ -1,0 +1,260 @@
+{
+  "title": "Mouvements et forces",
+  "number": 12,
+  "competences": "Centre de masse d'un système, système isolé/pseudo-isolé, diagramme objets-actions, forces usuelles (tension, réaction, poussée d'Archimède, poids), principe d'inertie et référentiel galiléen, deuxième loi de Newton (ΣF = m·a)",
+  "questions": [
+    {
+      "question": "Pour un système qui n'est pas ponctuel, le mouvement étudié est en général celui de son centre de masse, car ce point :",
+      "choices": [
+        "A toujours une vitesse nulle",
+        "A un mouvement plus simple que celui des autres points du système",
+        "Ne subit jamais aucune force",
+        "Se situe toujours à l'extérieur du système"
+      ],
+      "answer": 1,
+      "explanation": "Même si le système n'est pas petit, il existe toujours un point dont le mouvement est plus simple que celui des autres : c'est son centre de masse, et c'est en général son mouvement qu'on étudie."
+    },
+    {
+      "question": "Le centre de masse d'un système est aussi appelé G. Dans le champ de pesanteur, il est confondu avec :",
+      "choices": [
+        "Le centre du système géométrique",
+        "Le centre de gravité du système",
+        "Le point d'application de la réaction du support",
+        "Le point le plus éloigné du sol"
+      ],
+      "answer": 1,
+      "explanation": "Le centre de masse est le barycentre des masses du système ; dans le champ de pesanteur, il est confondu avec le centre de gravité, d'où sa notation habituelle G."
+    },
+    {
+      "question": "Un système est dit « pseudo-isolé » si :",
+      "choices": [
+        "Il n'est soumis à aucune force",
+        "Les forces qu'il subit se compensent : ΣF = 0",
+        "Il est immobile dans tous les référentiels",
+        "Sa masse est négligeable"
+      ],
+      "answer": 1,
+      "explanation": "Un système isolé ne subit aucune action mécanique extérieure. Un système pseudo-isolé subit des forces, mais leur résultante est nulle : ΣF = 0."
+    },
+    {
+      "question": "Lorsqu'on construit un diagramme objets-actions pour faire le bilan des forces sur un système, il ne faut surtout pas oublier :",
+      "choices": [
+        "Les objets très éloignés du système, même sans interaction",
+        "La Terre (responsable de l'action liée à la pesanteur) et les appuis (sol...)",
+        "La couleur des objets représentés",
+        "La date de l'expérience"
+      ],
+      "answer": 1,
+      "explanation": "L'inventaire des objets en interaction avec le système d'étude doit systématiquement inclure la Terre (poids) et les éventuels appuis, sans quoi le bilan des forces serait incomplet."
+    },
+    {
+      "question": "Sur un diagramme objets-actions, une action entre deux objets qui ne sont pas en contact (comme la Terre et un solide en l'air) se représente par :",
+      "choices": [
+        "Un trait plein",
+        "Un trait en pointillés",
+        "Aucun trait, l'action n'existe pas",
+        "Une flèche à double sens obligatoirement"
+      ],
+      "answer": 1,
+      "explanation": "Les traits de liaison entre objets sont en pointillés lorsqu'il n'y a pas de contact entre les objets (cas du poids, de la poussée d'Archimède, etc.)."
+    },
+    {
+      "question": "La « règle d'or » pour noter une force impose de toujours pouvoir identifier, dans la notation F→auteur/receveur :",
+      "choices": [
+        "Uniquement la valeur numérique de la force",
+        "Qui exerce la force (auteur) et sur quoi elle s'exerce (receveur)",
+        "La couleur du vecteur sur le schéma",
+        "Le référentiel d'étude uniquement"
+      ],
+      "answer": 1,
+      "explanation": "Toute force doit pouvoir être associée à un auteur (QUI exerce l'action ?) et un receveur (SUR QUOI s'exerce-t-elle ?), d'où la notation F→auteur/receveur."
+    },
+    {
+      "question": "La tension d'un fil T→ = F→fil tendu/solide accroché a pour direction, sens et point d'application :",
+      "choices": [
+        "Direction quelconque, sens du fil vers le solide, appliquée au centre du solide",
+        "La direction du fil, un sens allant du solide vers le fil, appliquée au point d'attache du fil sur le solide",
+        "Toujours verticale, sens vers le centre de la Terre",
+        "Perpendiculaire au fil, sens indéterminé"
+      ],
+      "answer": 1,
+      "explanation": "La tension a pour direction celle du fil, un sens allant du solide vers le fil, et est appliquée au point d'attache du fil sur le solide ; son intensité dépend des circonstances."
+    },
+    {
+      "question": "La réaction R→ d'un support sur un solide en mouvement se décompose en R→ = R→N + R→T. La composante tangentielle R→T modélise :",
+      "choices": [
+        "La poussée d'Archimède",
+        "Les frottements, qui s'opposent au glissement du solide sur le support",
+        "Le poids du solide",
+        "La tension d'un fil éventuel"
+      ],
+      "answer": 1,
+      "explanation": "La réaction normale R→N s'oppose à l'enfoncement du solide dans le support ; la réaction tangentielle R→T (souvent notée f→) modélise les frottements et s'oppose au glissement. En l'absence de frottement, R→T = 0 et R→ = R→N."
+    },
+    {
+      "question": "Le poids P→ = F→Terre/solide d'un objet de masse m a pour caractéristiques :",
+      "choices": [
+        "Direction verticale, sens vers le centre de la Terre, intensité P = m·g",
+        "Direction horizontale, sens quelconque, intensité P = m/g",
+        "Direction verticale, sens vers le haut, intensité constante quelle que soit la masse",
+        "Une direction qui dépend de la vitesse de l'objet"
+      ],
+      "answer": 0,
+      "explanation": "Le poids est vertical, toujours dirigé vers le centre de la Terre (donc attractif), appliqué au centre de gravité G, d'intensité P = m·g (avec g ≈ 9,8 N·kg⁻¹)."
+    },
+    {
+      "question": "Énoncé actuel du principe de l'inertie (1ère loi de Newton) : dans un référentiel galiléen, le vecteur vitesse du centre de masse d'un système isolé ou pseudo-isolé est constant, et réciproquement. Cela s'écrit mathématiquement :",
+      "choices": [
+        "ΣF→ = m·a→",
+        "ΣF→ = 0→ ⟺ Δv→ = 0→",
+        "ΣF→ = 0→ ⟺ v→ = 0→ dans tous les cas",
+        "a→ = ΣF→ / t"
+      ],
+      "answer": 1,
+      "explanation": "Le principe de l'inertie relie l'absence de résultante des forces (ΣF = 0) à un vecteur vitesse constant (Δv = 0), et réciproquement. L'immobilité (v = 0) n'est qu'un cas particulier de cette situation."
+    },
+    {
+      "question": "D'après le principe de l'inertie, peut-il y avoir un mouvement en l'absence de toute force ?",
+      "choices": [
+        "Non, c'est physiquement impossible",
+        "Oui, mais uniquement un mouvement rectiligne uniforme (MRU)",
+        "Oui, n'importe quel type de mouvement",
+        "Oui, mais uniquement un mouvement circulaire uniforme"
+      ],
+      "answer": 1,
+      "explanation": "Un système isolé ou pseudo-isolé a un vecteur vitesse constant : le seul mouvement possible sans résultante des forces (hors immobilité) est donc le mouvement rectiligne uniforme."
+    },
+    {
+      "question": "Un référentiel galiléen est, par définition :",
+      "choices": [
+        "Un référentiel immobile par rapport aux étoiles",
+        "Un référentiel dans lequel le principe de l'inertie est vérifié",
+        "Le seul référentiel terrestre",
+        "Un référentiel en rotation uniforme"
+      ],
+      "answer": 1,
+      "explanation": "Un référentiel galiléen est défini comme un référentiel dans lequel le principe de l'inertie est vérifié. Le référentiel héliocentrique est considéré comme galiléen."
+    },
+    {
+      "question": "D'après le cours, le référentiel terrestre peut être considéré comme galiléen :",
+      "choices": [
+        "Toujours, sans aucune limite de durée",
+        "Si on ne dépasse pas quelques minutes, car il est alors quasiment en MRU par rapport au référentiel géocentrique",
+        "Jamais, il n'est pas galiléen",
+        "Uniquement la nuit"
+      ],
+      "answer": 1,
+      "explanation": "Tout référentiel en MRU par rapport à un référentiel galiléen est lui-même galiléen. Sur une durée de quelques minutes, le référentiel terrestre peut être considéré en MRU par rapport au référentiel géocentrique, donc galiléen dans ces conditions."
+    },
+    {
+      "question": "La deuxième loi de Newton s'écrit ΣF→ext = m·a→G. Elle est valable :",
+      "choices": [
+        "Dans n'importe quel référentiel, sans condition",
+        "Uniquement dans un référentiel galiléen",
+        "Uniquement si le système est immobile",
+        "Uniquement pour des mouvements circulaires"
+      ],
+      "answer": 1,
+      "explanation": "L'énoncé de la 2ème loi de Newton précise : « Dans un référentiel galiléen, la résultante des forces extérieures appliquées à un système est égale au produit de sa masse par l'accélération de son centre de masse. »"
+    },
+    {
+      "question": "Une pomme (frottements de l'air négligés) tombe d'abord verticalement (phase 1), puis, après avoir rebondi, suit une trajectoire courbe avant de toucher le sol (phase 2). Comparer le vecteur accélération de son centre de masse dans les deux phases.",
+      "choices": [
+        "Il est différent car les trajectoires ne sont pas les mêmes",
+        "Il est nul en phase 2 car le mouvement y est curviligne",
+        "Il est identique dans les deux phases : vertical vers le bas, de norme g ≈ 9,8 m/s², car seul le poids s'applique",
+        "Il dépend de la vitesse initiale de la pomme, donc il est forcément différent"
+      ],
+      "answer": 2,
+      "explanation": "Seul le poids s'exerçant (frottements négligés), la 2ème loi de Newton donne a→G = P→/m = g→ dans les deux phases : même vecteur accélération, vertical vers le bas, de norme g ≈ 9,8 m/s². Seule la trajectoire diffère, car elle dépend des conditions initiales de vitesse, pas de l'accélération."
+    },
+    {
+      "question": "Cette même activité (la pomme de Newton) illustre une idée importante : deux mouvements différents (chute verticale, trajectoire courbe) peuvent correspondre au même vecteur accélération. Cela montre que le mouvement d'un système dépend :",
+      "choices": [
+        "Uniquement de la résultante des forces qui s'exercent sur lui",
+        "De la résultante des forces ET des conditions initiales (position, vitesse initiale)",
+        "Uniquement de sa masse",
+        "Uniquement de sa trajectoire passée"
+      ],
+      "answer": 1,
+      "explanation": "À accélération égale, deux mouvements peuvent être très différents : le mouvement dépend aussi des conditions initiales (vecteur vitesse et position au départ), pas seulement de l'accélération."
+    },
+    {
+      "question": "Sur le graphique v(t) de la chute d'un parachutiste de masse m = 100 kg, on relève deux instants où la vitesse est constante (l'un à vitesse élevée avant l'ouverture du parachute, l'autre à vitesse plus faible après ouverture). Que peut-on dire de la valeur de l'action de l'air à ces deux instants ?",
+      "choices": [
+        "Elle est nulle dans les deux cas, car la vitesse est constante",
+        "Elle est égale au poids (≈ 980 N) dans les deux cas, bien que les vitesses soient très différentes",
+        "Elle est plus grande pendant la phase à vitesse élevée",
+        "Elle est plus grande pendant la phase à vitesse faible"
+      ],
+      "answer": 1,
+      "explanation": "Vitesse constante ⟹ a = 0 ⟹ ΣF = 0 (1ère loi de Newton) : l'action de l'air compense exactement le poids, quelle que soit la valeur de la vitesse constante. F→air = −P→, soit une intensité ≈ m·g = 100 × 9,8 = 980 N dans les deux phases."
+    },
+    {
+      "question": "Un mobile autoporteur (m = 560 g) décrit un mouvement circulaire uniforme de rayon R = 15,0 cm à la vitesse V = 13,8 cm/s. La valeur de son accélération a = V²/R vaut environ :",
+      "choices": [
+        "0,013 m/s²",
+        "0,13 m/s²",
+        "1,3 m/s²",
+        "13 m/s²"
+      ],
+      "answer": 1,
+      "explanation": "a = V²/R = (0,138)² / 0,150 ≈ 0,019 / 0,150 ≈ 0,13 m/s²."
+    },
+    {
+      "question": "Pour ce même mobile autoporteur (m = 560 g, a = 0,13 m/s²) relié à un point fixe par un fil horizontal, la 2ème loi de Newton donne P→ + R→ + T→ = m·a→G. Sachant que P→ et R→ se compensent, la valeur de la tension du fil T vaut environ :",
+      "choices": [
+        "5,6 × 10⁻¹ N",
+        "7,3 × 10⁻² N",
+        "1,3 × 10⁻¹ N",
+        "4,3 N"
+      ],
+      "answer": 1,
+      "explanation": "Puisque P→ + R→ = 0→, il reste T→ = m·a→G, soit en norme T = m·a = 0,560 × 0,13 ≈ 7,3 × 10⁻² N."
+    },
+    {
+      "question": "Dans une centrifugeuse d'entraînement pour spationautes, la cabine décrit un mouvement circulaire uniforme à une distance R ≈ 10 m de l'axe. Pour ressentir une accélération a = 10·g (g ≈ 9,81 m/s²), la vitesse V = √(a·R) de la cabine doit valoir environ :",
+      "choices": [
+        "3,1 m/s",
+        "9,8 m/s",
+        "31 m/s (environ 113 km/h)",
+        "98 m/s"
+      ],
+      "answer": 2,
+      "explanation": "a = V²/R ⟹ V = √(a·R) = √(10 × 9,81 × 10) = √981 ≈ 31,3 m/s, soit environ 113 km/h."
+    },
+    {
+      "question": "Peut-on parler d'accélération pour un mouvement circulaire UNIFORME, alors que la valeur (norme) de la vitesse ne change pas ?",
+      "choices": [
+        "Non, l'accélération est nulle puisque la vitesse ne change pas de valeur",
+        "Oui : la direction du vecteur vitesse change en permanence, ce qui suffit à créer une accélération (centripète)",
+        "Non, l'accélération n'existe que si le mouvement est rectiligne",
+        "Oui, mais uniquement si le rayon de la trajectoire est très grand"
+      ],
+      "answer": 1,
+      "explanation": "L'accélération traduit toute variation du vecteur vitesse, en valeur OU en direction. En mouvement circulaire uniforme, seule la valeur de v reste constante ; sa direction change sans cesse, d'où une accélération non nulle, dirigée vers le centre (centripète), de norme a = V²/R."
+    },
+    {
+      "question": "La poussée d'Archimède P→a = F→fluide/corps s'exerce :",
+      "choices": [
+        "Uniquement sur les corps solides posés sur un support",
+        "Sur tout corps plongé dans un fluide (liquide ou gaz)",
+        "Uniquement sur les corps en mouvement rectiligne",
+        "Uniquement dans le vide"
+      ],
+      "answer": 1,
+      "explanation": "La poussée d'Archimède est l'action qu'exerce un fluide (liquide ou gaz) sur tout corps qui y est plongé."
+    },
+    {
+      "question": "Un cycliste avance à vitesse constante, en ligne droite, sur une route horizontale. D'après la 1ère loi de Newton, le système {vélo + cycliste} est donc :",
+      "choices": [
+        "Isolé, car aucune force ne s'exerce sur lui",
+        "Pseudo-isolé : les forces qu'il subit (poids, réaction de la route, force motrice, frottements...) se compensent",
+        "Ni isolé ni pseudo-isolé, car son mouvement est rectiligne",
+        "Impossible à qualifier sans connaître sa masse"
+      ],
+      "answer": 1,
+      "explanation": "Le cycliste subit plusieurs forces (poids, réaction du sol, force motrice, frottements de l'air...), mais son mouvement étant rectiligne uniforme, leur résultante est nulle : le système est pseudo-isolé, pas isolé (qui suppose l'absence de toute force)."
+    }
+  ]
+}
