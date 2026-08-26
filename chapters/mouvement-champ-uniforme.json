@@ -1,0 +1,282 @@
+{
+  "title": "Mouvement dans un champ uniforme",
+  "number": 13,
+  "competences": "Notion de champ (scalaire/vectoriel) et de champ uniforme, mouvement dans un champ de pesanteur uniforme (équations horaires, équation de la trajectoire, flèche, portée), mouvement d'une particule chargée dans un champ électrique uniforme",
+  "questions": [
+    {
+      "question": "Le champ de température dans une pièce et le champ de vitesse du vent sont deux exemples de champs. Quelle est la différence entre les deux ?",
+      "choices": [
+        "Le champ de température est vectoriel, le champ de vitesse du vent est scalaire",
+        "Le champ de température est scalaire (un simple nombre), le champ de vitesse du vent est vectoriel (direction, sens, valeur)",
+        "Les deux sont scalaires",
+        "Les deux sont vectoriels"
+      ],
+      "answer": 1,
+      "explanation": "La température en un point est définie par un simple nombre : c'est un champ scalaire. La vitesse du vent nécessite une direction, un sens et une valeur en chaque point : c'est un champ vectoriel."
+    },
+    {
+      "question": "Un champ (scalaire ou vectoriel) est dit uniforme quand :",
+      "choices": [
+        "Il varie de façon continue d'un point à l'autre",
+        "La grandeur associée (valeur ou vecteur) est identique en tout point de l'espace considéré",
+        "Il n'existe qu'en un seul point de l'espace",
+        "Il dépend nécessairement du temps"
+      ],
+      "answer": 1,
+      "explanation": "Un champ uniforme est un champ pour lequel la grandeur associée (valeur ou vecteur) ne dépend pas de la position du point : elle est la même partout dans la zone considérée."
+    },
+    {
+      "question": "Parmi les exemples suivants, lesquels sont des champs uniformes à connaître au programme ?",
+      "choices": [
+        "Le champ de pesanteur g→ au voisinage de la surface terrestre, et le champ électrique E→ entre les armatures d'un condensateur plan",
+        "Le champ magnétique terrestre uniquement",
+        "Le champ de température atmosphérique",
+        "Le champ gravitationnel du Soleil à toute distance"
+      ],
+      "answer": 0,
+      "explanation": "Les deux champs uniformes à connaître sont le champ de pesanteur g→ au voisinage du sol et le champ électrique E→ entre les plaques d'un condensateur plan."
+    },
+    {
+      "question": "Pour étudier le mouvement d'un projectile dans le champ de pesanteur uniforme (référentiel terrestre supposé galiléen), quelle hypothèse simplificatrice est faite ?",
+      "choices": [
+        "La masse du projectile est négligeable",
+        "Les frottements de l'air sont négligés",
+        "Le champ de pesanteur n'est pas uniforme",
+        "Le référentiel n'est pas galiléen"
+      ],
+      "answer": 1,
+      "explanation": "Comme pour l'étude de la bille ou de la pomme, on néglige les interactions avec l'air : la seule force appliquée au système est alors son poids."
+    },
+    {
+      "question": "En négligeant les frottements de l'air, la seule force appliquée à un projectile de masse m en mouvement dans le champ de pesanteur est :",
+      "choices": [
+        "La réaction de l'air",
+        "Le poids P→ = m·g→",
+        "La poussée d'Archimède",
+        "Aucune force (le système est isolé)"
+      ],
+      "answer": 1,
+      "explanation": "Le bilan des forces se réduit au poids P→ = F→Terre/système = m·g→, les autres actions étant négligées."
+    },
+    {
+      "question": "D'après la 2ème loi de Newton appliquée à ce projectile, ΣF→ = P→ = m·a→ = m·g→. On en déduit que le vecteur accélération a→ :",
+      "choices": [
+        "Est égal à g→, quelle que soit la masse du projectile",
+        "Dépend fortement de la masse du projectile",
+        "Est toujours nul",
+        "Est horizontal"
+      ],
+      "answer": 0,
+      "explanation": "m·a→ = m·g→ ⟹ a→ = g→ : dans le champ de pesanteur (frottements négligés), l'accélération de tout projectile est égale à g→, indépendamment de sa masse."
+    },
+    {
+      "question": "Avec un axe Ox horizontal et Oy vertical vers le haut, les coordonnées du vecteur accélération a→ = g→ dans ce mouvement sont :",
+      "choices": [
+        "ax = 0 ; ay = −g ; az = 0",
+        "ax = g ; ay = 0 ; az = 0",
+        "ax = −g ; ay = −g ; az = 0",
+        "ax = 0 ; ay = 0 ; az = −g"
+      ],
+      "answer": 0,
+      "explanation": "Le champ de pesanteur est vertical, vers le bas : gx = 0, gy = −g, gz = 0, donc ax(t) = 0, ay(t) = −g, az(t) = 0 à tout instant."
+    },
+    {
+      "question": "En intégrant deux fois l'accélération et en utilisant les conditions initiales (vitesse V0 formant un angle α avec Ox, départ au point O), on obtient pour l'équation horaire selon x :",
+      "choices": [
+        "x(t) = (V0·cos α)·t",
+        "x(t) = (V0·sin α)·t",
+        "x(t) = −½·g·t² + (V0·cos α)·t",
+        "x(t) = V0·t²"
+      ],
+      "answer": 0,
+      "explanation": "Comme ax = 0, vx(t) = V0·cos α (constante), puis x(t) = (V0·cos α)·t après intégration, avec x(0) = 0."
+    },
+    {
+      "question": "Dans les mêmes conditions, l'équation horaire selon y est :",
+      "choices": [
+        "y(t) = (V0·sin α)·t",
+        "y(t) = −½·g·t² + (V0·sin α)·t",
+        "y(t) = −g·t + (V0·cos α)",
+        "y(t) = g·t²"
+      ],
+      "answer": 1,
+      "explanation": "ay = −g donne vy(t) = −g·t + V0·sin α, puis y(t) = −½·g·t² + (V0·sin α)·t après intégration, avec y(0) = 0."
+    },
+    {
+      "question": "On trouve z(t) = 0 à tout instant dans cette étude. Qu'en déduit-on sur le mouvement ?",
+      "choices": [
+        "Le projectile ne se déplace pas du tout",
+        "Le mouvement s'effectue entièrement dans le plan (xOy)",
+        "Le mouvement est nécessairement circulaire",
+        "Le champ de pesanteur n'est pas uniforme"
+      ],
+      "answer": 1,
+      "explanation": "Puisque z(t) = 0 à tout instant, le point G reste en permanence dans le plan (xOy) : le mouvement dans un champ uniforme est un mouvement plan."
+    },
+    {
+      "question": "En éliminant le temps t entre x(t) et y(t), on obtient l'équation de la trajectoire du projectile dans le champ de pesanteur uniforme :",
+      "choices": [
+        "y = −½·g·x²/(V0·cos α)² + (tan α)·x : une droite",
+        "y = −½·g·x²/(V0·cos α)² + (tan α)·x : une parabole",
+        "y = (V0·sin α)·x : une droite",
+        "y = g·x : une droite"
+      ],
+      "answer": 1,
+      "explanation": "En exprimant t = x/(V0·cos α) et en le substituant dans y(t), on obtient y = −½·g·x²/(V0·cos α)² + (tan α)·x, équation d'une parabole (fonction du second degré en x)."
+    },
+    {
+      "question": "Les caractéristiques (ouverture, position du sommet...) de cette parabole dépendent de :",
+      "choices": [
+        "Uniquement de la valeur de g",
+        "Des conditions initiales V0 et α",
+        "Uniquement de la masse du projectile",
+        "De la couleur du projectile"
+      ],
+      "answer": 1,
+      "explanation": "L'équation de la trajectoire fait apparaître V0 et α : ce sont les conditions initiales qui déterminent la forme précise de la parabole décrite, la masse n'intervenant pas."
+    },
+    {
+      "question": "La flèche H (altitude maximale atteinte par le projectile) est le point où :",
+      "choices": [
+        "vx(t) = 0",
+        "vy(t) = 0",
+        "x(t) = 0",
+        "a(t) = 0"
+      ],
+      "answer": 1,
+      "explanation": "Au sommet de la trajectoire, la composante verticale de la vitesse s'annule (vy = 0) avant de changer de signe : c'est cette condition qui permet de calculer la date tH puis la flèche H."
+    },
+    {
+      "question": "L'expression de la flèche H obtenue dans le cours est :",
+      "choices": [
+        "H = (V0·sin α)² / (2g)",
+        "H = (V0·cos α)² / (2g)",
+        "H = V0² / g",
+        "H = (V0·sin α) / g"
+      ],
+      "answer": 0,
+      "explanation": "En reportant tH = (V0·sin α)/g dans y(t), on obtient H = (V0·sin α)² / (2g)."
+    },
+    {
+      "question": "L'expression de la portée D (distance horizontale parcourue quand le projectile revient à y = 0) est :",
+      "choices": [
+        "D = V0² · sin(2α) / g",
+        "D = V0² · cos(2α) / g",
+        "D = (V0·sin α)² / (2g)",
+        "D = 2·V0 / g"
+      ],
+      "answer": 0,
+      "explanation": "En résolvant y(x) = 0 (solution non nulle), on trouve D = 2·V0²·cos α·sin α / g, soit, avec la formule de duplication, D = V0²·sin(2α) / g."
+    },
+    {
+      "question": "D'après le cours, pour quel angle α la portée D est-elle maximale ?",
+      "choices": [
+        "α = 0°",
+        "α = 45°",
+        "α = 90°",
+        "α = 60°"
+      ],
+      "answer": 1,
+      "explanation": "D = V0²·sin(2α)/g est maximale quand sin(2α) = 1, soit 2α = 90°, donc α = 45°. La flèche H, elle, est maximale pour α = 90° (tir vertical)."
+    },
+    {
+      "question": "Application numérique : un solide est lancé avec V0 = 20 m/s selon un angle α = 30° avec l'horizontale, depuis le sol, frottements négligés (g ≈ 9,8 m/s²). La flèche H atteinte vaut environ :",
+      "choices": [
+        "1,0 m",
+        "2,6 m",
+        "5,1 m",
+        "10,2 m"
+      ],
+      "answer": 2,
+      "explanation": "H = (V0·sin α)² / (2g) = (20 × 0,5)² / (2 × 9,8) = 100 / 19,6 ≈ 5,1 m."
+    },
+    {
+      "question": "Pour ce même lancer (V0 = 20 m/s, α = 30°, g ≈ 9,8 m/s²), la portée D vaut environ :",
+      "choices": [
+        "17,7 m",
+        "35,4 m",
+        "40,8 m",
+        "70,7 m"
+      ],
+      "answer": 1,
+      "explanation": "D = V0²·sin(2α)/g = 400 × sin(60°) / 9,8 = 400 × 0,866 / 9,8 ≈ 35,4 m."
+    },
+    {
+      "question": "Pour une particule chargée (charge q, masse m) en mouvement dans un champ électrique uniforme E→ entre les plaques d'un condensateur, quelle approximation fait-on généralement sur le poids ?",
+      "choices": [
+        "Le poids est la seule force prise en compte",
+        "Le poids est négligeable devant la force électrique, largement plus intense à cette échelle",
+        "Le poids est égal à la force électrique par définition",
+        "Le poids n'existe pas dans un champ électrique"
+      ],
+      "answer": 1,
+      "explanation": "À l'échelle des particules chargées (électrons, ions...), la force électrostatique est très supérieure au poids, que l'on considère donc comme totalement négligeable devant elle."
+    },
+    {
+      "question": "La force électrique subie par une particule de charge q placée dans un champ électrique uniforme E→ s'écrit :",
+      "choices": [
+        "F→e = q / E→",
+        "F→e = q · E→",
+        "F→e = E→ / q",
+        "F→e = q + E→"
+      ],
+      "answer": 1,
+      "explanation": "La force électrostatique exercée sur une charge q placée dans un champ E→ est F→e = q·E→ (colinéaire à E→, de même sens si q > 0, de sens opposé si q < 0)."
+    },
+    {
+      "question": "D'après la 2ème loi de Newton, l'accélération d'une particule chargée dans un champ électrique uniforme (poids négligé) vaut a→ = q·E→/m. Contrairement au cas du champ de pesanteur, cette accélération :",
+      "choices": [
+        "Ne dépend toujours pas de la particule étudiée",
+        "Dépend du rapport q/m de la particule, donc varie d'une particule à l'autre",
+        "Est toujours égale à g→",
+        "Est toujours nulle"
+      ],
+      "answer": 1,
+      "explanation": "Alors que a→ = g→ est indépendant de la masse dans le champ de pesanteur, ici a→ = (q/m)·E→ dépend directement du rapport charge/masse de la particule : deux particules différentes n'auront pas la même accélération dans le même champ E→."
+    },
+    {
+      "question": "Si la particule étudiée porte une charge négative (q < 0), la force électrique F→e = q·E→ qu'elle subit est :",
+      "choices": [
+        "De même sens que E→",
+        "De sens opposé à E→",
+        "Toujours nulle",
+        "Perpendiculaire à E→"
+      ],
+      "answer": 1,
+      "explanation": "F→e = q·E→ : si q est négatif, le vecteur F→e est colinéaire à E→ mais de sens opposé (la particule est donc déviée vers les potentiels croissants, à l'inverse d'une charge positive)."
+    },
+    {
+      "question": "Dans le TP « Marquera ou marquera pas » (tir de basket filmé, pointage vidéo du ballon), on constate que la coordonnée Vx de la vitesse reste constante le long de la trajectoire. Qu'en déduit-on sur la coordonnée ax de l'accélération ?",
+      "choices": [
+        "ax est forcément très grande",
+        "ax = 0, ce qui est cohérent avec une chute libre (seul le poids, vertical, agit sur le ballon)",
+        "ax = g",
+        "On ne peut rien en déduire sur ax"
+      ],
+      "answer": 1,
+      "explanation": "ax = dVx/dt : si Vx est constante, sa dérivée est nulle, donc ax = 0. C'est cohérent avec une chute libre, où la seule force (le poids) est verticale et ne peut donc pas faire varier la composante horizontale de la vitesse."
+    },
+    {
+      "question": "Une chute libre est, par définition, le mouvement d'un objet :",
+      "choices": [
+        "Qui n'est soumis qu'à son poids",
+        "Qui tombe verticalement uniquement",
+        "Qui n'est soumis à aucune force",
+        "Dont la vitesse est nulle à tout instant"
+      ],
+      "answer": 0,
+      "explanation": "En physique, une chute libre est le mouvement d'un objet qui n'est soumis qu'à son poids (les autres actions, comme les frottements de l'air, étant négligées). Selon les conditions initiales, la trajectoire peut être une droite (chute verticale) ou une parabole (comme le tir de basket)."
+    },
+    {
+      "question": "Pour vérifier que le mouvement du ballon de basket correspond bien à une chute libre, à partir des coordonnées de vitesse mesurées par pointage vidéo, on peut :",
+      "choices": [
+        "Vérifier que Vx et Vy sont toutes les deux constantes",
+        "Vérifier que la coordonnée ay obtenue est bien constante et proche de −g ≈ −9,81 m/s²",
+        "Vérifier que la trajectoire est une droite",
+        "Vérifier que la masse du ballon est nulle"
+      ],
+      "answer": 1,
+      "explanation": "Si le mouvement est une chute libre, ay doit être constante à tout instant et égale à −g (g ≈ 9,81 N·kg⁻¹) : comparer la valeur expérimentale obtenue à cette valeur théorique permet de confirmer (ou d'infirmer) l'hypothèse de chute libre."
+    }
+  ]
+}

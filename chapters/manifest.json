@@ -70,5 +70,11 @@
     "title": "Mouvements et forces",
     "number": 12,
     "competences": "Centre de masse, système isolé/pseudo-isolé, diagramme objets-actions, forces usuelles (tension, réaction, Archimède, poids), principe d'inertie, référentiel galiléen, deuxième loi de Newton"
+  },
+  {
+    "id": "mouvement-champ-uniforme",
+    "title": "Mouvement dans un champ uniforme",
+    "number": 13,
+    "competences": "Champ scalaire/vectoriel, champ uniforme (pesanteur, électrique), équations horaires et équation de la trajectoire (parabole), flèche et portée, mouvement d'une particule chargée dans un champ électrique"
   }
 ]
