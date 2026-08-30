@@ -1,0 +1,271 @@
+{
+  "title": "Aspects énergétiques des mouvements",
+  "number": 14,
+  "competences": "Travail d'une force constante, forces conservatives/non conservatives, énergie cinétique/potentielle de pesanteur/mécanique, théorème de l'énergie cinétique, théorème de l'énergie mécanique, principe et énergétique d'un accélérateur linéaire de particules chargées",
+  "questions": [
+    {
+      "question": "Le travail d'une force appliquée à un système correspond à :",
+      "choices": [
+        "La durée pendant laquelle la force s'exerce",
+        "L'énergie que le système échange avec le milieu extérieur du fait de l'application de cette force",
+        "La masse du système multipliée par sa vitesse",
+        "La trajectoire suivie par le système"
+      ],
+      "answer": 1,
+      "explanation": "Le travail d'une force est l'énergie échangée entre le système et le milieu extérieur en raison de l'application de cette force sur le système, exprimée en joules."
+    },
+    {
+      "question": "Le travail d'une force est dit « résistant » lorsqu'il est :",
+      "choices": [
+        "Positif : le système reçoit de l'énergie",
+        "Négatif : le système perd de l'énergie",
+        "Nul : la force ne fait rien",
+        "Toujours égal à zéro par définition"
+      ],
+      "answer": 1,
+      "explanation": "Un travail positif (moteur) correspond à une énergie reçue par le système ; un travail négatif (résistant) correspond à une énergie perdue par le système."
+    },
+    {
+      "question": "Le travail d'une force constante F→ dont le point d'application se déplace de A à B s'écrit, de façon générale :",
+      "choices": [
+        "WAB(F→) = F→ · AB→ (produit scalaire de la force et du déplacement)",
+        "WAB(F→) = F→ + AB→",
+        "WAB(F→) = F→ / AB→",
+        "WAB(F→) = F→ × t (force fois durée)"
+      ],
+      "answer": 0,
+      "explanation": "Le travail d'une force constante est défini par le produit scalaire du vecteur force et du vecteur déplacement AB→ : WAB(F→) = F→·AB→ = F·AB·cos(θ), où θ est l'angle entre les deux vecteurs."
+    },
+    {
+      "question": "Le travail d'une force perpendiculaire au déplacement (comme la réaction normale d'un support sans frottement) vaut :",
+      "choices": [
+        "Toujours un maximum",
+        "Zéro, car cos(90°) = 0 dans le produit scalaire F→·AB→",
+        "Toujours négatif",
+        "Une valeur qui dépend uniquement de la masse du système"
+      ],
+      "answer": 1,
+      "explanation": "WAB(F→) = F·AB·cos θ. Si F→ est perpendiculaire au déplacement, θ = 90° donc cos θ = 0 : le travail de cette force est nul."
+    },
+    {
+      "question": "Une force est dite « conservative » si :",
+      "choices": [
+        "Son travail dépend fortement du chemin suivi entre A et B",
+        "Son travail ne dépend pas du chemin suivi entre A et B, seulement des positions de départ et d'arrivée",
+        "Elle ne travaille jamais",
+        "Elle s'applique uniquement à des charges électriques"
+      ],
+      "answer": 1,
+      "explanation": "Une force conservative a un travail indépendant du chemin suivi : il ne dépend que des points de départ A et d'arrivée B. C'est le cas du poids et de la force électrique dans un champ uniforme."
+    },
+    {
+      "question": "Parmi les forces suivantes, laquelle est un exemple typique de force NON conservative ?",
+      "choices": [
+        "Le poids",
+        "La force électrique dans un champ uniforme",
+        "Les forces de frottement",
+        "La tension d'un ressort idéal"
+      ],
+      "answer": 2,
+      "explanation": "Le travail des forces de frottement dépend du chemin parcouru (plus le trajet est long, plus l'énergie dissipée est importante) : ce sont des forces non conservatives, contrairement au poids ou à la force électrique dans un champ uniforme."
+    },
+    {
+      "question": "Sur un trajet rectiligne de longueur d, avec une force de frottement f→ constante, opposée au mouvement, le travail des frottements vaut :",
+      "choices": [
+        "W = +f × d, toujours positif",
+        "W = −f × d, toujours négatif ou nul (le système perd de l'énergie)",
+        "W = f / d",
+        "W = 0 dans tous les cas"
+      ],
+      "answer": 1,
+      "explanation": "La force de frottement étant colinéaire mais de sens opposé au déplacement (θ = 180°, cos θ = −1), son travail W = −f×d est toujours négatif : les frottements dissipent de l'énergie, ils ne peuvent jamais en fournir au système."
+    },
+    {
+      "question": "Application numérique : un objet de masse m = 2,0 kg descend d'une hauteur de 5,0 m en chute libre (g ≈ 9,8 m/s²). Le travail du poids sur ce trajet vaut :",
+      "choices": [
+        "−98 J",
+        "0 J",
+        "+98 J",
+        "+9,8 J"
+      ],
+      "answer": 2,
+      "explanation": "Le poids et le déplacement sont dans le même sens (l'objet descend) : le travail du poids est moteur, positif, W(P→) = m·g·h = 2,0 × 9,8 × 5,0 = 98 J."
+    },
+    {
+      "question": "L'énergie cinétique Ec d'un système de masse m et de vitesse v est donnée par la formule :",
+      "choices": [
+        "Ec = m × v",
+        "Ec = ½ × m × v²",
+        "Ec = m × g × v",
+        "Ec = m / v²"
+      ],
+      "answer": 1,
+      "explanation": "Ec = ½·m·v², exprimée en joules avec m en kg et v en m/s."
+    },
+    {
+      "question": "L'énergie potentielle de pesanteur Epp d'un système de masse m à l'altitude z est donnée par la formule :",
+      "choices": [
+        "Epp = m × g × z",
+        "Epp = ½ × m × z²",
+        "Epp = m × v² / z",
+        "Epp = g / (m × z)"
+      ],
+      "answer": 0,
+      "explanation": "Epp = m·g·z, avec m en kg, g en N·kg⁻¹ et z l'altitude en mètre (repérée par rapport à une origine choisie)."
+    },
+    {
+      "question": "L'énergie mécanique Em d'un système est définie par :",
+      "choices": [
+        "Em = Ec − Epp",
+        "Em = Ec + Epp",
+        "Em = Ec × Epp",
+        "Em = Epp / Ec"
+      ],
+      "answer": 1,
+      "explanation": "L'énergie mécanique est la somme de l'énergie cinétique et de l'énergie potentielle de pesanteur : Em = Ec + Epp."
+    },
+    {
+      "question": "Le théorème de l'énergie cinétique (TEc) énonce que, pour un système entre deux instants :",
+      "choices": [
+        "La variation d'énergie cinétique est égale à la somme des travaux des forces appliquées au système",
+        "L'énergie cinétique est toujours constante",
+        "L'énergie cinétique est égale à l'énergie potentielle",
+        "La variation d'énergie cinétique est toujours nulle"
+      ],
+      "answer": 0,
+      "explanation": "TEc : ΔEc = ΣW(F→ext), la variation d'énergie cinétique d'un système est égale à la somme des travaux de toutes les forces extérieures qui lui sont appliquées."
+    },
+    {
+      "question": "D'après le théorème de l'énergie mécanique, si un système n'est soumis qu'à des forces conservatives, alors son énergie mécanique :",
+      "choices": [
+        "Diminue continuellement",
+        "Se conserve : elle reste constante au cours du mouvement",
+        "Devient nulle",
+        "Est toujours égale à l'énergie cinétique seule"
+      ],
+      "answer": 1,
+      "explanation": "Si toutes les forces appliquées sont conservatives (poids seul, par exemple), il n'y a pas de dissipation d'énergie : l'énergie mécanique Em = Ec + Epp reste constante, même si Ec et Epp varient individuellement (elles se compensent)."
+    },
+    {
+      "question": "Si un système est soumis à au moins une force NON conservative (comme des frottements), l'énergie mécanique :",
+      "choices": [
+        "Reste rigoureusement constante malgré tout",
+        "Varie, et sa variation est égale à la somme des travaux des forces non conservatives : ΔEm = ΣW(forces non conservatives)",
+        "Devient instantanément nulle",
+        "Ne peut plus être définie"
+      ],
+      "answer": 1,
+      "explanation": "En présence de forces non conservatives (frottements...), l'énergie mécanique n'est plus conservée : sa variation est égale à la somme des travaux de ces forces non conservatives, généralement négative (dissipation)."
+    },
+    {
+      "question": "Lors du mouvement de chute libre d'une balle étudiée par vidéo (TP « Il faut de l'énergie pour tirer ! »), la seule force appliquée est le poids. On s'attend donc à observer, sur les courbes Ec(t), Epp(t) et Em(t) :",
+      "choices": [
+        "Ec, Epp et Em toutes constantes",
+        "Ec et Epp qui varient en se compensant, alors qu'Em reste sensiblement constante",
+        "Em qui diminue continuellement jusqu'à zéro",
+        "Ec constante et Epp qui augmente indéfiniment"
+      ],
+      "answer": 1,
+      "explanation": "Le poids étant une force conservative et la seule force agissant (chute libre), l'énergie mécanique se conserve : Ec et Epp varient en sens opposé (l'une augmente quand l'autre diminue) mais leur somme Em reste constante, aux incertitudes expérimentales près."
+    },
+    {
+      "question": "Un condensateur plan est constitué de deux armatures métalliques planes parallèles. Le champ électrique E→ uniforme qui y règne est dirigé :",
+      "choices": [
+        "De l'armature négative vers l'armature positive",
+        "De l'armature positive vers l'armature négative",
+        "Parallèlement aux armatures",
+        "Dans un sens aléatoire selon la particule"
+      ],
+      "answer": 1,
+      "explanation": "Le champ électrique uniforme entre les armatures d'un condensateur plan est orienté de l'armature positive vers l'armature négative."
+    },
+    {
+      "question": "Une particule de charge q placée dans un champ électrique uniforme E→ subit une force électrique F→e telle que :",
+      "choices": [
+        "F→e = q / E→",
+        "F→e = q · E→",
+        "F→e = q + E→",
+        "F→e = E→ / q²"
+      ],
+      "answer": 1,
+      "explanation": "La force électrique subie par une particule de charge q dans un champ E→ vaut F→e = q·E→."
+    },
+    {
+      "question": "Le travail de la force électrique lorsque la particule se déplace de A vers B s'exprime par :",
+      "choices": [
+        "WAB(F→e) = F→e·AB→ = q · UAB",
+        "WAB(F→e) = q / UAB",
+        "WAB(F→e) = q + UAB",
+        "WAB(F→e) = UAB / q"
+      ],
+      "answer": 0,
+      "explanation": "WAB(F→e) = F→e·AB→ = q·E·AB = q·UAB, où UAB est la tension entre les deux plaques (E·AB = UAB pour un champ uniforme)."
+    },
+    {
+      "question": "En appliquant le théorème de l'énergie cinétique à une particule chargée entre les plaques d'un condensateur (poids négligeable ou ne travaillant pas car déplacement horizontal), on obtient ΔEc = q·UAB. La particule est donc accélérée (ΔEc > 0) à condition que :",
+      "choices": [
+        "q et UAB soient de signes opposés",
+        "q et UAB soient de même signe",
+        "q soit nécessairement négatif",
+        "UAB soit nécessairement nul"
+      ],
+      "answer": 1,
+      "explanation": "ΔEc = q·UAB doit être positif pour que la particule soit accélérée : il faut donc que la charge q et la tension UAB soient de même signe (une charge positive est accélérée si UAB > 0, une charge négative si UAB < 0)."
+    },
+    {
+      "question": "Application numérique (accélérateur de Widerøe, 1928) : un ion potassium K⁺ (m = 6,5 × 10⁻²⁶ kg) reçoit une énergie cinétique de 50 eV (1 eV = 1,60 × 10⁻¹⁹ J). Sa vitesse finale, calculée à partir de Ec = ½mv², vaut environ :",
+      "choices": [
+        "1,6 × 10² m/s",
+        "1,6 × 10³ m/s",
+        "1,6 × 10⁴ m/s",
+        "1,6 × 10⁶ m/s"
+      ],
+      "answer": 2,
+      "explanation": "Ec = 50 × 1,60×10⁻¹⁹ = 8,0×10⁻¹⁸ J. v = √(2Ec/m) = √(2×8,0×10⁻¹⁸ / 6,5×10⁻²⁶) ≈ √(2,46×10⁸) ≈ 1,6×10⁴ m/s."
+    },
+    {
+      "question": "Dans un accélérateur linéaire de particules (type Widerøe), à l'intérieur des tubes conducteurs, le champ électrique est nul. La particule y a donc un mouvement :",
+      "choices": [
+        "Uniformément accéléré",
+        "Rectiligne uniforme, à vitesse constante",
+        "Circulaire uniforme",
+        "Immobile"
+      ],
+      "answer": 1,
+      "explanation": "À l'intérieur des tubes (cages de Faraday), le champ électrique est nul : aucune force électrique ne s'exerce, donc pas d'accélération. La particule y poursuit un mouvement rectiligne uniforme à la vitesse acquise dans l'interstice précédent."
+    },
+    {
+      "question": "C'est dans les interstices entre deux tubes successifs (et non à l'intérieur des tubes) que la particule est accélérée, car :",
+      "choices": [
+        "Un champ électrique y règne, créé par la différence de potentiel entre les deux sections de tubes",
+        "Les tubes y sont plus larges",
+        "La pesanteur y est plus forte",
+        "La particule y perd de la masse"
+      ],
+      "answer": 0,
+      "explanation": "Les sections de tubes adjacentes portent des charges de signes opposés, ce qui crée un champ électrique dans l'interstice qui les sépare : c'est là, et uniquement là, que la force électrique accélère la particule."
+    },
+    {
+      "question": "Pourquoi le générateur qui alimente un accélérateur linéaire de particules doit-il délivrer une tension alternative (et non continue) ?",
+      "choices": [
+        "Pour économiser de l'énergie électrique",
+        "Pour inverser périodiquement le sens du champ électrique, de sorte que la particule soit toujours accélérée (jamais freinée) en traversant successivement les interstices",
+        "Pour ralentir volontairement la particule à mi-parcours",
+        "Cela n'a aucune importance, une tension continue fonctionnerait aussi bien"
+      ],
+      "answer": 1,
+      "explanation": "Comme la particule change de sens de déplacement relatif par rapport aux tubes à chaque interstice traversé, il faut inverser le signe des charges des tubes (donc du champ électrique) en alternance, pour que la force électrique soit toujours motrice et non résistante."
+    },
+    {
+      "question": "Dans un accélérateur linéaire, les tubes successifs ont des longueurs de plus en plus grandes au fur et à mesure qu'on s'éloigne de la source. Cela s'explique par le fait que :",
+      "choices": [
+        "La particule ralentit progressivement, donc parcourt moins de distance",
+        "La particule accélère progressivement : pour une même durée (imposée par la période de la tension alternative), elle parcourt une distance de plus en plus grande",
+        "Les tubes doivent contenir de plus en plus de particules",
+        "C'est une contrainte purement esthétique, sans lien avec la physique"
+      ],
+      "answer": 1,
+      "explanation": "La particule étant accélérée à chaque passage, sa vitesse augmente. Pour qu'elle traverse chaque tube en une durée égale à une demi-période de la tension alternative (afin de retrouver le bon sens du champ à la sortie), les tubes doivent être de plus en plus longs."
+    }
+  ]
+}

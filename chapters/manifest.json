@@ -76,5 +76,11 @@
     "title": "Mouvement dans un champ uniforme",
     "number": 13,
     "competences": "Champ scalaire/vectoriel, champ uniforme (pesanteur, électrique), équations horaires et équation de la trajectoire (parabole), flèche et portée, mouvement d'une particule chargée dans un champ électrique"
+  },
+  {
+    "id": "aspects-energetiques",
+    "title": "Aspects énergétiques des mouvements",
+    "number": 14,
+    "competences": "Travail d'une force constante, forces conservatives/non conservatives, énergie cinétique/potentielle/mécanique, théorèmes de l'énergie cinétique et de l'énergie mécanique, accélérateur linéaire de particules chargées"
   }
 ]
