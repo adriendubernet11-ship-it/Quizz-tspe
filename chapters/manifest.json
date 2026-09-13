@@ -82,5 +82,11 @@
     "title": "Aspects énergétiques des mouvements",
     "number": 14,
     "competences": "Travail d'une force constante, forces conservatives/non conservatives, énergie cinétique/potentielle/mécanique, théorèmes de l'énergie cinétique et de l'énergie mécanique, accélérateur linéaire de particules chargées"
+  },
+  {
+    "id": "piles-accumulateurs",
+    "title": "Piles et accumulateurs",
+    "number": 15,
+    "competences": "Transfert d'électrons direct/indirect, constitution et fonctionnement d'une pile (demi-piles, pont salin, pôles), quantité d'électricité et capacité électrique, critère d'évolution (Qr/K), oxydants et réducteurs usuels"
   }
 ]

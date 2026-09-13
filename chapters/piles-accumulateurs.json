@@ -1,0 +1,282 @@
+{
+  "title": "Piles et accumulateurs",
+  "number": 15,
+  "competences": "Transfert spontané d'électrons (direct/indirect), constitution et fonctionnement d'une pile (demi-piles, pont salin, électrodes, pôles), quantité d'électricité et capacité d'une pile, critère d'évolution (Qr vs K), oxydants et réducteurs usuels",
+  "questions": [
+    {
+      "question": "Lorsque deux réactifs d'un couple oxydant/réducteur sont mis directement en contact (par exemple du zinc solide plongé dans une solution de sulfate de cuivre), le transfert d'électrons entre eux est :",
+      "choices": [
+        "Indirect, via un circuit électrique extérieur",
+        "Spontané et direct, sans production de courant électrique utilisable",
+        "Impossible tant qu'il n'y a pas de pont salin",
+        "Toujours nul, aucune réaction ne se produit"
+      ],
+      "answer": 1,
+      "explanation": "Quand les espèces sont mélangées (contact direct), le transfert d'électrons du réducteur vers l'oxydant se fait spontanément et directement entre les particules : aucune énergie électrique n'est récupérable, contrairement à une pile."
+    },
+    {
+      "question": "Pour récupérer, sous forme de courant électrique utilisable, l'énergie libérée par une réaction d'oxydoréduction spontanée, il faut :",
+      "choices": [
+        "Mélanger directement les réactifs dans un même bécher",
+        "Séparer les couples oxydant/réducteur dans deux demi-piles reliées par un circuit extérieur et une jonction électrolytique",
+        "Chauffer fortement le mélange réactionnel",
+        "Ajouter un catalyseur qui empêche la réaction"
+      ],
+      "answer": 1,
+      "explanation": "En séparant les réactifs dans deux demi-piles, on force les électrons à emprunter un circuit extérieur pour aller du réducteur vers l'oxydant : c'est le principe du transfert indirect (spontané), exploité dans une pile."
+    },
+    {
+      "question": "Dans une pile Daniell, chaque demi-pile est constituée d'une solution contenant un cation métallique Mⁿ⁺ et d'une électrode. Cette électrode est :",
+      "choices": [
+        "Une pièce de verre inerte",
+        "Le métal M à l'état solide, plongeant dans sa propre solution ionique",
+        "Toujours en platine, quel que soit le couple",
+        "Une solution saturée de sel de table"
+      ],
+      "answer": 1,
+      "explanation": "Dans chaque demi-pile, l'électrode est constituée du métal M solide, plongeant dans une solution contenant le cation Mⁿ⁺ correspondant : c'est le couple redox Mⁿ⁺/M."
+    },
+    {
+      "question": "Le rôle du pont salin (ou de la membrane) reliant les deux demi-piles est de :",
+      "choices": [
+        "Mélanger rapidement les deux solutions pour accélérer la réaction",
+        "Fermer le circuit électrique (continuité électrique) tout en évitant le mélange des solutions, et de rétablir l'électroneutralité par migration d'ions",
+        "Empêcher tout passage de courant entre les deux demi-piles",
+        "Servir uniquement de support mécanique à la pile"
+      ],
+      "answer": 1,
+      "explanation": "La jonction électrolytique assure la continuité électrique entre les deux demi-piles sans mélanger les solutions, et permet, par migration d'ions, de compenser les charges créées ou consommées à chaque électrode."
+    },
+    {
+      "question": "Sans pont salin (ni membrane), une pile constituée de deux demi-piles séparées :",
+      "choices": [
+        "Fonctionne exactement comme avec un pont salin",
+        "Ne peut pas fonctionner : le circuit électrique n'est pas fermé",
+        "Fonctionne mieux, car il y a moins de résistance",
+        "Produit une tension deux fois plus grande"
+      ],
+      "answer": 1,
+      "explanation": "Le pont salin est indispensable : sans lui, le circuit n'est pas fermé électriquement (les charges ne peuvent pas circuler en boucle) et la pile ne débite pas."
+    },
+    {
+      "question": "Dans une pile en fonctionnement (générateur), l'électrode où se produit une OXYDATION (production d'électrons) est :",
+      "choices": [
+        "La cathode, qui est le pôle +",
+        "L'anode, qui est le pôle -",
+        "La cathode, qui est le pôle -",
+        "L'anode, qui est le pôle +"
+      ],
+      "answer": 1,
+      "explanation": "Dans une pile, le pôle - est celui où sont produits les électrons : il s'y déroule une oxydation, c'est l'anode. Le pôle + (cathode) est celui où les électrons sont consommés par une réduction."
+    },
+    {
+      "question": "Dans les électrodes et le circuit électrique extérieur d'une pile, les porteurs de charge sont :",
+      "choices": [
+        "Des ions positifs uniquement",
+        "Des électrons",
+        "Des ions négatifs uniquement",
+        "Des atomes neutres"
+      ],
+      "answer": 1,
+      "explanation": "Dans les parties métalliques (électrodes, fils, circuit extérieur), le courant est assuré par la circulation d'électrons."
+    },
+    {
+      "question": "Dans les solutions et le pont salin d'une pile, ce sont les ions qui assurent le passage du courant. Les cations migrent alors préférentiellement vers :",
+      "choices": [
+        "L'anode (pôle -), où se produit l'oxydation",
+        "La cathode (pôle +), où se produit la réduction, pour compenser la consommation de cations qui s'y produit",
+        "Ils ne migrent jamais dans une pile en fonctionnement",
+        "Une direction aléatoire, sans lien avec les réactions aux électrodes"
+      ],
+      "answer": 1,
+      "explanation": "À la cathode, la réduction (ex. Cu²⁺ + 2e⁻ = Cu) consomme des cations en solution ; pour rétablir l'électroneutralité, des cations migrent depuis le pont salin vers cette demi-pile, tandis que les anions migrent vers l'anode où des cations sont au contraire produits (ex. Zn = Zn²⁺ + 2e⁻)."
+    },
+    {
+      "question": "La force électromotrice (fém) E d'une pile correspond à :",
+      "choices": [
+        "La tension mesurée à ses bornes lorsqu'elle débite un courant maximal",
+        "La tension mesurée à ses bornes à vide, c'est-à-dire lorsqu'elle ne débite aucun courant",
+        "L'intensité maximale qu'elle peut fournir",
+        "La quantité d'électricité totale qu'elle peut fournir"
+      ],
+      "answer": 1,
+      "explanation": "La fém E est la tension à vide de la pile (I = 0), c'est-à-dire la tension mesurée à ses bornes lorsqu'aucun courant ne circule."
+    },
+    {
+      "question": "Une pile réelle est un générateur linéaire de tension NON idéal, modélisé par UPN = E − r·I. Le terme r représente :",
+      "choices": [
+        "Le rendement de la pile",
+        "La résistance interne de la pile",
+        "Le rayon des électrodes",
+        "La capacité de la pile"
+      ],
+      "answer": 1,
+      "explanation": "r est la résistance interne de la pile : plus l'intensité I débitée est grande, plus la chute de tension r·I est importante, et plus UPN s'écarte de la fém E."
+    },
+    {
+      "question": "La quantité d'électricité Q débitée par une pile est calculée par :",
+      "choices": [
+        "Q = (nombre d'électrons échangés) × (charge élémentaire e)",
+        "Q = (masse du réactif limitant) × e",
+        "Q = E / r",
+        "Q = I + Δt"
+      ],
+      "answer": 0,
+      "explanation": "Q est la valeur absolue de la charge totale des électrons échangés : Q = n(e⁻)échangés × e, où n(e⁻)échangés se calcule souvent via n(e⁻) = n(e⁻) × NA (nombre de moles d'électrons fois le nombre d'Avogadro)."
+    },
+    {
+      "question": "La capacité électrique d'une pile est déterminée à partir de sa constitution initiale en identifiant :",
+      "choices": [
+        "La tension à vide uniquement",
+        "Le réactif limitant, qui fixe la quantité maximale d'électrons pouvant être échangés",
+        "La résistance interne de la pile",
+        "La couleur de la solution"
+      ],
+      "answer": 1,
+      "explanation": "La capacité (quantité d'électricité maximale Qmax) dépend de la quantité du réactif limitant : une fois celui-ci totalement consommé, la pile est usée et ne peut plus fournir de courant."
+    },
+    {
+      "question": "Si une pile de capacité Q débite un courant d'intensité constante I, sa durée de fonctionnement Δt est donnée par la relation :",
+      "choices": [
+        "Q = I × Δt",
+        "Q = I / Δt",
+        "Q = I + Δt",
+        "Δt = Q × I"
+      ],
+      "answer": 0,
+      "explanation": "Qmax = I × Δt (avec Q en coulombs, I en ampères et Δt en secondes, ou Q en Ah avec Δt en heures)."
+    },
+    {
+      "question": "L'énergie électrique W emmagasinée dans une pile de fém E et de capacité Q se calcule par :",
+      "choices": [
+        "W = E / Q",
+        "W = Q × E",
+        "W = E − Q",
+        "W = Q² × E"
+      ],
+      "answer": 1,
+      "explanation": "W = Q·E (en joules si E est en volts et Q en coulombs, ou en Wh si E est en volts et Q en ampère-heures). Cette énergie permet de comparer différentes piles entre elles."
+    },
+    {
+      "question": "Pour fabriquer une bonne pile, on choisit souvent comme électrode des métaux issus des deux premières colonnes de la classification périodique (alcalins, alcalino-terreux), car ce sont de très bons réducteurs. Cela s'explique par le fait qu'ils :",
+      "choices": [
+        "Captent facilement des électrons pour atteindre la configuration d'un gaz rare",
+        "Cèdent facilement leur(s) électron(s) de valence pour atteindre la configuration électronique du gaz rare le plus proche",
+        "Ne possèdent aucun électron de valence",
+        "Sont toujours à l'état liquide à température ambiante"
+      ],
+      "answer": 1,
+      "explanation": "Les métaux des colonnes 1 et 2 possèdent respectivement 1 ou 2 électrons de valence qu'ils perdent facilement pour atteindre la structure électronique stable du gaz rare le plus proche : ce sont donc d'excellents réducteurs."
+    },
+    {
+      "question": "Parmi les propositions suivantes, laquelle regroupe uniquement des oxydants usuels à connaître ?",
+      "choices": [
+        "Dihydrogène H2, acide ascorbique",
+        "Dioxygène O2, ion hypochlorite ClO⁻, dichlore Cl2",
+        "Lithium Li, sodium Na",
+        "Cuivre Cu, zinc Zn"
+      ],
+      "answer": 1,
+      "explanation": "O2, ClO⁻ (présent dans l'eau de Javel) et Cl2 sont des oxydants usuels à connaître. Le dihydrogène et l'acide ascorbique (vitamine C) sont au contraire des réducteurs usuels."
+    },
+    {
+      "question": "Dans la pile lithium-iode d'un stimulateur cardiaque (couples I2/I⁻ et Li⁺/Li), le lithium constitue :",
+      "choices": [
+        "L'oxydant, à la cathode (pôle +)",
+        "Le réducteur, à l'anode (pôle -), selon Li = Li⁺ + e⁻",
+        "Un catalyseur qui n'est pas consommé",
+        "L'électrolyte de la pile"
+      ],
+      "answer": 1,
+      "explanation": "Au pôle négatif (anode), le lithium est oxydé selon Li = Li⁺ + e⁻ : c'est le réducteur de la pile. Au pôle positif, le diiode est réduit : I2 + 2e⁻ = 2I⁻."
+    },
+    {
+      "question": "Avec une masse initiale de lithium m = 1,4 g (M = 6,94 g/mol) et en supposant le lithium limitant, l'avancement final de la réaction 2 Li + I2 → 2 Li⁺ + 2 I⁻ vaut environ :",
+      "choices": [
+        "0,050 mol",
+        "0,10 mol",
+        "0,20 mol",
+        "1,4 mol"
+      ],
+      "answer": 1,
+      "explanation": "xf = n(Li)i / 2 = m / (2×M) = 1,4 / (2×6,94) ≈ 0,10 mol."
+    },
+    {
+      "question": "Pour cet avancement final (xf ≈ 0,10 mol), la capacité électrique de la pile du stimulateur (Qmax = 2·xf·NA·e, avec NA = 6,02×10²³ mol⁻¹ et e = 1,6×10⁻¹⁹ C) vaut environ :",
+      "choices": [
+        "1,93 × 10² C",
+        "1,93 × 10³ C",
+        "1,93 × 10⁴ C",
+        "1,93 × 10⁶ C"
+      ],
+      "answer": 2,
+      "explanation": "Qmax = 2 × 0,10 × 6,02×10²³ × 1,6×10⁻¹⁹ ≈ 1,93×10⁴ C (2 électrons échangés par mole de lithium consommé)."
+    },
+    {
+      "question": "Avec cette capacité (Qmax ≈ 1,93×10⁴ C) et un courant continu d'intensité I = 70 µA délivré par le stimulateur, la durée de vie théorique de la pile (Δt = Qmax/I) vaut environ :",
+      "choices": [
+        "8 jours",
+        "8 mois",
+        "8 ans",
+        "80 ans"
+      ],
+      "answer": 2,
+      "explanation": "Δt = Qmax/I = 1,93×10⁴ / (70×10⁻⁶) ≈ 2,75×10⁸ s ≈ 7,64×10⁴ h ≈ 3,19×10³ jours, soit environ 8 ans (et 265 jours)."
+    },
+    {
+      "question": "À capacité électrique égale, pourquoi le lithium (M = 6,94 g/mol) est-il préférable au sodium (M = 23 g/mol) pour un stimulateur cardiaque implanté, alors que les deux sont de bons réducteurs monovalents ?",
+      "choices": [
+        "Le sodium est radioactif, contrairement au lithium",
+        "Pour une même capacité électrique, il faudrait environ 3 fois plus de masse de sodium que de lithium (rapport des masses molaires), rendant le stimulateur plus lourd et encombrant",
+        "Le sodium ne réagit pas avec le diiode",
+        "Le lithium ne s'use jamais, contrairement au sodium"
+      ],
+      "answer": 1,
+      "explanation": "Le nombre de moles nécessaires pour une capacité donnée est le même pour Li et Na (tous deux cèdent 1 électron), mais comme M(Na) ≈ 3,3 × M(Li), il faudrait une masse de sodium environ 3 fois plus grande pour obtenir la même capacité électrique : un stimulateur au lithium est donc plus compact et plus léger."
+    },
+    {
+      "question": "Lors de l'expérience « barrejadis » (zinc solide + solution de sulfate de cuivre II, réaction Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), K = 10³⁷), les concentrations initiales en Cu²⁺ et Zn²⁺ sont toutes deux 0,1 mol/L. Le quotient de réaction initial Qr,i = [Zn²⁺]i/[Cu²⁺]i vaut 1. Que prévoit le critère d'évolution ?",
+      "choices": [
+        "Qr,i = 1 est très supérieur à K : la réaction évolue en sens inverse (formation de Zn²⁺ vers Zn)",
+        "Qr,i = 1 est très inférieur à K = 10³⁷ : le système évolue spontanément dans le sens direct (formation de Cu et de Zn²⁺), ce qui est cohérent avec les observations",
+        "Qr,i = K : le système est déjà à l'équilibre, rien ne se passe",
+        "Le critère d'évolution ne s'applique pas ici"
+      ],
+      "answer": 1,
+      "explanation": "Puisque Qr,i (= 1) < K (= 10³⁷), le système évolue spontanément dans le sens direct de l'équation, ce qui est cohérent avec le dépôt de cuivre et la dissolution du zinc observés expérimentalement."
+    },
+    {
+      "question": "Une pile en fonctionnement est un système chimique hors équilibre qui évolue spontanément. Elle cesse de débiter (elle est « usée ») lorsque :",
+      "choices": [
+        "Le quotient de réaction Qr devient égal à la constante d'équilibre K",
+        "La tension à vide atteint sa valeur maximale",
+        "Le pont salin est retiré",
+        "La température de la pile atteint 100°C"
+      ],
+      "answer": 0,
+      "explanation": "La pile débite tant que le système n'est pas à l'équilibre (Qr ≠ K). Quand Qr = K, le système a atteint son état d'équilibre : la pile ne peut plus fournir de courant, elle est usée, et sa tension à vide s'annule."
+    },
+    {
+      "question": "L'expression « la pile s'use si l'on s'en sert » signifie que :",
+      "choices": [
+        "Utiliser une pile n'a aucun effet sur sa durée de vie",
+        "Faire débiter la pile consomme le réactif limitant et rapproche le système de l'équilibre, jusqu'à épuisement de sa capacité",
+        "Une pile s'use uniquement si on ne l'utilise jamais",
+        "La pile se recharge automatiquement dès qu'on arrête de l'utiliser"
+      ],
+      "answer": 1,
+      "explanation": "Faire fonctionner la pile fait avancer la réaction chimique (consommation du réactif limitant), rapprochant le système de l'équilibre (Qr → K) : plus on la fait débiter, plus vite sa capacité s'épuise."
+    },
+    {
+      "question": "Contrairement à une pile classique (non rechargeable), un accumulateur peut être « rechargé ». Pour cela, il faut :",
+      "choices": [
+        "Attendre simplement que la réaction s'inverse spontanément",
+        "Imposer, à l'aide d'un générateur extérieur, un courant en sens inverse afin de forcer la réaction non spontanée (inverse de la décharge)",
+        "Chauffer fortement l'accumulateur",
+        "Retirer le pont salin"
+      ],
+      "answer": 1,
+      "explanation": "Recharger un accumulateur consiste à imposer, grâce à un générateur extérieur, un courant de sens opposé à celui de la décharge : cela force la réaction chimique à s'inverser (réaction non spontanée), reconstituant les réactifs initiaux."
+    }
+  ]
+}
