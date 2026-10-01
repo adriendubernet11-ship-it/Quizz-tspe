@@ -88,5 +88,11 @@
     "title": "Piles et accumulateurs",
     "number": 15,
     "competences": "Transfert d'électrons direct/indirect, constitution et fonctionnement d'une pile (demi-piles, pont salin, pôles), quantité d'électricité et capacité électrique, critère d'évolution (Qr/K), oxydants et réducteurs usuels"
+  },
+  {
+    "id": "forcer-sens-evolution",
+    "title": "Forcer le sens d'évolution d'un système",
+    "number": 16,
+    "competences": "Transformations spontanées/forcées, principe de l'électrolyse, polarité des électrodes (cathode/anode) selon pile ou électrolyseur, bilan de matière (Q=I.Δt, n(e-)), conversion/stockage d'énergie chimique (piles, accumulateurs, piles à combustible, photosynthèse)"
   }
 ]

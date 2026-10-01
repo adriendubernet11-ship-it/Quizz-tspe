@@ -1,0 +1,282 @@
+{
+  "title": "Forcer le sens d'évolution d'un système",
+  "number": 16,
+  "competences": "Transformations spontanées/forcées, principe et fonctionnement de l'électrolyse, polarité des électrodes (cathode/anode) dans un électrolyseur, bilan de matière (Q=I.Δt, n(e-)), conversion et stockage de l'énergie chimique (piles, accumulateurs, piles à combustible, photosynthèse)",
+  "questions": [
+    {
+      "question": "Entre deux couples oxydant/réducteur donnés, deux réactions d'oxydoréduction opposées sont a priori envisageables. Laquelle se produit spontanément ?",
+      "choices": [
+        "Les deux se produisent toujours simultanément",
+        "Celle qui permet au système d'évoluer vers son état d'équilibre (prévue par le critère d'évolution, Qr comparé à K)",
+        "Celle qui dégage le moins d'énergie",
+        "Aucune des deux ne peut jamais se produire spontanément"
+      ],
+      "answer": 1,
+      "explanation": "Une seule des deux réactions inverses l'une de l'autre est favorisée spontanément : celle qui rapproche le système de l'équilibre, comme le prévoit le critère d'évolution (comparaison de Qr et K)."
+    },
+    {
+      "question": "La réaction non prévue par le critère d'évolution (donc non spontanée) peut-elle se produire naturellement ?",
+      "choices": [
+        "Oui, elle se produit aussi spontanément, mais plus lentement",
+        "Non : elle ne peut s'inverser naturellement, il faut la forcer à l'aide d'un dispositif extérieur (un générateur)",
+        "Oui, à condition d'attendre suffisamment longtemps",
+        "Non, elle est physiquement impossible, même en la forçant"
+      ],
+      "answer": 1,
+      "explanation": "La réaction inverse de la réaction spontanée ne peut pas se produire naturellement. Pour l'obtenir, il faut la « forcer » en utilisant un générateur électrique : c'est le principe de l'électrolyse."
+    },
+    {
+      "question": "L'électrolyse est définie comme :",
+      "choices": [
+        "Une transformation spontanée qui libère de l'énergie électrique",
+        "Une transformation redox forcée, au cours de laquelle un générateur électrique impose un transfert d'électrons dans le sens inverse du sens spontané",
+        "Le fonctionnement normal d'une pile usée",
+        "Une réaction qui ne met en jeu aucun transfert d'électrons"
+      ],
+      "answer": 1,
+      "explanation": "L'électrolyse est une transformation forcée : un générateur électrique impose, entre un réducteur et un oxydant, un transfert d'électrons dans le sens inverse de celui qui se produirait spontanément."
+    },
+    {
+      "question": "Au cours d'une électrolyse, comment évolue le quotient de réaction Qr, par rapport à la constante d'équilibre K, au fil du temps ?",
+      "choices": [
+        "Qr se rapproche de K, comme dans une pile",
+        "Qr s'éloigne de K : c'est la signature d'une transformation forcée",
+        "Qr reste rigoureusement égal à K pendant toute l'électrolyse",
+        "Qr et K ne sont pas définis pour une électrolyse"
+      ],
+      "answer": 1,
+      "explanation": "Contrairement à une pile (où le système évolue spontanément vers l'équilibre, Qr → K), l'électrolyse impose au système un état de non-équilibre : Qr s'éloigne de K au cours de l'opération, ce qui signe le caractère forcé de la transformation."
+    },
+    {
+      "question": "Lors d'une électrolyse, le sens du courant électrique dans le circuit est imposé par :",
+      "choices": [
+        "La réaction chimique elle-même, spontanément",
+        "Le générateur électrique branché dans le circuit",
+        "Le pont salin",
+        "La température de la solution"
+      ],
+      "answer": 1,
+      "explanation": "Contrairement à une pile (qui impose elle-même le sens du courant par la réaction spontanée), dans un électrolyseur c'est le générateur électrique extérieur qui impose le sens du courant et donc du transfert d'électrons."
+    },
+    {
+      "question": "Dans un électrolyseur, l'électrode reliée à la borne NÉGATIVE du générateur reçoit des électrons. Il s'y produit donc :",
+      "choices": [
+        "Une oxydation : c'est l'anode",
+        "Une réduction : c'est la cathode",
+        "Aucune réaction, cette électrode est inerte",
+        "Une oxydation : c'est la cathode"
+      ],
+      "answer": 1,
+      "explanation": "L'électrode reliée à la borne – du générateur reçoit des électrons (ils y arrivent) : il s'y produit une réduction. Par définition, l'électrode où a lieu une réduction est la cathode."
+    },
+    {
+      "question": "Dans une pile (générateur spontané), la cathode (où a lieu la réduction) est le pôle + ; dans un électrolyseur (récepteur forcé), la cathode est reliée à la borne – du générateur. Que peut-on en conclure ?",
+      "choices": [
+        "La cathode est toujours le pôle +, que ce soit une pile ou un électrolyseur",
+        "La définition de la cathode (électrode de réduction) ne change pas, mais sa polarité (+ ou –) s'inverse entre une pile et un électrolyseur",
+        "Il n'existe pas de cathode dans un électrolyseur",
+        "La notion de cathode ne s'applique qu'aux piles"
+      ],
+      "answer": 1,
+      "explanation": "La cathode reste, par définition, l'électrode où se produit la réduction. Mais sa polarité change : pôle + dans une pile (où le système évolue spontanément), pôle – dans un électrolyseur (où le générateur impose le sens inverse). C'est un point de vigilance classique."
+    },
+    {
+      "question": "La charge électrique Q qui circule pendant une durée Δt d'électrolyse, pour un courant d'intensité constante I, est donnée par :",
+      "choices": [
+        "Q = I × Δt",
+        "Q = I / Δt",
+        "Q = I + Δt",
+        "Q = Δt / I"
+      ],
+      "answer": 0,
+      "explanation": "Q = I × Δt, avec Q en coulombs, I en ampères et Δt en secondes."
+    },
+    {
+      "question": "La quantité de matière d'électrons n(e⁻) ayant circulé pendant l'électrolyse se calcule, à partir de la charge Q, par :",
+      "choices": [
+        "n(e⁻) = Q × NA × e",
+        "n(e⁻) = Q / (NA × e)",
+        "n(e⁻) = Q + NA × e",
+        "n(e⁻) = NA / (Q × e)"
+      ],
+      "answer": 1,
+      "explanation": "n(e⁻) = N(e⁻)/NA = Q/(e×NA), où e est la charge élémentaire et NA le nombre d'Avogadro (le produit NA×e correspond à la constante de Faraday, ≈ 9,65×10⁴ C/mol)."
+    },
+    {
+      "question": "Lors de l'électrolyse d'une solution aqueuse d'acide sulfurique (TP « Et si on forçait un peu les choses ? »), la réduction se produit à la cathode selon 2 H⁺ + 2e⁻ → H2, et l'oxydation à l'anode selon 2 H2O → O2 + 4 H⁺ + 4 e⁻. Pour une même quantité d'électrons échangés, le rapport des volumes de gaz V(H2)/V(O2) obtenu vaut :",
+      "choices": [
+        "1 (autant de H2 que de O2)",
+        "2 (deux fois plus de H2 que de O2)",
+        "4",
+        "0,5 (deux fois moins de H2 que de O2)"
+      ],
+      "answer": 1,
+      "explanation": "n(H2) = n(e⁻)/2 et n(O2) = n(e⁻)/4, donc n(H2)/n(O2) = 2, et comme les volumes de gaz sont proportionnels aux quantités de matière (mêmes conditions de température et pression), V(H2)/V(O2) = 2."
+    },
+    {
+      "question": "Application numérique : lors de cette électrolyse de l'eau acidifiée, un courant d'intensité I = 0,30 A circule pendant Δt = 600 s (10 min). La quantité de matière d'électrons échangés n(e⁻) = Q/(NA×e) vaut environ :",
+      "choices": [
+        "1,9 × 10⁻⁵ mol",
+        "1,9 × 10⁻³ mol",
+        "1,9 × 10⁻¹ mol",
+        "1,9 mol"
+      ],
+      "answer": 1,
+      "explanation": "Q = I×Δt = 0,30 × 600 = 180 C. n(e⁻) = 180 / (6,02×10²³ × 1,6×10⁻¹⁹) ≈ 1,9×10⁻³ mol."
+    },
+    {
+      "question": "Avec n(e⁻) ≈ 1,9×10⁻³ mol et un volume molaire Vm ≈ 24 L/mol, le volume de dihydrogène V(H2) = (n(e⁻)/2)×Vm formé à la cathode vaut environ :",
+      "choices": [
+        "5,6 mL",
+        "11 mL",
+        "22 mL",
+        "45 mL"
+      ],
+      "answer": 2,
+      "explanation": "n(H2) = n(e⁻)/2 ≈ 9,3×10⁻⁴ mol, donc V(H2) ≈ 9,3×10⁻⁴ × 24000 ≈ 22 mL."
+    },
+    {
+      "question": "Dans l'équation globale d'électrolyse Cu²⁺ + Fe (+ 2e⁻) → Cu + Fe²⁺ (+ 2e⁻), la circulation de 2 mol d'électrons consomme et produit :",
+      "choices": [
+        "1 mol de Cu²⁺ et 1 mol de Fe consommées ; 1 mol de Cu et 1 mol de Fe²⁺ produites",
+        "2 mol de Cu²⁺ et 2 mol de Fe consommées ; 2 mol de Cu et 2 mol de Fe²⁺ produites",
+        "0,5 mol de chaque espèce",
+        "4 mol de chaque espèce"
+      ],
+      "answer": 0,
+      "explanation": "D'après les coefficients stœchiométriques de l'équation (2 électrons échangés pour 1 Cu²⁺ et 1 Fe), la circulation de 2 mol d'électrons correspond à la consommation d'1 mol de Cu²⁺ et d'1 mol de Fe, et à la production d'1 mol de Cu et d'1 mol de Fe²⁺."
+    },
+    {
+      "question": "Une pile (saline, alcaline ou au lithium), lorsqu'elle débite un courant, convertit l'énergie chimique en énergie électrique grâce à une réaction spontanée. Quel est l'enjeu sociétal principal associé à ce dispositif, selon le cours ?",
+      "choices": [
+        "Éviter la déforestation",
+        "Recycler, car les piles contiennent des électrolytes et électrodes polluants (nickel, cadmium...)",
+        "Limiter la matière utilisée",
+        "Produire de la lumière"
+      ],
+      "answer": 1,
+      "explanation": "En raison de la pollution potentielle de leurs composants (électrolytes, métaux comme le nickel ou le cadmium), l'enjeu associé aux piles est leur recyclage en fin de vie."
+    },
+    {
+      "question": "Un accumulateur (souvent appelé « pile rechargeable ») se distingue d'une pile classique car il peut fonctionner dans les deux sens : comme générateur (décharge, spontanée) ou comme récepteur (charge, forcée). La conversion d'énergie associée est donc notée :",
+      "choices": [
+        "Echimique → Eélectrique uniquement",
+        "Eélectrique → Echimique uniquement",
+        "Echimique ⇌ Eélectrique (réversible selon le mode de fonctionnement)",
+        "Elumineuse → Echimique"
+      ],
+      "answer": 2,
+      "explanation": "L'accumulateur convertit l'énergie chimique en énergie électrique lors de la décharge (générateur, réaction spontanée) et l'énergie électrique en énergie chimique lors de la charge (récepteur, réaction forcée) : la conversion est réversible."
+    },
+    {
+      "question": "D'après le cours, l'enjeu sociétal principal associé aux accumulateurs est de :",
+      "choices": [
+        "Recycler uniquement",
+        "Limiter la matière (ressources, métaux) utilisée, grâce à leur réutilisation",
+        "Éviter la déforestation",
+        "Produire de la chaleur"
+      ],
+      "answer": 1,
+      "explanation": "Pouvant être rechargés et réutilisés de nombreuses fois, les accumulateurs limitent la consommation de matières premières par rapport à des piles à usage unique."
+    },
+    {
+      "question": "Les organismes chlorophylliens réalisent la photosynthèse (6 CO2 + 6 H2O → C6H12O6 + 6 O2), transformation forcée inverse d'une réaction spontanée (la combustion/respiration du glucose). L'énergie nécessaire à cette transformation forcée est apportée par :",
+      "choices": [
+        "Un générateur électrique, comme pour l'électrolyse",
+        "L'énergie lumineuse (solaire ou artificielle)",
+        "La chaleur dégagée par le sol",
+        "Une réaction chimique spontanée annexe"
+      ],
+      "answer": 1,
+      "explanation": "La photosynthèse est une transformation forcée (non spontanée), mais l'énergie qui la rend possible n'est pas électrique : elle provient de l'énergie lumineuse, solaire ou artificielle, captée par la chlorophylle."
+    },
+    {
+      "question": "Dans la pile à combustible dihydrogène/dioxygène (activité « Le dihydrogène, vecteur énergétique du futur ? »), l'électrode alimentée en dihydrogène est le siège de la réaction H2 → 2H⁺ + 2e⁻. Il s'agit donc :",
+      "choices": [
+        "D'une réduction : cette électrode est le pôle + de la pile",
+        "D'une oxydation : cette électrode est le pôle – de la pile",
+        "D'une réduction : cette électrode est le pôle – de la pile",
+        "D'une oxydation : cette électrode est le pôle + de la pile"
+      ],
+      "answer": 1,
+      "explanation": "H2 → 2H⁺ + 2e⁻ est une oxydation (production d'électrons) : dans une pile, l'électrode où a lieu l'oxydation est le pôle – (l'anode)."
+    },
+    {
+      "question": "Dans cette même pile à combustible, le dioxygène réagit selon O2 + 4H⁺ + 4e⁻ → 2H2O à l'autre électrode. La réaction globale (bilan spontané de la pile) est alors :",
+      "choices": [
+        "2 H2 + O2 → 2 H2O",
+        "H2 + O2 → H2O2",
+        "2 H2O → 2 H2 + O2",
+        "H2 → 2 H⁺ + 2 e⁻ uniquement"
+      ],
+      "answer": 0,
+      "explanation": "En multipliant la demi-équation du dihydrogène par 2 pour équilibrer les électrons (4 e⁻ échangés de part et d'autre) puis en additionnant les deux demi-équations, on obtient : 2H2 + O2 → 2H2O, la réaction de combustion du dihydrogène, ici spontanée dans la pile à combustible."
+    },
+    {
+      "question": "Le vaporeformage du méthane (procédé le plus utilisé pour produire du dihydrogène) répond à l'équation CH4 + 2 H2O → CO2 + 4 H2. Quel est le principal problème environnemental de cette méthode de production, bien que le dihydrogène soit lui-même un vecteur énergétique propre à l'usage ?",
+      "choices": [
+        "Elle ne produit pas assez de dihydrogène pour être rentable",
+        "Elle libère du dioxyde de carbone (CO2), un gaz à effet de serre : le dihydrogène ainsi produit n'est donc pas « propre » à la fabrication",
+        "Elle consomme du dihydrogène au lieu d'en produire",
+        "Elle ne fonctionne qu'à très basse température"
+      ],
+      "answer": 1,
+      "explanation": "Bien que le dihydrogène ne rejette que de l'eau à l'usage (pile à combustible), sa production par vaporeformage du méthane (ou par gazéification du charbon) libère du CO2 : on parle alors de dihydrogène « gris », non renouvelable et polluant à produire, contrairement à un dihydrogène produit par électrolyse de l'eau à partir d'électricité renouvelable (dihydrogène « vert »)."
+    },
+    {
+      "question": "Sur la plateforme MYRTE, des panneaux photovoltaïques alimentent un électrolyseur qui produit du dihydrogène, stocké puis réutilisé dans une pile à combustible pour produire de l'électricité en cas de forte demande. Quelle est la chaîne de conversions d'énergie mise en jeu ?",
+      "choices": [
+        "Echimique → Elumineuse → Eélectrique",
+        "Elumineuse → Eélectrique → Echimique (stockage, par électrolyse forcée) → Eélectrique (restitution, par pile à combustible spontanée)",
+        "Eélectrique → Elumineuse uniquement",
+        "Echimique → Echimique, sans conversion réelle"
+      ],
+      "answer": 1,
+      "explanation": "L'énergie lumineuse du soleil est convertie en énergie électrique par les panneaux photovoltaïques, puis stockée sous forme d'énergie chimique (H2) par électrolyse forcée de l'eau ; cette énergie chimique est reconvertie en énergie électrique, à la demande, grâce à la réaction spontanée dans la pile à combustible."
+    },
+    {
+      "question": "La réaction qui produit du dihydrogène dans l'électrolyseur de la plateforme MYRTE (2 H2O → 2 H2 + O2) est-elle spontanée ?",
+      "choices": [
+        "Oui, elle se produit spontanément dès qu'on plonge des électrodes dans l'eau",
+        "Non : c'est la réaction inverse de celle, spontanée, qui a lieu dans la pile à combustible ; elle doit être forcée par un générateur électrique (ici alimenté par les panneaux photovoltaïques)",
+        "Oui, car elle ne met en jeu aucun transfert d'électrons",
+        "Il est impossible de répondre sans connaître la température"
+      ],
+      "answer": 1,
+      "explanation": "2H2O → 2H2 + O2 est l'inverse de la réaction spontanée 2H2 + O2 → 2H2O qui a lieu dans la pile à combustible. Il s'agit donc d'une transformation forcée, nécessitant un apport d'énergie électrique extérieur : c'est le principe même de l'électrolyseur."
+    },
+    {
+      "question": "Dans l'expérience de la pile cuivre-argent (Cu(s) + 2Ag⁺(aq) = Cu²⁺(aq) + 2Ag(s), K = 2,15×10¹⁵), on mesure à l'équilibre [Ag⁺]éq = 2,2×10⁻⁸ mol/L et [Cu²⁺]éq = 1 mol/L. En calculant K = [Cu²⁺]éq/[Ag⁺]éq², retrouve-t-on bien la valeur annoncée ?",
+      "choices": [
+        "Non, on trouve une valeur 1000 fois plus petite",
+        "Oui : [Cu²⁺]éq/[Ag⁺]éq² = 1/(2,2×10⁻⁸)² ≈ 2,1×10¹⁵, cohérent avec K = 2,15×10¹⁵",
+        "Non, le calcul donne K ≈ 1",
+        "Cette vérification est impossible sans connaître le volume des solutions"
+      ],
+      "answer": 1,
+      "explanation": "1/(2,2×10⁻⁸)² ≈ 2,07×10¹⁵, très proche de la valeur donnée K = 2,15×10¹⁵ (aux incertitudes de mesure et d'arrondi près) : les concentrations mesurées sont bien compatibles avec l'état d'équilibre attendu."
+    },
+    {
+      "question": "Une fois la pile cuivre-argent usée (système à l'équilibre, Qr = K), on branche un générateur pour forcer le système à fonctionner en sens inverse (recharge), puis on le retire et on relie à nouveau les électrodes par un simple conducteur. Que se passe-t-il alors, et quel dispositif cela illustre-t-il ?",
+      "choices": [
+        "Rien ne se passe, le système reste figé définitivement",
+        "Le système réévolue spontanément dans le sens direct (décharge) : ce comportement réversible (charge forcée / décharge spontanée) est celui d'un accumulateur",
+        "Le système explose immédiatement",
+        "Le générateur doit rester branché en permanence pour que quoi que ce soit se produise"
+      ],
+      "answer": 1,
+      "explanation": "Après la recharge forcée (le générateur a éloigné le système de l'équilibre), le système, livré à lui-même, évolue de nouveau spontanément vers l'équilibre (décharge) : il débite à nouveau du courant. Ce fonctionnement réversible (récepteur en charge, générateur en décharge) est précisément celui d'un accumulateur."
+    },
+    {
+      "question": "Dans l'électrolyse de l'eau acidifiée (TP), on compare les polarités des électrodes à celles d'une pile. Quelle conclusion générale peut-on tirer sur le rôle d'un électrolyseur ?",
+      "choices": [
+        "Un électrolyseur fonctionne exactement comme une pile, sans aucune différence",
+        "Un électrolyseur est un récepteur qui utilise de l'énergie électrique extérieure pour forcer une transformation chimique non spontanée, à l'inverse d'une pile qui est un générateur produisant de l'énergie électrique à partir d'une réaction spontanée",
+        "Un électrolyseur ne produit jamais de gaz",
+        "Un électrolyseur n'a pas de cathode ni d'anode"
+      ],
+      "answer": 1,
+      "explanation": "La pile est un générateur (transformation spontanée → énergie électrique) alors que l'électrolyseur est un récepteur (énergie électrique imposée → transformation chimique forcée, non spontanée) : ce sont deux fonctionnements opposés, ce qui explique l'inversion des polarités des électrodes (cathode/anode) entre les deux dispositifs."
+    }
+  ]
+}
