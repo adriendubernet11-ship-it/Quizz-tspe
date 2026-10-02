@@ -1,0 +1,304 @@
+{
+  "title": "Modélisation de l'écoulement d'un fluide",
+  "number": 18,
+  "competences": "Fluides au repos (force pressante, loi fondamentale de la statique des fluides), poussée d'Archimède (origine qualitative, expression vectorielle, conditions de flottaison), écoulement en régime permanent, conservation du débit volumique, relation de Bernoulli, effet Venturi, applications (relation de Torricelli, portance d'une aile)",
+  "questions": [
+    {
+      "question": "Qu'est-ce qu'un fluide, au sens de la physique ?",
+      "choices": [
+        "Uniquement un gaz",
+        "Un solide capable de s'écouler lentement",
+        "Uniquement un liquide",
+        "Un liquide ou un gaz"
+      ],
+      "answer": 3,
+      "explanation": "Un fluide est un liquide ou un gaz : dans les deux cas, à l'échelle macroscopique, il n'a pas de forme propre et peut s'écouler, contrairement à un solide."
+    },
+    {
+      "question": "À l'échelle microscopique, à quoi correspond la pression d'un fluide au repos ?",
+      "choices": [
+        "Aux chocs des entités du fluide : plus il y a de chocs, plus la pression est élevée",
+        "À la proximité des entités du fluide les unes par rapport aux autres",
+        "À la masse totale des entités contenues dans le fluide",
+        "À l'agitation désordonnée des entités du fluide"
+      ],
+      "answer": 0,
+      "explanation": "La pression macroscopique résulte, à l'échelle microscopique, des chocs incessants des entités du fluide contre les parois : plus ces chocs sont nombreux et violents, plus la pression est élevée."
+    },
+    {
+      "question": "À l'échelle microscopique, à quoi correspond la température d'un fluide au repos ?",
+      "choices": [
+        "À la proximité des entités du fluide les unes par rapport aux autres",
+        "Aux chocs des entités du fluide contre les parois",
+        "À l'agitation des entités du fluide : plus il y a d'agitation, plus la température est élevée",
+        "Au volume occupé par le fluide"
+      ],
+      "answer": 2,
+      "explanation": "La température traduit, à l'échelle microscopique, le degré d'agitation désordonnée des entités du fluide : plus elles s'agitent, plus la température est élevée."
+    },
+    {
+      "question": "Quelle est l'expression de la force pressante F exercée par un fluide à la pression P sur une paroi de surface S ?",
+      "choices": [
+        "F = P / S",
+        "F = P × S²",
+        "F = P × S",
+        "F = P + S"
+      ],
+      "answer": 2,
+      "explanation": "La force pressante exercée par un fluide sur une paroi est le produit de la pression P (en Pa) par l'aire S (en m²) de la surface considérée, et s'exprime en newtons."
+    },
+    {
+      "question": "D'après la loi fondamentale de la statique des fluides, comment varie la pression lorsqu'on descend dans un liquide au repos (par exemple de l'eau) ?",
+      "choices": [
+        "Elle diminue d'environ 1 bar tous les 10 mètres de profondeur",
+        "Elle double tous les 10 mètres de profondeur",
+        "Elle reste rigoureusement constante quelle que soit la profondeur",
+        "Elle augmente d'environ 1 bar tous les 10 mètres de profondeur"
+      ],
+      "answer": 3,
+      "explanation": "La loi fondamentale de la statique des fluides montre que, dans un liquide incompressible au repos, la pression augmente avec la profondeur, à raison d'environ 1 bar supplémentaire tous les 10 mètres dans l'eau."
+    },
+    {
+      "question": "La loi fondamentale de la statique des fluides, qui relie la différence de pression à la différence d'altitude entre deux points d'un fluide au repos, se déduit directement :",
+      "choices": [
+        "Du principe d'inertie appliqué à une colonne de fluide",
+        "De la relation de Bernoulli appliquée à un fluide en écoulement",
+        "De la deuxième loi de Newton appliquée à une seule entité en mouvement",
+        "De la conservation du débit volumique"
+      ],
+      "answer": 0,
+      "explanation": "La démonstration du cours applique le principe d'inertie (le fluide étant au repos, donc en équilibre) à une colonne de fluide délimitée par deux points A et B, ce qui permet d'établir la relation liant pression et altitude."
+    },
+    {
+      "question": "Que représente la poussée d'Archimède exercée par un fluide sur un objet immergé ?",
+      "choices": [
+        "La seule force pressante exercée sur la face inférieure de l'objet",
+        "La résultante de toutes les forces pressantes exercées par le fluide sur l'objet immergé",
+        "Le poids propre de l'objet immergé",
+        "La force de frottement exercée par le fluide sur l'objet en mouvement"
+      ],
+      "answer": 1,
+      "explanation": "La poussée d'Archimède est définie comme la résultante (la somme vectorielle) de l'ensemble des forces pressantes exercées par le fluide sur toute la surface de l'objet immergé."
+    },
+    {
+      "question": "Quelles sont la direction, le sens et l'intensité de la poussée d'Archimède exercée sur un objet immergé dans un fluide de masse volumique ρfluide, dont le volume immergé est Vim ?",
+      "choices": [
+        "Horizontale, dans le sens de l'écoulement, d'intensité ρfluide·g·Vim",
+        "Verticale, vers le haut, d'intensité proportionnelle à la masse de l'objet immergé",
+        "Verticale, vers le haut, d'intensité égale au poids du fluide déplacé : FA = ρfluide·g·Vim",
+        "Verticale, vers le bas, d'intensité égale au poids de l'objet immergé"
+      ],
+      "answer": 2,
+      "explanation": "La poussée d'Archimède est verticale, dirigée vers le haut, et son intensité est égale au poids du volume de fluide déplacé : FA = ρfluide·g·Vim. Elle ne dépend que du fluide déplacé, pas de la nature ou de la masse de l'objet immergé."
+    },
+    {
+      "question": "Un objet est abandonné sans vitesse initiale, totalement immergé dans un fluide. D'après les conditions de flottaison, que se passe-t-il si son poids P est strictement inférieur à la poussée d'Archimède FA qu'il subit ?",
+      "choices": [
+        "L'objet coule au fond",
+        "L'objet explose sous la pression du fluide",
+        "L'objet reste immobile entre deux eaux",
+        "L'objet remonte à la surface et flotte"
+      ],
+      "answer": 3,
+      "explanation": "Si P < FA, la résultante des forces verticales est dirigée vers le haut : l'objet remonte et finit par flotter en surface. Si P > FA, il coule ; si P = FA, il reste en équilibre entre deux eaux."
+    },
+    {
+      "question": "Dans le TP sur la mer Morte, la masse volumique de son eau (1,24 kg·L⁻¹) est bien supérieure à celle de l'eau de mer habituelle (≈1,025 kg·L⁻¹). Pour un même baigneur de densité 0,93, quelle est la conséquence sur la fraction de son corps immergée à l'équilibre de flottaison ?",
+      "choices": [
+        "Elle est plus grande dans la mer Morte : il s'enfonce davantage",
+        "Elle est plus petite dans la mer Morte (≈75 % immergé) que dans une mer classique (≈91 % immergé) : il flotte plus facilement",
+        "Elle est rigoureusement la même dans les deux cas, car elle ne dépend que de la densité du corps",
+        "Elle est nulle dans la mer Morte : le baigneur ne touche jamais l'eau"
+      ],
+      "answer": 1,
+      "explanation": "À l'équilibre, la fraction immergée vaut ρcorps/ρfluide. Avec ρcorps = 0,93 kg·L⁻¹, on obtient environ 75 % dans la mer Morte (ρ = 1,24 kg·L⁻¹) contre environ 91 % dans une eau de mer classique (ρ ≈ 1,025 kg·L⁻¹) : une plus grande partie du corps reste hors de l'eau dans la mer Morte, d'où une flottaison plus facile."
+    },
+    {
+      "question": "Pourquoi la très forte salinité de la mer Morte (27,5 % de sel, contre 2 à 4 % pour les autres mers) explique-t-elle qu'on y flotte plus facilement ?",
+      "choices": [
+        "Parce que le sel rend l'eau moins dense, ce qui réduit le poids apparent du baigneur",
+        "Parce que dissoudre davantage de sel augmente la masse volumique de l'eau, donc la poussée d'Archimède à volume immergé égal",
+        "Parce que le sel supprime la pesanteur à la surface de l'eau",
+        "Parce que le sel modifie la masse du baigneur lui-même"
+      ],
+      "answer": 1,
+      "explanation": "Plus l'eau est salée, plus sa masse volumique ρfluide est grande. Comme FA = ρfluide·g·Vim, une masse volumique plus élevée permet d'atteindre l'équilibre P = FA avec un volume immergé Vim plus petit : le corps flotte avec une plus grande partie hors de l'eau."
+    },
+    {
+      "question": "Un fluide s'écoule en régime permanent lorsque :",
+      "choices": [
+        "La valeur de sa vitesse d'écoulement, en un point donné, ne dépend pas du temps",
+        "Sa masse volumique varie au cours du temps",
+        "Le fluide est au repos (vitesse nulle partout)",
+        "Sa vitesse d'écoulement est la même en tout point de la canalisation"
+      ],
+      "answer": 0,
+      "explanation": "Le régime permanent (ou stationnaire) est caractérisé par une vitesse d'écoulement, en un point donné, qui ne varie pas au cours du temps (elle peut en revanche différer d'un point à l'autre de la canalisation)."
+    },
+    {
+      "question": "Comment est défini le débit volumique Dv d'un fluide qui traverse une section S pendant une durée Δt, pour un volume V écoulé ?",
+      "choices": [
+        "Dv = V / Δt",
+        "Dv = S / Δt",
+        "Dv = V × Δt",
+        "Dv = V × S"
+      ],
+      "answer": 0,
+      "explanation": "Le débit volumique est le volume de fluide traversant une section par unité de temps : Dv = V/Δt, exprimé en m³·s⁻¹."
+    },
+    {
+      "question": "Quelle relation lie le débit volumique Dv à la vitesse d'écoulement v et à l'aire S de la section traversée ?",
+      "choices": [
+        "Dv = v + S",
+        "Dv = v² × S",
+        "Dv = v × S",
+        "Dv = v / S"
+      ],
+      "answer": 2,
+      "explanation": "En considérant le volume balayé par le fluide pendant une durée Δt (un cylindre de longueur v·Δt et de section S), on établit que Dv = v × S."
+    },
+    {
+      "question": "Pour un fluide incompressible en régime permanent s'écoulant dans une canalisation sans fuite ni apport, que peut-on dire du débit volumique Dv le long de cette canalisation ?",
+      "choices": [
+        "Il diminue progressivement à cause des frottements",
+        "Il n'est défini qu'à l'entrée de la canalisation",
+        "Il augmente au fur et à mesure que le fluide avance",
+        "Il se conserve : Dv est le même en tout point de la canalisation"
+      ],
+      "answer": 3,
+      "explanation": "Pour un fluide incompressible en régime permanent, sans fuite ni apport de matière, le débit volumique se conserve tout au long de la canalisation : Dv = v·S = constante."
+    },
+    {
+      "question": "D'après la conservation du débit volumique, que se passe-t-il pour la vitesse d'écoulement lorsque la section S d'une canalisation diminue ?",
+      "choices": [
+        "Le débit volumique devient nul",
+        "La vitesse d'écoulement reste inchangée",
+        "La vitesse d'écoulement diminue",
+        "La vitesse d'écoulement augmente"
+      ],
+      "answer": 3,
+      "explanation": "Comme Dv = v·S est constant, une diminution de la section S impose une augmentation de la vitesse v pour que leur produit reste constant."
+    },
+    {
+      "question": "Dans l'étude d'un écoulement, comment appelle-t-on la trajectoire suivie par une particule de fluide, et le « tube » formé par un faisceau de ces trajectoires ?",
+      "choices": [
+        "Une ligne de niveau, regroupées en un tube isobare",
+        "Une ligne de courant, regroupées en un tube de courant",
+        "Une ligne équipotentielle, regroupées en un tube de flux",
+        "Une ligne de champ, regroupées en un tube de champ"
+      ],
+      "answer": 1,
+      "explanation": "La trajectoire d'une particule de fluide en régime permanent est appelée ligne de courant ; l'ensemble des lignes de courant s'appuyant sur un contour fermé délimite un tube de courant."
+    },
+    {
+      "question": "Sous quelles hypothèses la relation de Bernoulli (ρv²/2 + ρgz + P = constante, le long d'une ligne de courant) est-elle valable ?",
+      "choices": [
+        "Fluide au repos uniquement, quelle que soit sa viscosité",
+        "Écoulement en régime permanent, fluide incompressible et non visqueux (seules les forces pressantes sont non conservatives)",
+        "Écoulement en régime variable, fluide compressible et visqueux",
+        "Uniquement pour les gaz, jamais pour les liquides"
+      ],
+      "answer": 1,
+      "explanation": "La relation de Bernoulli, établie à partir du théorème de l'énergie mécanique, suppose un écoulement en régime permanent d'un fluide incompressible, sans frottement (non visqueux), les forces pressantes étant alors les seules forces non conservatives du système."
+    },
+    {
+      "question": "Dans un tube horizontal (sans variation d'altitude) qui se resserre (effet Venturi), que deviennent la vitesse et la pression du fluide dans la partie la plus étroite ?",
+      "choices": [
+        "La vitesse augmente et la pression diminue",
+        "La vitesse et la pression augmentent toutes les deux",
+        "La vitesse diminue et la pression augmente",
+        "La vitesse et la pression restent toutes les deux inchangées"
+      ],
+      "answer": 0,
+      "explanation": "Dans la partie resserrée, la conservation du débit impose une vitesse plus grande ; la relation de Bernoulli (à altitude constante) impose alors une pression plus faible là où la vitesse est la plus grande : c'est l'effet Venturi."
+    },
+    {
+      "question": "Dans l'application de la relation de Torricelli (écoulement par un petit orifice au fond d'un réservoir rempli sur une hauteur H), pourquoi peut-on négliger la vitesse du liquide en surface (point A) devant celle en sortie (point B) ?",
+      "choices": [
+        "Car le liquide en surface est toujours immobile par définition",
+        "Car la conservation du débit volumique impose vA·SA = vB·SB, et la section SA (surface libre du réservoir) est très grande devant SB (section de l'orifice de sortie)",
+        "Car la relation de Bernoulli ne s'applique pas au point A",
+        "Car la pression à la surface est nulle"
+      ],
+      "answer": 1,
+      "explanation": "La conservation du débit volumique donne vA = vB·(SB/SA). Comme la section du réservoir SA est très grande devant celle de l'orifice SB, vA est négligeable devant vB."
+    },
+    {
+      "question": "En appliquant la relation de Bernoulli le long de la ligne de courant entre la surface libre (A, à la pression atmosphérique, vitesse négligeable) et l'orifice de sortie (B, à la pression atmosphérique également) d'un réservoir rempli sur une hauteur H, quelle relation retrouve-t-on (relation de Torricelli) ?",
+      "choices": [
+        "vB = 2·g·H",
+        "vB = g·H",
+        "vB² = 2·g·H",
+        "vB² = g·H²"
+      ],
+      "answer": 2,
+      "explanation": "Avec PA = PB = Patm et vA négligeable, la relation de Bernoulli ρ·vA²/2 + ρ·g·zA + PA = ρ·vB²/2 + ρ·g·zB + PB se simplifie en g·(zA − zB) = vB²/2, soit vB² = 2·g·H avec H = zA − zB la hauteur de liquide."
+    },
+    {
+      "question": "Pour le jet d'eau de Genève, la canalisation d'alimentation a un diamètre de 1,00 m et la vitesse y vaut 0,635 m/s ; la tuyère de sortie a un diamètre de 10,7 cm. En appliquant la conservation du débit volumique, quelle est la vitesse de sortie vB obtenue ?",
+      "choices": [
+        "vB ≈ 5,56 m/s",
+        "vB ≈ 0,635 m/s (la vitesse ne change pas)",
+        "vB ≈ 556 m/s",
+        "vB ≈ 55,6 m/s"
+      ],
+      "answer": 3,
+      "explanation": "La conservation du débit donne vB = vA·(SA/SB) = vA·(DA/DB)² = 0,635×(1,00/0,107)² ≈ 55,6 m/s : la forte réduction de section démultiplie la vitesse."
+    },
+    {
+      "question": "En considérant le jet d'eau de Genève comme un écoulement parfait, de quelle hauteur maximale h le jet peut-il s'élever au-dessus de la tuyère, sachant que sa vitesse de sortie vaut environ 55,6 m/s ?",
+      "choices": [
+        "h ≈ 16 m",
+        "h ≈ 55,6 m",
+        "h ≈ 160 m",
+        "h ≈ 1 600 m"
+      ],
+      "answer": 2,
+      "explanation": "En appliquant la relation de Bernoulli entre la sortie de la tuyère et le sommet du jet (vitesse nulle, pression atmosphérique aux deux points), on retrouve une relation de type Torricelli : h = vB²/(2g) ≈ 55,6²/(2×9,81) ≈ 158 m, soit environ 160 m."
+    },
+    {
+      "question": "Dans l'activité sur la portance d'une aile d'avion, pourquoi la pression de l'air est-elle égale à P0 sur les lignes de courant qui passent sous l'aile (intrados), comme sur la ligne AB ?",
+      "choices": [
+        "Car la pression est toujours égale à P0 partout autour d'un avion en vol",
+        "Car la section ne varie pas le long de ces lignes de courant, donc la vitesse ne varie pas non plus, et la relation de Bernoulli donne alors une pression inchangée, égale à P0",
+        "Car l'air est immobile sous l'aile",
+        "Car il n'y a pas d'air sous l'aile d'un avion en vol"
+      ],
+      "answer": 1,
+      "explanation": "Sous l'aile, les lignes de courant ne subissent aucun resserrement : la section reste constante, donc la vitesse aussi (conservation du débit), et la relation de Bernoulli impose alors une pression inchangée, égale à la pression P0 loin de l'aile."
+    },
+    {
+      "question": "Dans cette même activité, pourquoi la vitesse de l'air est-elle plus grande au-dessus de l'aile (au point D, extrados) qu'au point C situé plus en amont sur la même ligne de courant ?",
+      "choices": [
+        "Car la section de la ligne de courant se resserre entre C et D (hD < hC), et la conservation du débit volumique impose alors une vitesse plus grande",
+        "Car la masse volumique de l'air y diminue brutalement à cause de l'altitude",
+        "Car la pression y est plus grande qu'en C",
+        "Car l'air se réchauffe au contact de l'aile et se dilate"
+      ],
+      "answer": 0,
+      "explanation": "La carte de courant montre un resserrement des lignes de courant au-dessus de l'aile (hD < hC, donc SD < SC). La conservation du débit volumique (vC·SC = vD·SD) impose alors une vitesse vD supérieure à vC."
+    },
+    {
+      "question": "Dans quel sens est dirigée la résultante des forces pressantes (portance) exercée sur l'aile, et pourquoi ?",
+      "choices": [
+        "Vers le haut, car la force pressante sur l'intrados (Fi ≈ 2,0×10⁶ N) est supérieure à celle sur l'extrados (Fe ≈ 1,9×10⁶ N)",
+        "Horizontale, dans le sens du déplacement de l'avion",
+        "Nulle, car les deux forces pressantes se compensent exactement",
+        "Vers le bas, car la pression est plus grande au-dessus de l'aile qu'en dessous"
+      ],
+      "answer": 0,
+      "explanation": "La vitesse de l'air étant plus grande au-dessus de l'aile, la relation de Bernoulli y donne une pression plus faible qu'en dessous : la force pressante sur l'intrados (Fi ≈ 2,0×10⁶ N) est donc supérieure à celle sur l'extrados (Fe ≈ 1,9×10⁶ N), d'où une résultante dirigée vers le haut : la portance."
+    },
+    {
+      "question": "L'activité calcule une résultante des forces pressantes sur une aile d'environ 1,5×10⁵ N, à comparer au poids d'un avion de 10 tonnes (environ 9,8×10⁴ N). Que peut-on en conclure ?",
+      "choices": [
+        "Il faudrait au moins quatre ailes pour que l'avion puisse décoller",
+        "Le résultat ne permet pas de conclure sans connaître la vitesse de l'avion au décollage",
+        "La portance d'une seule aile suffit déjà à dépasser le poids de l'avion, donc l'avion (muni de ses deux ailes) peut bien voler",
+        "La portance d'une aile est insuffisante : l'avion ne peut pas voler avec seulement deux ailes"
+      ],
+      "answer": 2,
+      "explanation": "Avec Fr ≈ 1,5×10⁵ N pour une seule aile, déjà supérieure au poids de l'avion (≈9,8×10⁴ N), et l'avion disposant de deux ailes, la portance totale est largement suffisante pour équilibrer puis dépasser le poids : l'avion peut voler."
+    }
+  ]
+}

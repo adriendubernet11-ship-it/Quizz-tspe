@@ -100,5 +100,11 @@
     "title": "Mouvement céleste et satellites",
     "number": 17,
     "competences": "Lois de Képler (orbites, aires, périodes), loi de gravitation universelle, mouvement circulaire d'une planète ou d'un satellite (deuxième loi de Newton, repère de Frenet), satellites géostationnaires, exploitation de données astronomiques (Python/tableur) pour vérifier les lois de Képler"
+  },
+  {
+    "id": "modelisation-ecoulement-fluide",
+    "title": "Modélisation de l'écoulement d'un fluide",
+    "number": 18,
+    "competences": "Fluides au repos (force pressante, loi fondamentale de la statique des fluides), poussée d'Archimède (origine qualitative, expression vectorielle, conditions de flottaison), écoulement en régime permanent, conservation du débit volumique, relation de Bernoulli, effet Venturi, applications (relation de Torricelli, portance d'une aile)"
   }
 ]
