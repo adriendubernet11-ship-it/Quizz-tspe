@@ -94,5 +94,11 @@
     "title": "Forcer le sens d'évolution d'un système",
     "number": 16,
     "competences": "Transformations spontanées/forcées, principe de l'électrolyse, polarité des électrodes (cathode/anode) selon pile ou électrolyseur, bilan de matière (Q=I.Δt, n(e-)), conversion/stockage d'énergie chimique (piles, accumulateurs, piles à combustible, photosynthèse)"
+  },
+  {
+    "id": "mouvement-celeste-satellites",
+    "title": "Mouvement céleste et satellites",
+    "number": 17,
+    "competences": "Lois de Képler (orbites, aires, périodes), loi de gravitation universelle, mouvement circulaire d'une planète ou d'un satellite (deuxième loi de Newton, repère de Frenet), satellites géostationnaires, exploitation de données astronomiques (Python/tableur) pour vérifier les lois de Képler"
   }
 ]

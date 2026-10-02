@@ -1,0 +1,315 @@
+{
+  "title": "Mouvement céleste et satellites",
+  "number": 17,
+  "competences": "Lois de Képler (orbites, aires, périodes), loi de gravitation universelle, mouvement circulaire d'une planète ou d'un satellite (deuxième loi de Newton, repère de Frenet), satellites géostationnaires, exploitation de données astronomiques (Python/tableur) pour vérifier les lois de Képler",
+  "questions": [
+    {
+      "question": "Dans quel référentiel les trois lois de Képler sont-elles énoncées, et quelle hypothèse fait-on sur ce référentiel ?",
+      "choices": [
+        "Le référentiel géocentrique, considéré comme galiléen",
+        "Le référentiel terrestre, considéré comme non galiléen",
+        "Le référentiel du centre de masse de la planète étudiée",
+        "Le référentiel héliocentrique, considéré comme galiléen"
+      ],
+      "answer": 3,
+      "explanation": "Les lois de Képler sont des lois empiriques valables dans le référentiel héliocentrique (centré sur le Soleil, axes dirigés vers des étoiles lointaines), qui est considéré comme galiléen à l'échelle du système solaire."
+    },
+    {
+      "question": "D'après la première loi de Képler, quelle est la trajectoire du centre d'une planète dans le référentiel héliocentrique ?",
+      "choices": [
+        "Une ellipse dont le Soleil occupe le centre géométrique",
+        "Un cercle parfait centré sur le Soleil",
+        "Une ellipse dont le centre du Soleil occupe l'un des foyers",
+        "Une spirale qui se rapproche progressivement du Soleil"
+      ],
+      "answer": 2,
+      "explanation": "La première loi de Képler (loi des orbites) stipule que la trajectoire d'une planète est une ellipse dont le Soleil occupe l'un des deux foyers, et non le centre géométrique de l'ellipse."
+    },
+    {
+      "question": "Pour un point P d'une ellipse de foyers S et S', quelle relation est toujours vérifiée (avec 2a le grand axe) ?",
+      "choices": [
+        "SP − S'P = 2a (constante)",
+        "SP = S'P = a en tout point",
+        "SP + S'P = 2a (constante)",
+        "SP × S'P = a² (constante)"
+      ],
+      "answer": 2,
+      "explanation": "Une ellipse est l'ensemble des points P dont la somme des distances aux deux foyers S et S' est constante et égale au grand axe 2a : SP + S'P = 2a."
+    },
+    {
+      "question": "Quelle est la particularité d'un cercle par rapport à une ellipse ?",
+      "choices": [
+        "Un cercle est une ellipse dont les foyers sont infiniment éloignés l'un de l'autre",
+        "Un cercle est une ellipse particulière dont les deux foyers sont confondus",
+        "Un cercle n'a aucun lien mathématique avec une ellipse",
+        "Un cercle est une ellipse dont le grand axe est nul"
+      ],
+      "answer": 1,
+      "explanation": "Lorsque les deux foyers F et F' d'une ellipse sont confondus, l'ellipse devient un cercle de rayon r = a (le demi-grand axe)."
+    },
+    {
+      "question": "Que dit la deuxième loi de Képler (loi des aires) ?",
+      "choices": [
+        "Le segment reliant le Soleil et la planète balaie des aires égales pendant des durées égales",
+        "La planète parcourt des distances égales pendant des durées égales",
+        "La vitesse de la planète est constante tout au long de sa trajectoire",
+        "L'aire de l'ellipse décrite est proportionnelle à la masse de la planète"
+      ],
+      "answer": 0,
+      "explanation": "La loi des aires énonce que le segment Soleil-planète balaie des aires égales pendant des durées égales, quelle que soit la position sur l'orbite."
+    },
+    {
+      "question": "D'après la loi des aires, en quel point de son orbite une planète a-t-elle la vitesse la plus grande ?",
+      "choices": [
+        "À l'aphélie, le point de l'orbite le plus éloigné du Soleil",
+        "Au périhélie, le point de l'orbite le plus proche du Soleil",
+        "La vitesse est la même en tout point de l'orbite",
+        "Au point où l'ellipse coupe son petit axe"
+      ],
+      "answer": 1,
+      "explanation": "Pour balayer des aires égales en durées égales, la planète doit se déplacer plus vite quand elle est proche du Soleil (périhélie) et plus lentement quand elle en est éloignée (aphélie)."
+    },
+    {
+      "question": "D'après les données du fichier data_terre.csv, à quelle date la Terre passe-t-elle environ par son périhélie (distance minimale au Soleil) ?",
+      "choices": [
+        "Vers le 4 juillet",
+        "Vers le 21 décembre",
+        "Vers le 21 mars",
+        "Vers le 3 janvier"
+      ],
+      "answer": 3,
+      "explanation": "L'exploitation de la colonne « Distance (au) » du fichier data_terre.csv montre un minimum d'environ 0,983 ua autour du 3 janvier (périhélie) ; le maximum, d'environ 1,017 ua, est atteint vers le 4 juillet (aphélie)."
+    },
+    {
+      "question": "Pourquoi la colonne « Distance (au) » du fichier data_terre.csv permet-elle d'affirmer que l'orbite de la Terre n'est pas un cercle parfait ?",
+      "choices": [
+        "Parce que la Terre change de référentiel au cours de l'année",
+        "Parce que la distance Terre-Soleil est toujours exactement égale à 1 ua",
+        "Parce que la distance Terre-Soleil varie au cours de l'année au lieu de rester constante",
+        "Parce que la longitude de la Terre varie au cours de l'année"
+      ],
+      "answer": 2,
+      "explanation": "Sur une trajectoire circulaire, la distance au centre (ici le Soleil) resterait rigoureusement constante. Or les données montrent une distance variant entre environ 0,983 et 1,017 ua : l'orbite terrestre est donc elliptique, pas circulaire."
+    },
+    {
+      "question": "Dans le script Python fourni, la fonction calcul_aire(l, d, j, dt) calcule l'aire balayée par le segment Soleil-planète en assimilant la portion d'ellipse réellement parcourue à :",
+      "choices": [
+        "Un secteur de cercle (aire = 0,5 × angle balayé × distance²)",
+        "Un rectangle de côtés l'angle balayé et la distance",
+        "Un demi-disque complet quel que soit l'angle balayé",
+        "Un triangle rectangle dont les côtés sont les distances extrêmes"
+      ],
+      "answer": 0,
+      "explanation": "La ligne de calcul réalise 0.5*angle*d[j]**2, qui est la formule de l'aire d'un secteur circulaire. Le calcul assimile donc localement la trajectoire elliptique à un arc de cercle, ce qui introduit une légère approximation (erreur) par rapport à l'aire exacte sous l'ellipse."
+    },
+    {
+      "question": "Dans l'activité numérique, comment le programme sur la deuxième loi de Képler permet-il de la valider expérimentalement ?",
+      "choices": [
+        "En montrant que les aires balayées sont égales pour des durées égales, quel que soit le point de départ ou la planète testée",
+        "En montrant que la vitesse de la planète est rigoureusement constante tout au long de l'année",
+        "En montrant que la distance Soleil-planète est constante sur toute l'orbite",
+        "En montrant que la trajectoire est un cercle parfait pour toutes les planètes testées"
+      ],
+      "answer": 0,
+      "explanation": "Le programme calcule plusieurs aires balayées pendant une même durée Δt, à différents endroits de l'orbite et pour différentes planètes : on obtient à chaque fois des aires très proches, ce qui valide la loi des aires."
+    },
+    {
+      "question": "Que dit la troisième loi de Képler (loi des périodes) pour un ensemble de planètes orbitant autour d'une même étoile ?",
+      "choices": [
+        "Le rapport T²/a³ (carré de la période sur cube du demi-grand axe) est le même pour toutes ces planètes",
+        "Le produit T×a est constant pour toutes les planètes du système",
+        "La période de révolution T est la même pour toutes les planètes du système",
+        "La masse de chaque planète est proportionnelle à son demi-grand axe a"
+      ],
+      "answer": 0,
+      "explanation": "La troisième loi de Képler énonce que T²/a³ = k, une constante qui ne dépend que de l'astre attracteur (ici le Soleil), identique pour toutes les planètes du système solaire."
+    },
+    {
+      "question": "La constante k de la troisième loi de Képler (T² = k·a³) dépend :",
+      "choices": [
+        "Uniquement de l'excentricité de l'orbite de la planète",
+        "Uniquement de la masse de la planète en orbite",
+        "Uniquement de l'astre attracteur (par exemple le Soleil), pas de la planète en orbite",
+        "À la fois de la masse du Soleil et de celle de la planète en orbite"
+      ],
+      "answer": 2,
+      "explanation": "k = 4π²/(G·Mastre attracteur) : cette constante ne dépend que de la masse de l'astre attracteur (le Soleil pour les planètes), pas de la masse ni des caractéristiques de l'objet qui orbite."
+    },
+    {
+      "question": "En traçant le graphique T² = f(a³) à partir des données du document (a en ua, T en années) pour les huit planètes, on obtient :",
+      "choices": [
+        "Un nuage de points sans aucune tendance exploitable",
+        "Une courbe parabolique qui ne passe pas par l'origine",
+        "Une droite de pente proche de 1 mais ne passant pas par l'origine",
+        "Une droite passant par l'origine, de pente proche de 1, ce qui valide la troisième loi de Képler"
+      ],
+      "answer": 3,
+      "explanation": "Avec a en unités astronomiques et T en années, un ajustement affine des huit planètes donne une droite passant quasiment par l'origine, de coefficient directeur proche de 1 (ici ≈0,99), ce qui confirme T² ∝ a³."
+    },
+    {
+      "question": "En convertissant les données en unités du Système International (a en m, T en s) puis en traçant T² = f(a³), le coefficient directeur obtenu correspond à l'expression :",
+      "choices": [
+        "2π/G",
+        "4π²/(G·MSoleil)",
+        "G·MSoleil/(4π²)",
+        "G·MSoleil²"
+      ],
+      "answer": 1,
+      "explanation": "Dans le cadre de l'approximation des orbites circulaires, T² = (4π²/(G·MS))·r³ : la pente de la droite T² = f(r³) vaut donc 4π²/(G·MSoleil)."
+    },
+    {
+      "question": "À partir du coefficient directeur de la droite T² = f(a³) en unités SI, l'activité permet de déterminer une masse du Soleil d'environ :",
+      "choices": [
+        "1,989 × 10²⁴ kg, identique à la masse de la Terre à un facteur 1000 près",
+        "2,00 × 10³⁰ kg, une valeur proche de la valeur tabulée (1,989 × 10³⁰ kg)",
+        "5,97 × 10²⁴ kg, la masse de la Terre",
+        "6,67 × 10⁻¹¹ kg, la valeur de la constante de gravitation"
+      ],
+      "answer": 1,
+      "explanation": "En isolant MSoleil = 4π²/(G·k) à partir du coefficient directeur k mesuré sur le graphique en unités SI, on trouve MSoleil ≈ 2,00 × 10³⁰ kg, à comparer à la valeur tabulée de 1,989 × 10³⁰ kg : l'écart est inférieur à 1 %."
+    },
+    {
+      "question": "Quelle est l'expression vectorielle de la force d'attraction gravitationnelle exercée par un corps A (masse mA) sur un corps B (masse mB) séparés d'une distance d ?",
+      "choices": [
+        "F→A/B = +G·(mA·mB/d²)·u→AB, avec u→AB le vecteur unitaire orienté de A vers B",
+        "F→A/B = −G·(mA·mB/d²)·u→AB, avec u→AB le vecteur unitaire orienté de A vers B",
+        "F→A/B = −G·(mA·mB/d)·u→AB",
+        "F→A/B = −G·(mA+mB)/d²·u→AB"
+      ],
+      "answer": 1,
+      "explanation": "La force de gravitation exercée par A sur B s'écrit F→A/B = −G·(mA·mB/d²)·u→AB : le signe moins traduit le caractère attractif, la force sur B étant dirigée vers A, c'est-à-dire opposée au vecteur unitaire u→AB orienté de A vers B."
+    },
+    {
+      "question": "Dans la loi de gravitation universelle F = G·mA·mB/d², que vaut la constante de gravitation universelle G ?",
+      "choices": [
+        "G ≈ 1,60 × 10⁻¹⁹ C",
+        "G ≈ 6,67 × 10⁻¹¹ N·m²·kg⁻²",
+        "G ≈ 9,81 N·kg⁻¹",
+        "G ≈ 3,00 × 10⁸ m·s⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "La constante de gravitation universelle vaut G ≈ 6,67 × 10⁻¹¹ N·m²·kg⁻² (ou de façon équivalente m³·kg⁻¹·s⁻²)."
+    },
+    {
+      "question": "D'après le principe des actions réciproques (troisième loi de Newton), comment se comparent la force exercée par le Soleil sur une planète et celle exercée par la planète sur le Soleil ?",
+      "choices": [
+        "Elles ont la même valeur mais sont de sens opposés",
+        "Elles sont nulles car seule la force centripète existe",
+        "Elles ont la même valeur et le même sens",
+        "La force du Soleil sur la planète est bien plus grande que l'inverse"
+      ],
+      "answer": 0,
+      "explanation": "Les deux corps exercent l'un sur l'autre des forces d'attraction gravitationnelle de même intensité mais de sens opposés (principe des actions réciproques)."
+    },
+    {
+      "question": "Pour une planète P en orbite circulaire autour du Soleil S, en appliquant la deuxième loi de Newton à P, dans quelle direction est dirigée son accélération ?",
+      "choices": [
+        "Dans le sens du mouvement, le long de la tangente à la trajectoire",
+        "Vers l'extérieur de la trajectoire, à l'opposé du Soleil",
+        "Vers le centre de la trajectoire (le Soleil) : l'accélération est centripète",
+        "L'accélération est nulle car le mouvement est uniforme"
+      ],
+      "answer": 2,
+      "explanation": "La seule force appliquée à la planète étant la force de gravitation dirigée vers le Soleil, la deuxième loi de Newton (ΣF→ = m·a→) impose que l'accélération soit elle aussi dirigée vers le centre : elle est centripète."
+    },
+    {
+      "question": "Pour une planète de masse m, en orbite circulaire de rayon r autour du Soleil (masse MS), quelle est l'expression de la norme de son accélération, obtenue en appliquant la deuxième loi de Newton à la seule force de gravitation ?",
+      "choices": [
+        "a = G·m²/r² (elle ne dépend que de la masse de la planète)",
+        "a = G·MS/r (sans élévation au carré de la distance)",
+        "a = G·MS·m/r² (l'accélération dépend aussi de la masse de la planète)",
+        "a = G·MS/r² (la masse m de la planète se simplifie dans la relation)"
+      ],
+      "answer": 3,
+      "explanation": "La deuxième loi de Newton donne F = m·a, avec F = G·MS·m/r². En simplifiant par m, il reste a = G·MS/r² : l'accélération d'un astre en orbite ne dépend donc pas de sa propre masse, seulement de celle de l'astre attracteur et de la distance qui les sépare."
+    },
+    {
+      "question": "En identifiant l'expression de l'accélération tirée du repère de Frenet (a = v²/r, mouvement circulaire uniforme) et celle tirée de la loi de gravitation (a = G·MS/r²), quelle est l'expression de la vitesse v de la planète sur son orbite circulaire ?",
+      "choices": [
+        "v = √(G·MS·r)",
+        "v = (G·MS/r)²",
+        "v = G·MS/r",
+        "v = √(G·MS/r)"
+      ],
+      "answer": 3,
+      "explanation": "En égalant v²/r = G·MS/r², on obtient v² = G·MS/r, soit v = √(G·MS/r) : la vitesse de la planète ne dépend que de la masse de l'astre attracteur et du rayon de l'orbite, pas de la masse de la planète en orbite."
+    },
+    {
+      "question": "Dans le repère de Frenet, l'accélération s'écrit a→(t) = (dv/dt)·T→ + (v²/r)·N→. Pour une planète en orbite circulaire, que peut-on en déduire sur dv/dt et sur la nature du mouvement ?",
+      "choices": [
+        "dv/dt = 0 (vitesse constante) car l'accélération est purement centripète : le mouvement est circulaire uniforme",
+        "dv/dt est maximal, le mouvement est circulaire fortement accéléré",
+        "On ne peut rien en déduire sans connaître la masse de la planète",
+        "dv/dt = v²/r, le mouvement est rectiligne uniformément accéléré"
+      ],
+      "answer": 0,
+      "explanation": "Comme l'accélération n'a pas de composante tangentielle (elle est uniquement portée par N→), on en déduit par identification que dv/dt = 0 : la valeur de la vitesse est constante et le mouvement est circulaire uniforme."
+    },
+    {
+      "question": "Pour une planète en orbite circulaire de rayon r et de période T, quelle est l'expression de la vitesse v à partir du périmètre de l'orbite ?",
+      "choices": [
+        "v = r/T",
+        "v = πr²/T",
+        "v = 2πr·T",
+        "v = 2πr/T"
+      ],
+      "answer": 3,
+      "explanation": "La vitesse moyenne vaut v = d/Δt avec d le périmètre de l'orbite (d = 2πr) et Δt la durée d'un tour complet, soit la période T : on obtient v = 2πr/T."
+    },
+    {
+      "question": "Qu'est-ce qu'un satellite géostationnaire ?",
+      "choices": [
+        "Un satellite dont l'orbite est fortement elliptique",
+        "Un satellite naturel de la Terre comme la Lune",
+        "Un satellite artificiel qui apparaît immobile pour un observateur terrestre",
+        "Un satellite qui survole les pôles terrestres à chaque révolution"
+      ],
+      "answer": 2,
+      "explanation": "Un satellite géostationnaire reste fixe au-dessus d'un même point de la Terre : il est immobile dans le référentiel terrestre, contrairement par exemple à un satellite en orbite polaire."
+    },
+    {
+      "question": "Pourquoi la période de révolution d'un satellite géostationnaire doit-elle être égale au jour sidéral (Tsid ≈ 86 164 s) et non au jour solaire (86 400 s) ?",
+      "choices": [
+        "Car 86 400 s correspond en réalité à la période de révolution de la Lune",
+        "Car le jour solaire est plus précis que le jour sidéral pour les mesures satellitaires",
+        "Il n'y a pas de différence significative, le choix est arbitraire",
+        "Car le jour sidéral correspond à la rotation de la Terre sur elle-même dans le référentiel géocentrique, qui ne tient pas compte du déplacement de la Terre autour du Soleil"
+      ],
+      "answer": 3,
+      "explanation": "Le jour sidéral (86 164 s) est la durée exacte d'un tour de la Terre sur elle-même par rapport aux étoiles lointaines (référentiel géocentrique). Le jour solaire (86 400 s) est légèrement plus long car il intègre aussi le déplacement de la Terre autour du Soleil."
+    },
+    {
+      "question": "Pourquoi seule une orbite circulaire et équatoriale permet-elle à un satellite de rester fixe au-dessus d'un même point du sol terrestre ?",
+      "choices": [
+        "Parce que seule une orbite équatoriale subit la force de gravitation terrestre",
+        "Une orbite non équatoriale ferait osciller le satellite en latitude, et une orbite non circulaire ferait varier sa vitesse angulaire : dans les deux cas il ne resterait pas au-dessus d'un point fixe",
+        "Parce que la Terre tourne plus vite à l'équateur qu'aux pôles",
+        "Parce qu'une orbite polaire est plus proche de la Terre qu'une orbite équatoriale"
+      ],
+      "answer": 1,
+      "explanation": "Pour rester immobile dans le ciel vu depuis un point du sol, le satellite doit avoir un mouvement circulaire uniforme dans le plan équatorial : une inclinaison ferait varier sa latitude apparente, et une trajectoire non circulaire ferait varier sa vitesse (via la loi des aires), désynchronisant son mouvement de celui de la Terre."
+    },
+    {
+      "question": "En appliquant la troisième loi de Képler à l'orbite géostationnaire, à quelle altitude h au-dessus du sol se trouve approximativement un satellite géostationnaire (RT ≈ 6,37 × 10⁶ m) ?",
+      "choices": [
+        "h ≈ 6,37 × 10⁶ m, soit une altitude égale au rayon terrestre",
+        "h ≈ 1,00 × 10⁹ m, soit environ un million de km",
+        "h ≈ 3,58 × 10⁷ m, soit environ 36 000 km",
+        "h ≈ 3,58 × 10⁵ m, soit environ 360 km"
+      ],
+      "answer": 2,
+      "explanation": "En résolvant (RT+h)³ = G·mT·Tsid²/(4π²) avec mT = 5,97×10²⁴ kg et Tsid ≈ 86 164 s, on obtient RT+h ≈ 4,21×10⁷ m, soit h ≈ 3,58×10⁷ m, c'est-à-dire environ 36 000 km d'altitude."
+    },
+    {
+      "question": "Quel est l'intérêt principal de l'orbite géostationnaire pour un satellite de télécommunications comme EDRS-C ?",
+      "choices": [
+        "Le satellite restant fixe par rapport à un point de la Terre, les antennes au sol n'ont pas besoin de réorienter leur pointage",
+        "Cette orbite permet au satellite de survoler l'ensemble de la surface terrestre en une journée",
+        "Cette orbite est la seule compatible avec la force de gravitation terrestre",
+        "Cette orbite rapproche le satellite le plus possible de la Terre, minimisant les pertes de signal"
+      ],
+      "answer": 0,
+      "explanation": "Comme le satellite reste à la verticale d'un même point du globe, les antennes paraboles au sol peuvent garder une orientation fixe pour émettre ou recevoir ses signaux, ce qui simplifie grandement les communications (et permet aussi un rôle de relais pour d'autres satellites)."
+    }
+  ]
+}
